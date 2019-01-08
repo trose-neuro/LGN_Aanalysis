@@ -21,7 +21,8 @@ fanalysis=0;
 factor=4;%std threshold factor 
 display=1;%flag to display plot (1 or 0)
 ramp_rtrace=0;%save raw ephystraces or not (1 or 0)
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 if analyze_mini==1 || analyze_ramp==1;
 disp('dLGN Analysis Mini and Ramp');
 
@@ -35,10 +36,17 @@ end
 
 
 dLGN_ephys={};%empty structure for saving variables
-%%%%%%DIRECTORIES%%%%%%%
-rdata_dir         = 'I:\Simon Weiler\EXPLORER ONE\';%data directory of raw data;change accordingly
-adata_dir         = 'I:\Simon Weiler\EXPLORER ONE\dLGN_ephys_Analysis\';%data directory of extracted date;change accordingly 
-ExpXls            = 'R:\Share\Simon\LGN_2019_SW_MF_JB_TR\dLGN_ephys_analysis_excel spread sheet\Experiments_dLGN.xlsx';%directory where excel batch file is located;change accordingly 
+%%%%%%DIRECTORIES%%%%%%%y
+%TR2019: MAC: mount smb shares to /Volumes/first:
+% 'smb://10G.ISI01.neuro.mpg.de/archive_bonhoeffer_group$/Simon Weiler/EXPLORER ONE'
+% 'smb://S15.neuro.mpg.de/R-bonhoe/Share/Simon/LGN_2019_SW_MF_JB_TR/dLGN_ephys_analysis_excel spread sheet/'
+
+%rdata_dir         = 'I:\Simon Weiler\EXPLORER ONE\';%data directory of raw data;change 
+rdata_dir         = '/Volumes/EXPLORER ONE/dLGN_rawDATA/'
+adata_dir         = '/Volumes/EXPLORER ONE/dLGN_ephys_Analysis/'
+ExpXls            = '/Volumes/dLGN_ephys_analysis_excel spread sheet/Experiments_dLGN.xlsx'
+%adata_dir         = 'I:\Simon Weiler\EXPLORER ONE\dLGN_ephys_Analysis\';%data directory of extracted date;change accordingly 
+%ExpXls            = 'R:\Share\Simon\LGN_2019_SW_MF_JB_TR\dLGN_ephys_analysis_excel spread sheet\Experiments_dLGN.xlsx';%directory where excel batch file is located;change accordingly 
 %%%%%%%%%%%%%%%%%%%%%%%%
 
 %% parse Experiments XLS database
@@ -46,10 +54,15 @@ batchopt          = parseExperimentsXls_dLGN(ExpXls,user);%calls the nested func
 nummice           = length(batchopt.mouse);%length of experiments to be analyzed 
 %% 
 
+if ismac
+    dirsep = '/';
+else
+    dirsep = '\';
+end
 
 adder=1;%counting variable 
 for i=1:nummice%for loop over experiments across days
-  datapath=fullfile(rdata_dir, batchopt.mouse{i}, '\');%directory and name of experiments (from excel sheet)
+  datapath=fullfile(rdata_dir, batchopt.mouse{i}, dirsep);%directory and name of experiments (from excel sheet)
   cd(char(datapath));%go to directory
   
   for k=1:length(batchopt.exp_ids{i})%loop in bigger loop for each cell per experimental day
@@ -60,7 +73,7 @@ for i=1:nummice%for loop over experiments across days
       end
       fold_name=[experimentator n_str];%complete cell folder name such as SW0001 or MF0001
       exp_folder=fullfile(datapath,fold_name);%complete folder and directory
-      list=dir([char(exp_folder) '\*.xsg']);%xsg files per cell 
+      list=dir([char(exp_folder) dirsep '*.xsg']);%xsg files per cell 
       len=length(list);%number of xsg files per cell
       for j=1:len   
       load([char(exp_folder) '/' list(j).name],'-mat');%load each xsg file 
