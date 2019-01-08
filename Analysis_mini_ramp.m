@@ -37,18 +37,17 @@ if analyze_mini==1 || analyze_ramp==1;
     
     
     dLGN_ephys={};%empty structure for saving variables
+    
     %%%%%%DIRECTORIES%%%%%%%y
-    %TR2019: MAC: mount smb shares to /Volumes/first (easiest: do command+K in
-    %finder)
+    % TR2019: MAC: mount smb shares to /Volumes/first (easiest: do command+K in
+    % finder)
     % 'smb://10G.ISI01.neuro.mpg.de/archive_bonhoeffer_group$/Simon Weiler/EXPLORER ONE'
     % 'smb://S15.neuro.mpg.de/R-bonhoe/Share/Simon/LGN_2019_SW_MF_JB_TR/dLGN_ephys_analysis_excel spread sheet/'
     
-    %rdata_dir         = 'I:\Simon Weiler\EXPLORER ONE\';%data directory of raw data;change
     rdata_dir         = '/Volumes/EXPLORER ONE/dLGN_rawDATA/'
     adata_dir         = '~/Analysis/dLGN_ephys_Analysis/'
     ExpXls            = '/Volumes/dLGN_ephys_analysis_excel spread sheet/Experiments_dLGN.xlsx'
-    %adata_dir         = 'I:\Simon Weiler\EXPLORER ONE\dLGN_ephys_Analysis\';%data directory of extracted date;change accordingly
-    %ExpXls            = 'R:\Share\Simon\LGN_2019_SW_MF_JB_TR\dLGN_ephys_analysis_excel spread sheet\Experiments_dLGN.xlsx';%directory where excel batch file is located;change accordingly
+    
     %%%%%%%%%%%%%%%%%%%%%%%%
     
     %% parse Experiments XLS database
@@ -145,6 +144,7 @@ if analyze_mini==1 || analyze_ramp==1;
         end
         list=[];
     end
+    
     % SAVE in analyzed directory
     cd(adata_dir);
     FileName=['Data_',experimentator,'_',datestr(now, 'hh-dd-mmm-yyyy')];
