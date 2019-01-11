@@ -15,8 +15,8 @@ clear all;%delete all current variables in workspace
 close all;%close all open windows/figures
 
 %%%%%%IMPORTANT FLAGS, PLEASE CHANGE HERE%%%%%%%%%%%%%%%%
-analyze_mini=0;%flag if either mini only and/or ramp should be analyzed (1 or 0)
-analyze_ramp=1;
+analyze_mini=1;%flag if either mini only and/or ramp should be analyzed (1 or 0)
+analyze_ramp=0;
 fanalysis=1; %further analysis
 factor=4;%std threshold factor
 display=1;%flag to display plot (1 or 0)

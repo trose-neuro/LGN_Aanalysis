@@ -15,9 +15,9 @@ clear all;%delete all current variables in workspace
 close all;%close all open windows/figures
 
 %%%%%%IMPORTANT FLAGS, PLEASE CHANGE HERE%%%%%%%%%%%%%%%%
-analyze_mini=0;%flag if either mini only and/or ramp should be analyzed (1 or 0)
+analyze_mini=1;%flag if either mini only and/or ramp should be analyzed (1 or 0)
 analyze_ramp=0;
-fanalysis=1;
+fanalysis=1; %further analysis
 factor=4;%std threshold factor
 display=1;%flag to display plot (1 or 0)
 ramp_rtrace=1;%save raw ephystraces or not (1 or 0)
@@ -79,6 +79,8 @@ if analyze_mini==1 || analyze_ramp==1;
             for j=1:len
                 load([char(exp_folder) '/' list(j).name],'-mat');%load each xsg file
                 iterations(:,j)=header.loopGui.loopGui.iterations;%find out whether mini or ramp recording
+                redstim(:,j)=header.stimulator.stimulator.stimOnArray;%find out whether mini or ramp recording
+                bluestim(:,j)=header.stimulator.stimulator.stimOnArray;%find out whether mini or ramp recording
             end
             
             ramp=find(iterations==11);%ramp recordings

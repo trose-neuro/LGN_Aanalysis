@@ -42,7 +42,7 @@ for i=1:length(idx);
     diodetraces=data.acquirer.trace_1;
     
     
-    timebase=1:1/sr:samples_per_sweep/sr
+    timebase=0:1/sr:(samples_per_sweep-1)/sr;
     
     traces=reshape(ephystraces, samples_per_sweep, length(ephystraces)/samples_per_sweep); % why chunk it up in 1 sec bins hardcoded? Can the sweep length not be extracted from the header?
     diode=reshape(diodetraces, samples_per_sweep, length(ephystraces)/samples_per_sweep);
@@ -84,7 +84,7 @@ for i=1:length(idx);
         figure;
         for k=1:size(traces,2)
             subplot(size(bs_traces,2)/10,10,k);
-            plot(bs_traces(1:plotlength,k), 'k'); hold on
+            plot(timebase(1:plotlength),bs_traces(1:plotlength,k), 'k'); hold on
             ylim([round(min(neg_peak)/10)*10 round(max(pos_peak)/10)*10]);
             hline(neg_peak(k));
             yyaxis right
@@ -94,15 +94,15 @@ for i=1:length(idx);
         
         figure;
         for k=1:size(traces,2)
-            ppp=plot(bs_traces(1:plotlength,k), '-k'); hold on
+            ppp=plot(timebase(1:plotlength),bs_traces(1:plotlength,k), '-k'); hold on
         end
         yyaxis right
-        plot(smooth(bs_diode(1:plotlength,k),span)); %ylim([-1 5]);
+        plot(timebase(1:plotlength),smooth(bs_diode(1:plotlength,k),span)); %ylim([-1 5]);
         yyaxis left
         
         figure;
         for k=2
-            ppp=plot(diff(bs_traces(1:plotlength,k)), '-k'); hold on
+            ppp=plot(diff(bs_traces(1:plotlength,k))/.1, '-k'); hold on
         end
        
         
