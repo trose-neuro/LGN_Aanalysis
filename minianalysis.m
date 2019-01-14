@@ -20,10 +20,16 @@ pulse_end           =   110;
 span = 1; %filter span
 plotlength = 4000; %samples
 
-filterephys = 1; if filterephys; disp('filtering');end;
-butter_cutoff = 500 %Hz
-order = 4 % Bessel filter order (pole)
+%% filtering
+filterephys = 1;        % filtering yes/no?
+cutoff      = 1000       % Hz (use 500 Hz for mini event / amplitude detection. Chen & Regehr 2000)
+order       = 4         % filter order ('pole')
+type        = 'Bessel'; % filter type ('Bessel' or 'Butter' (for Butterworth -> ). Default: Bessel)
 
+if filterephys; 
+    disp(['Filtering: ' num2str(order) ' pole ' type '-Filter w/ ' num2str(cutoff) ' Hz cutoff']);
+end;
+%% 
 
 for i=1:length(idx);
     load([char(pathName) '/' list(idx(i)).name],'-mat');
@@ -35,7 +41,7 @@ for i=1:length(idx);
     ephystraces=data.ephys.trace_1;
     
     if filterephys
-        ephystraces=butter_lowpassfilt(ephystraces, order, butter_cutoff, sr);
+        ephystraces = lowpassfilt(ephystraces, order, cutoff, sr, type);
     end
     
     

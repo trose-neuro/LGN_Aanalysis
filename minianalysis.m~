@@ -20,10 +20,14 @@ pulse_end           =   110;
 span = 1; %filter span
 plotlength = 4000; %samples
 
-filterephys = 1; if filterephys; disp('filtering');end;
+filterephys = 1; 
 butter_cutoff = 500 %Hz
-order = 4 % Bessel filter order (pole)
+order = 4 % filter order ('pole')
+type = 'Bessel'; % filter type (Bessel or Butter)
 
+if filterephys; 
+    disp(['Filtering: ' num2str(order) ' pole);
+end;
 
 for i=1:length(idx);
     load([char(pathName) '/' list(idx(i)).name],'-mat');
@@ -42,7 +46,7 @@ for i=1:length(idx);
     diodetraces=data.acquirer.trace_1;
     
     
-    timebase=0:1/sr:(samples_per_sweep-1)/sr;
+    timebase=1:1/sr:samples_per_sweep/sr
     
     traces=reshape(ephystraces, samples_per_sweep, length(ephystraces)/samples_per_sweep); % why chunk it up in 1 sec bins hardcoded? Can the sweep length not be extracted from the header?
     diode=reshape(diodetraces, samples_per_sweep, length(ephystraces)/samples_per_sweep);
@@ -84,7 +88,7 @@ for i=1:length(idx);
         figure;
         for k=1:size(traces,2)
             subplot(size(bs_traces,2)/10,10,k);
-            plot(timebase(1:plotlength),bs_traces(1:plotlength,k), 'k'); hold on
+            plot(bs_traces(1:plotlength,k), 'k'); hold on
             ylim([round(min(neg_peak)/10)*10 round(max(pos_peak)/10)*10]);
             hline(neg_peak(k));
             yyaxis right
@@ -94,15 +98,15 @@ for i=1:length(idx);
         
         figure;
         for k=1:size(traces,2)
-            ppp=plot(timebase(1:plotlength),bs_traces(1:plotlength,k), '-k'); hold on
+            ppp=plot(bs_traces(1:plotlength,k), '-k'); hold on
         end
         yyaxis right
-        plot(timebase(1:plotlength),smooth(bs_diode(1:plotlength,k),span)); %ylim([-1 5]);
+        plot(smooth(bs_diode(1:plotlength,k),span)); %ylim([-1 5]);
         yyaxis left
         
         figure;
         for k=2
-            ppp=plot(diff(bs_traces(1:plotlength,k))/.1, '-k'); hold on
+            ppp=plot(diff(bs_traces(1:plotlength,k)), '-k'); hold on
         end
        
         
