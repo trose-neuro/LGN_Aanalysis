@@ -47,7 +47,7 @@ if analyze_mini==1 || analyze_ramp==1;
     rdata_dir         = '/Volumes/EXPLORER ONE/dLGN_rawDATA/'
     adata_dir         = '~/Analysis/dLGN_ephys_Analysis/'
     ExpXls            = '/Volumes/dLGN_ephys_analysis_excel spread sheet/Experiments_dLGN.xlsx'
-    
+   
     %%%%%%%%%%%%%%%%%%%%%%%%
     
     %% parse Experiments XLS database
@@ -77,7 +77,7 @@ if analyze_mini==1 || analyze_ramp==1;
             list=dir([char(exp_folder) dirsep '*.xsg']);%xsg files per cell
             len=length(list);%number of xsg files per cell
             for j=1:len
-                load([char(exp_folder) '/' list(j).name],'-mat');%load each xsg file
+                load([char(exp_folder) dirsep list(j).name],'-mat');%load each xsg file
                 iterations(:,j)=header.loopGui.loopGui.iterations;%find out whether mini or ramp recording
             end
             
