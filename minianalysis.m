@@ -22,13 +22,14 @@ plotlength = 4000; %samples
 
 %% filtering
 filterephys = 1;        % filtering yes/no?
-cutoff      = 1000       % Hz (use 500 Hz for mini event / amplitude detection. Chen & Regehr 2000)
-order       = 4         % filter order ('pole')
-type        = 'Bessel'; % filter type ('Bessel' or 'Butter' (for Butterworth -> ). Default: Bessel)
+cutoff      = 1000      % Hz (use 500 Hz for mini event / amplitude detection and 1000Hz for max currents. Chen & Regehr 2000)
+order       = 4         % filter order ('pole'). (use 4 pole for minis and max current. Chen & Regehr 2000)
+type        = 'Bessel'; % filter type ('Bessel' or 'Butter' (for Butterworth -> ). Default: Bessel. Use Bessel at > 4 order to prevent ripples)
 
 if filterephys; 
     disp(['Filtering: ' num2str(order) ' pole ' type '-Filter w/ ' num2str(cutoff) ' Hz cutoff']);
-end;
+end
+
 %% 
 
 for i=1:length(idx);

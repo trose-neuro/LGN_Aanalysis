@@ -1,9 +1,8 @@
 function filtered = lowpassfilt(signal, order, fc, fs, type)
-%LOWPASSFILT  Switchboard for ML lowwpass bessel and butterworth filters
+%LOWPASSFILT  Switchboard for ML lowpass bessel and butterworth filters
 %   filtered = LOWPASSFILT(signal, order, fc, fs, type) filters the input
 %   signal at a cutoff freqeuency (fc, in Hz) of sampling rate (fs) using either a Bessel (type = 'Bessel') or
-%   Butterworth (type = 'Butter') filter of 'order' order (aka pole). 
-   
+%   Butterworth (type = 'Butter') filter of 'order' order (aka pole).
 
 if nargin < 5
     type = 'Bessel';
