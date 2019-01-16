@@ -145,9 +145,9 @@ if user==0%SW
                         end
                         bs_diff_std=std(diff_bs_traces((redpeak_end-100)*srF:redpeak_end*srF,:));
                         if show==1
-%                             fitfig = figure;
-%                             plot(bs_traces);hold on;plot(yf);plot(diff_bs_traces);
-%                             set(fitfig, 'Name', ['FIT:' char(pathName) ]);
+                            %                             fitfig = figure;
+                            %                             plot(bs_traces);hold on;plot(yf);plot(diff_bs_traces);
+                            %                             set(fitfig, 'Name', ['FIT:' char(pathName) ]);
                         end
                         pos_peak2(j,counter)=max(diff_bs_traces(bluepeak_start*srF:(bluepeak_end+50)*srF,:));
                         pos_fail2(j,counter)=pos_peak2(j,counter)>fc*bs_diff_std;
@@ -384,10 +384,14 @@ end
 
 if savefig
     cd(adata_dir);
-    saveas(fig1, [char(pathName) '.png'])
-%     try
-%         saveas(fitfig, [char(pathName) '.png'])
-%     end
+    fname = regexp(char(pathName), filesep, 'split');
+    saveas(fig1, [['ramp_filt_' fname{end-1:end}] '.png'])
+    try; close(fig1); end
+    
+    %     try
+    %         saveas(fitfig, [char(pathName) '.png'])
+    %     end
+    %     try; close(fitfig); end
 end
 
 %%%%%%%%%%%%%%%%%%%%%  output %%%%%%%%%%%%%%%%%

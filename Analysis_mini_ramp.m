@@ -27,23 +27,23 @@ filterephys=1;%TR2019 filter ephys traces (filter specs see nested functions)
 
 if analyze_mini==1 || analyze_ramp==1;
     disp('dLGN Analysis Mini and Ramp');
-
+    
     sent = 'Which user data will be analyzed? type in 0 for SW or 1 for MF\n';%text appears in command window
     user = input(sent);%waiting for input which is either 0 or 1
-
+    
     experimentator = 'SW';%default SW data
     if user==1
         experimentator = 'MF';%MF data
     end
-
+    
     dLGN_ephys={};%empty structure for saving variables
-
+    
     %     %%%%%%DIRECTORIES%%%%%%%
     %     rdata_dir         = 'I:\Simon Weiler\EXPLORER ONE\dLGN_rawDATA';%data directory of raw data;change accordingly
     %     adata_dir         = 'I:\Simon Weiler\EXPLORER ONE\dLGN_ephys_Analysis\';%data directory of extracted date;change accordingly
     %     ExpXls            = 'R:\Share\Simon\LGN_2019_SW_MF_JB_TR\dLGN_ephys_analysis_excel spread sheet\Experiments_dLGN_SW.xlsx';%directory where excel batch file is located;change accordingly
     %     %%%%%%%%%%%%%%%%%%%%%%%%
-
+    
     %%%%DIRECTORIES - TR2019 %%%%%%%
     % TR2019: MAC: mount smb shares to /Volumes/first (easiest: do command+K in
     % finder)
@@ -53,18 +53,18 @@ if analyze_mini==1 || analyze_ramp==1;
     adata_dir         = '~/Analysis/dLGN_ephys_Analysis/';
     ExpXls            = '/Volumes/dLGN_ephys_analysis_excel spread sheet/Experiments_dLGN_SW.xlsx';
     %%%%%%%%%%%%%%%%%%%%%%
-
+    
     %% parse Experiments XLS database
     batchopt          = parseExperimentsXls_dLGN(ExpXls,user);%calls the nested function parseExperimentsXls_dLGN and considers the user flag (1 or 0)
     nummice           = length(batchopt.mouse);%length of experiments to be analyzed
     %%
-
-
+    
+    
     adder=1;%counting variable
     for i=1:nummice%for loop over experiments across days
         datapath=fullfile(rdata_dir, batchopt.mouse{i}, filesep);%directory and name of experiments (from excel sheet)
         cd(char(datapath));%go to directory
-
+        
         for k=1:length(batchopt.exp_ids{i})%loop in bigger loop for each cell per experimental day
             if batchopt.exp_ids{i}(k)<10%for cells with id less then XX0010, e.g., XX0001-XX0009
                 n_str = sprintf( '%04d', batchopt.exp_ids{i}(k));
@@ -79,7 +79,7 @@ if analyze_mini==1 || analyze_ramp==1;
                 load([char(exp_folder) filesep list(j).name],'-mat');%load each xsg file
                 iterations(:,j)=header.loopGui.loopGui.iterations;%find out whether mini or ramp recording
             end
-
+            
             ramp=find(iterations==11);%ramp recordings
             failure1=find(iterations==50);%mini recordings
             failure2=find(iterations==100);%mini recordings
@@ -98,7 +98,7 @@ if analyze_mini==1 || analyze_ramp==1;
                 ramp=[];%clear variables for next iteration
                 %list=[];%clear variables for next iteration
             end
-
+            
             %% MINI ANALYSIS
             if analyze_mini==1
                 if length(failure1)>=1 & length(failure2)>=1%
@@ -118,9 +118,9 @@ if analyze_mini==1 || analyze_ramp==1;
                     disp('No failure recording');
                 end
             end
-
+            
             %prepare structure for all cells
-
+            
             if batchopt.exp_ids2{i}(k)==1
                 slice_nr = 1 ;
             else
@@ -146,7 +146,7 @@ if analyze_mini==1 || analyze_ramp==1;
                 dLGN_ephys.data{adder+1,4}=blue_ramp;
                 dLGN_ephys.data{adder+1,5}=red_ramp;
                 dLGN_ephys.data{adder+1,6}=batchopt.exp_ids3{i}(k);
-
+                
                 dLGN_ephys.data{adder+1,7}=neg_failure;
                 dLGN_ephys.data{adder+1,8}=pos_failure;
                 dLGN_ephys.data{adder+1,9}=PD1;
@@ -186,7 +186,7 @@ if analyze_mini==1 || analyze_ramp==1;
         end
         list=[];
     end
-
+    
     % SAVE in analyzed directory
     if savefile==1
         cd(adata_dir);
@@ -202,9 +202,9 @@ end
 if fanalysis==1
     disp('dLGN data plotting of extracted parameters and calculation of ODI and AMPA/NMDA RATIOS');
     adata_dir         = 'I:\Simon Weiler\EXPLORER ONE\dLGN_ephys_Analysis\';%data directory of saved data
-
+    
     [ramps_peak ODI data]=dLGN_plot_analysis(adata_dir,0)
-
+    
 end
 
 

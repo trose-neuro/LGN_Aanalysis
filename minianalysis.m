@@ -47,13 +47,13 @@ for i=1:length(idx);
     srF = 1/(1000/sr);
     samples_per_sweep = header.ephys.ephys.traceLength*sr;
     timebase=1/sr:1/sr:samples_per_sweep/sr; %TR2019: timebase
-
+    
     ephystraces=data.ephys.trace_1;
-
+    
     if filterephys % TR2019: filtering
         ephystraces = lowpassfilt(ephystraces, order, cutoff, sr, type);
     end
-
+    
     if user==0%SW %TR2019 should now work w/o user exceptions... kept it in, though
         traces=reshape(ephystraces, samples_per_sweep, length(ephystraces)/samples_per_sweep);
         photodiode=data.acquirer.trace_1;
@@ -63,7 +63,7 @@ for i=1:length(idx);
         photodiode=data.acquirer.trace_1;
         photodiode=reshape(photodiode, samples_per_sweep, length(ephystraces)/samples_per_sweep);
     end
-
+    
     bs=traces(base_start*srF:base_end*srF,:);
     bs_std=std(bs);
     bs_traces=bsxfun(@minus, traces, mean(bs));
@@ -78,7 +78,7 @@ for i=1:length(idx);
     neg_m(neg_idx)=neg_peak(neg_idx);
     pos_m=zeros(1,size(traces,2));
     pos_m(pos_idx)=pos_peak(pos_idx);
-
+    
     try
         neg_fail(neg_idx)=neg_peak(neg_idx);
         pos_fail(pos_idx)=pos_peak(pos_idx);
@@ -86,12 +86,12 @@ for i=1:length(idx);
         neg_fail=zeros(length(pos_peak));
         pos_fail=zeros(length(pos_peak));
     end
-
+    
     neg_failure(:,i)=neg_m;
     pos_failure(:,i)=pos_m;
     PD1(:,i)=mean(photodiode(pulse_start *srF:pulse_end*srF,:));
     PD2(:,i)=mean(photodiode(pulse2_start *srF:pulse2_end*srF,:));
-
+    
     if user==0%SW
         IR1_r(:,i)=(12.19*PD1(:,i)-0.4319)/100;
         IR1_b(:,i)=(7.232*PD1(:,i)-0.9951)/100;
@@ -101,7 +101,7 @@ for i=1:length(idx);
         IR1_b(:,i)=(679.2*PD1(:,i)-26.82)/100;
         IR2_b(:,i)=(679.2*PD2(:,i)-26.82)/100;
     end
-
+    
     %PLOT
     if show==1
         try; close(fig2); end
@@ -128,6 +128,7 @@ for i=1:length(idx);
 end
 if savefig
     cd(adata_dir);
-    saveas(fig2, [char(pathName) '.png'])
+    fname = regexp(char(pathName), filesep, 'split');
+    saveas(fig1, [['mini_filt_' fname{end-1:end}] '.png'])
 end
 end
