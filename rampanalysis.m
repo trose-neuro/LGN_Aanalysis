@@ -385,7 +385,7 @@ end
 if savefig
     cd(adata_dir);
     fname = regexp(char(pathName), filesep, 'split');
-    saveas(fig1, [['ramp_filt_' fname{end-1:end}] '.png'])
+    saveas(fig1, [['ramp_nofilt_' fname{end-1:end}] '.png'])
     try; close(fig1); end
     
     %     try

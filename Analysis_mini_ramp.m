@@ -22,7 +22,7 @@ factor=4;%std threshold factor
 display=1;%flag to display plot (1 or 0)
 ramp_rtrace=1;%save raw ephystraces or not (1 or 0)
 savefile=1;%save file at the end or not
-filterephys=1;%TR2019 filter ephys traces (filter specs see nested functions)
+filterephys=0;%TR2019 filter ephys traces (filter specs see nested functions)
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 if analyze_mini==1 || analyze_ramp==1;
