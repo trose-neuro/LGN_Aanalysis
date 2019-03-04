@@ -1,3 +1,5 @@
+clear all ; close all
+
 filename = '~/data/SW0003/SW0003AAAA0051.xsg'
 
 load(filename, '-mat')
@@ -9,23 +11,24 @@ ephystraces=data.ephys.trace_1;
 
 %% TR2019: filtering
 % filterephys = 1;        % filtering yes/no?
-cutoff      = 5000;      % Hz (use 500 Hz for mini event / amplitude detection and 1000Hz for max currents. Chen & Regehr 2000)
+cutoff      = 2000;      % Hz (use 500 Hz for mini event / amplitude detection and 1000Hz for max currents. Chen & Regehr 2000)
 order       = 4;        % filter order ('pole'). (use 4 pole for minis and max current. Chen & Regehr 2000)
 type        = 'Bessel'; % filter type ('Bessel' or 'Butter' (for Butterworth -> ). Default: Bessel. Use Bessel at > 4 order to prevent ripples)
-p           = 1 ; %detrending polynomial
+% p           = 1 ; %detrending polynomial
+filter_data = 0;
 
-
-sr = header.ephys.ephys.sampleRate;%check sample rate
+sr = header.ephys.ephys.sampleRate; %check sample rate
 srF = 1/(1000/sr);
 samples_per_sweep = header.ephys.ephys.traceLength*sr;
 
 
-offset = samples_per_sweep/2;
+offset = 1;
 timebase_all=offset/sr:1/sr:size(ephystraces,1)/sr; %TR2019: timebase
 timebase=offset/sr:1/sr:samples_per_sweep/sr; %TR2019: timebase
 
-% ephystraces = lowpassfilt(ephystraces, order, cutoff, sr, type);
-
+if filter_data
+    ephystraces = lowpassfilt(ephystraces, order, cutoff, sr, type);
+end
 
 traces=reshape(ephystraces, samples_per_sweep, length(ephystraces)/samples_per_sweep)';
 
@@ -42,16 +45,21 @@ save(filename,'traces')
 
 
 params.burn_in_sweeps = 50;
-params.num_sweeps = 100;
-params.par = 0;
+params.num_sweeps = 1000;
+params.par = 1;
 params.traces_filename = filename;
 params.event_sign = -1;
 params.dt = 1/sr;
-params.exclusion_bound = 10/sr;
+params.exclusion_bound = 20/sr;
 params.tau1_prop_std = 2/sr;
 params.tau2_prop_std = 20/sr;
-params.a_min = 5;
+params.tau1_min = 0.0002500;
+params.tau1_max = 1e-3;
+params.tau2_min = .005;
+params.tau2_max = .02;
+params.a_min = 7;
 params.a_max = 500;
+params.amp_prop_std = 3;
 % fill rest of struct with defaults
 params = get_params(params);
 
@@ -96,27 +104,31 @@ end
 
 figure(43625)
 
-subplot(3,1,1), plot(traces);hold all
+subplot(4,1,1), plot(timebase,traces);hold all
 
 
-subplot(3,1,2),
+subplot(4,1,2),
 [p k ]= hist([trialtimes{:}],samples_per_sweep/sr*1000);ylim('auto'); hold all
 plot(k,p);
 [peakamppeak_cnt peakloc] = findpeaks(p,k,'MinPeakDistance',100, 'MinPeakHeight', std(p));
 plot(peakloc, peakamppeak_cnt, 'ok');
 
-subplot(3,1,3),
+subplot(4,1,3),
 [pa ka ]= hist([amplitudes{:}],samples_per_sweep/sr*1000);ylim('auto'); hold all
 plot(ka,pa);
+
+subplot(4,1,4),
+[pt kt ]= hist([tau_2{:}],samples_per_sweep/sr*1000);ylim('auto'); hold all
+plot(kt,pt);
 
 % [peakamppeak_cnt peakloc] = findpeaks(p,k,'MinPeakDistance',100, 'MinPeakHeight', std(p));
 % plot(peakloc, peakamppeak_cnt, 'ok');
 
 
-subplot(3,1,1), vline(peakloc);
 
 % plot(peakloc, [amplitudes(peakloc)*-1, 'ok');
 
+subplot(4,1,1), vline(peakloc/sr + offset/sr);
 
 % subplot(3,1,3),
 % hist([amplitudes{1000:2000}],1000);%ylim([0 1000])
