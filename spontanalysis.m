@@ -12,7 +12,7 @@ ephystraces=data.ephys.trace_1;
 %% TR2019: filtering
 % filterephys = 1;        % filtering yes/no?
 cutoff      = 2000;      % Hz (use 500 Hz for mini event / amplitude detection and 1000Hz for max currents. Chen & Regehr 2000)
-order       = 4;        % filter order ('pole'). (use 4 pole for minis and max current. Chen & Regehr 2000)
+order       = 8;        % filter order ('pole'). (use 4 pole for minis and max current. Chen & Regehr 2000)
 type        = 'Bessel'; % filter type ('Bessel' or 'Butter' (for Butterworth -> ). Default: Bessel. Use Bessel at > 4 order to prevent ripples)
 % p           = 1 ; %detrending polynomial
 filter_data = 0;
@@ -46,7 +46,7 @@ save(filename,'traces')
 
 params.burn_in_sweeps = 50;
 params.num_sweeps = 1000;
-params.par = 1;
+params.par = 0;
 params.traces_filename = filename;
 params.event_sign = -1;
 params.dt = 1/sr;
@@ -56,10 +56,10 @@ params.tau2_prop_std = 20/sr;
 params.tau1_min = 0.0002500;
 params.tau1_max = 1e-3;
 params.tau2_min = .005;
-params.tau2_max = .02;
-params.a_min = 7;
+params.tau2_max = .08;
+params.a_min = 6;
 params.a_max = 500;
-params.amp_prop_std = 3;
+params.amp_prop_std = 6;
 % fill rest of struct with defaults
 params = get_params(params);
 
