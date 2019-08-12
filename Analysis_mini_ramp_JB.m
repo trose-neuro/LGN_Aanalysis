@@ -33,7 +33,7 @@ if analyze_mini==1 || analyze_ramp==1 || morpho==1 || scracm==1
     disp('dLGN Analysis');
     
     sent = 'Which user data will be analyzed? type in 0 for SW or 1 for MF\n';%text appears in command window
-%     user = input(sent);%waiting for input which is either 0 or 1
+    user = input(sent);%waiting for input which is either 0 or 1
     
     experimentator = 'SW';%default SW data
     if user==1
@@ -42,23 +42,25 @@ if analyze_mini==1 || analyze_ramp==1 || morpho==1 || scracm==1
     
     dLGN_ephys={};%empty structure for saving variables
     
-    %     %%%%%%DIRECTORIES%%%%%%%
-    rdata_dir         = 'I:\Martin Fernholz\LGN _Project_Common\RawData';%data directory of raw data;change accordingly
-%     adata_dir         = 'I:\Martin Fernholz\LGN _Project_Common\AnalyzedData';%data directory of extracted date;change accordingly
-    adata_dir         = 'D:\LGN project';%data directory of extracted date;change accordingly
-    ExpXls            = 'I:\Martin Fernholz\LGN _Project_Common\dLGN_ephys_analysis_excel_spread_sheet\Experiments_dLGN_2019_testing.xlsx';%directory where excel batch file is located;change accordingly
-    %     %%%%%%%%%%%%%%%%%%%%%%%%
-    
-    %%%%DIRECTORIES - TR2019 %%%%%%%
-    %     % TR2019: MAC: mount smb shares to /Volumes/first (easiest: do command+K in
-    %     % finder)
-    %     % 'smb://10G.ISI01.neuro.mpg.de/archive_bonhoeffer_group$/Simon Weiler/EXPLORER ONE'
-    %     % 'smb://S15.neuro.mpg.de/R-bonhoe/Share/Simon/LGN_2019_SW_MF_JB_TR/dLGN_ephys_analysis_excel spread sheet/'
-    %     rdata_dir         = '/Volumes/EXPLORER ONE/dLGN_rawDATA/';
-    %     adata_dir         = '~/Analysis/dLGN_ephys_Analysis/';
-    %     ExpXls            = '/Volumes/dLGN_ephys_analysis_excel spread sheet/Experiments_dLGN_SW.xlsx';
-    %%%%%%%%%%%%%%%%%%%%%%
-    
+    if ispc
+        %     %%%%%%DIRECTORIES%%%%%%%
+        rdata_dir         = 'I:\Martin Fernholz\LGN _Project_Common\RawData';%data directory of raw data;change accordingly
+        %     adata_dir         = 'I:\Martin Fernholz\LGN _Project_Common\AnalyzedData';%data directory of extracted date;change accordingly
+        adata_dir         = 'D:\LGN project';%data directory of extracted date;change accordingly
+        ExpXls            = 'I:\Martin Fernholz\LGN _Project_Common\dLGN_ephys_analysis_excel_spread_sheet\Experiments_dLGN_2019_testing.xlsx';%directory where excel batch file is located;change accordingly
+        %     %%%%%%%%%%%%%%%%%%%%%%%%
+    else
+        
+        %%%%DIRECTORIES - TR2019 %%%%%%%
+        %     % TR2019: MAC: mount smb shares to /Volumes/first (easiest: do command+K in
+        %     % finder)
+        %     % 'smb://10G.ISI01.neuro.mpg.de/archive_bonhoeffer_group$/Martin Fernholz/'
+        %     % 'smb://S15.neuro.mpg.de/R-bonhoe/Share/Simon/LGN_2019_SW_MF_JB_TR/dLGN_ephys_analysis_excel spread sheet/'
+        rdata_dir         = '/Volumes/Martin Fernholz/LGN _Project_Common/RawData/';
+        adata_dir         = '~/Analysis/dLGN_ephys_Analysis/';
+        ExpXls            = '/Volumes/Martin Fernholz/LGN _Project_Common/dLGN_ephys_analysis_excel_spread_sheet/Experiments_dLGN_2019_testing.xlsx';
+        %%%%%%%%%%%%%%%%%%%%%%
+    end
     %% parse Experiments XLS database
     batchopt          = parseExperimentsXls_dLGN(ExpXls,user);%calls the nested function parseExperimentsXls_dLGN and considers the user flag (1 or 0)
     nummice           = length(batchopt.mouse);%length of experiments to be analyzed
@@ -117,26 +119,26 @@ if analyze_mini==1 || analyze_ramp==1 || morpho==1 || scracm==1
             end
             
             %% MINI ANALYSIS
-%             if analyze_mini==1
-%                 if length(failure1)>=1 & length(failure2)>=1% Why do you run it twice!?!
-%                     [Ipsi, Contra]=minianalysis_JB(list, failure1, clamp, exp_folder, factor,display,ramp_rtrace,user, filterephys,adata_dir, batchopt.injection_order{i}(k));%call minianalysis
-%                     [Ipsi, Contra]=minianalysis_JB(list, failure2, clamp, exp_folder, factor,display,ramp_rtrace,user, filterephys,adata_dir, batchopt.injection_order{i}(k));%call minianalysis
-%                     failure1=[];
-%                     failure2=[];
-%                     %list=[];
-%                 elseif length(failure1)>=1 & length(failure2)==0%
-%                     [Ipsi, Contra]=minianalysis_JB(list, failure1, clamp, exp_folder, factor,display,ramp_rtrace,user, filterephys,adata_dir, batchopt.injection_order{i}(k));
-%                     failure1=[];
-%                     %list=[];
-%                 elseif length(failure2)>=1 & length(failure1)==0%
-%                     [Ipsi, Contra]=minianalysis_JB(list, failure2, clamp, exp_folder, factor,display,ramp_rtrace,user, filterephys,adata_dir, batchopt.injection_order{i}(k));
-%                     failure2=[];
-%                 else
-%                     disp('No failure recording');
-%                     Ipsi=[];
-%                     Contra=[];
-%                 end
-%             end
+            %             if analyze_mini==1
+            %                 if length(failure1)>=1 & length(failure2)>=1% Why do you run it twice!?!
+            %                     [Ipsi, Contra]=minianalysis_JB(list, failure1, clamp, exp_folder, factor,display,ramp_rtrace,user, filterephys,adata_dir, batchopt.injection_order{i}(k));%call minianalysis
+            %                     [Ipsi, Contra]=minianalysis_JB(list, failure2, clamp, exp_folder, factor,display,ramp_rtrace,user, filterephys,adata_dir, batchopt.injection_order{i}(k));%call minianalysis
+            %                     failure1=[];
+            %                     failure2=[];
+            %                     %list=[];
+            %                 elseif length(failure1)>=1 & length(failure2)==0%
+            %                     [Ipsi, Contra]=minianalysis_JB(list, failure1, clamp, exp_folder, factor,display,ramp_rtrace,user, filterephys,adata_dir, batchopt.injection_order{i}(k));
+            %                     failure1=[];
+            %                     %list=[];
+            %                 elseif length(failure2)>=1 & length(failure1)==0%
+            %                     [Ipsi, Contra]=minianalysis_JB(list, failure2, clamp, exp_folder, factor,display,ramp_rtrace,user, filterephys,adata_dir, batchopt.injection_order{i}(k));
+            %                     failure2=[];
+            %                 else
+            %                     disp('No failure recording');
+            %                     Ipsi=[];
+            %                     Contra=[];
+            %                 end
+            %             end
             
             % extraction version by JB
             if analyze_mini
@@ -157,8 +159,8 @@ if analyze_mini==1 || analyze_ramp==1 || morpho==1 || scracm==1
                     
                 else
                     disp('No failure recording');
-%                     Ipsi=[];
-%                     Contra=[];
+                    %                     Ipsi=[];
+                    %                     Contra=[];
                     red_failure_AMPA = [];
                     blue_failure_AMPA = [];
                     red_failure_NMDA = [];
@@ -171,8 +173,8 @@ if analyze_mini==1 || analyze_ramp==1 || morpho==1 || scracm==1
             
             %% %% Morphology extraction and analysis
             if morpho==1
-                morpho_folder=[char(exp_folder) '\' 'SingleTraces' char(batchopt.mouse{i}), fold_name];
-                morpho_data=dir([char(exp_folder) '\' 'SingleTraces' char(batchopt.mouse{i}), fold_name '\*.swc']);
+                morpho_folder=[char(exp_folder) filesep 'SingleTraces' char(batchopt.mouse{i}), fold_name];
+                morpho_data=dir([char(exp_folder) filesep 'SingleTraces' char(batchopt.mouse{i}), fold_name filesep '*.swc']);
                 if isempty(morpho_data)==0;
                     morphology=morpho_LGN(morpho_folder,morpho_data,batchopt.morphox{i}(k),batchopt.morphoy{i}(k),batchopt.morphoz{i}(k));
                 else
@@ -190,13 +192,13 @@ if analyze_mini==1 || analyze_ramp==1 || morpho==1 || scracm==1
             clamp=[];
             %%  prepare structure for all cells
             
-%             if batchopt.slice{i}(k)==1 %%% WHAT THE FUCK! what if slice=3
-%                 
-%                 slice_nr = 1 ;
-%             else
-%                 slice_nr = 2 ;
-%             end
-%             
+            %             if batchopt.slice{i}(k)==1 %%% WHAT THE FUCK! what if slice=3
+            %
+            %                 slice_nr = 1 ;
+            %             else
+            %                 slice_nr = 2 ;
+            %             end
+            %
             %                 dLGN_ephys.data{1,1}='Animal ID';
             %                 dLGN_ephys.data{1,2}='Experimental ID';
             %                 dLGN_ephys.data{1,3}='Slice';
@@ -249,12 +251,12 @@ if analyze_mini==1 || analyze_ramp==1 || morpho==1 || scracm==1
                 LGN(adder).step_blue=blue_ramp;
                 
                 
-%                 % change these to using a stats test and recalc ODI and
-%                 % ratio (16 Juli 2019)!!!
-%                 LGN(adder).ODI_AMPA_step=ODI.ODI_AMPA;
-%                 LGN(adder).ODI_NMDA_step=ODI.ODI_NMDA;
-%                 LGN(adder).AMPA_NMDA_r_red=Ratio_AMPA_NMDA.R_r;
-%                 LGN(adder).AMPA_NMDA_r_blue=Ratio_AMPA_NMDA.R_b;
+                %                 % change these to using a stats test and recalc ODI and
+                %                 % ratio (16 Juli 2019)!!!
+                %                 LGN(adder).ODI_AMPA_step=ODI.ODI_AMPA;
+                %                 LGN(adder).ODI_NMDA_step=ODI.ODI_NMDA;
+                %                 LGN(adder).AMPA_NMDA_r_red=Ratio_AMPA_NMDA.R_r;
+                %                 LGN(adder).AMPA_NMDA_r_blue=Ratio_AMPA_NMDA.R_b;
                 
                 % JB: recalculating ODI
                 % perform nonparametric tests
@@ -284,12 +286,12 @@ if analyze_mini==1 || analyze_ramp==1 || morpho==1 || scracm==1
                 LGN(adder).step_red.resp_tests.testNMDAblue = testNMDAblue;
                 LGN(adder).step_red.resp_tests.testNMDAred = testNMDAred;
                 
-%                 try;clf(20);end
+                %                 try;clf(20);end
                 
                 % AMPA ODI
-                if ~testAMPAred && ~testAMPAblue % no red or blue 
+                if ~testAMPAred && ~testAMPAblue % no red or blue
                     LGN(adder).ODI_AMPA_step=nan;
-                    RespBA =nan; 
+                    RespBA =nan;
                     RespRA = nan;
                     RespRA_peak = nan;
                     RespBA_peak = nan;
@@ -303,10 +305,10 @@ if analyze_mini==1 || analyze_ramp==1 || morpho==1 || scracm==1
                     
                     
                     steps_used = find([RespR-BaseR] == max(RespR-BaseR));
-                    RespRA = RespR(steps_used)-BaseR(steps_used); 
+                    RespRA = RespR(steps_used)-BaseR(steps_used);
                     RespBA = RespB(steps_used)-BaseB(steps_used); % baseline subtract (could also use the average across a few steps)
                     RespRA_peak = RespR_peak(steps_used)-BaseR(steps_used); % baseline subtracted peak of response (nessesary for some calculations)
-                    RespBA_peak = RespB_peak(steps_used)-BaseB(steps_used); 
+                    RespBA_peak = RespB_peak(steps_used)-BaseB(steps_used);
                     
                     % if ether of the responses are negative
                     if RespRA < 0; RespRA = 0; end
@@ -314,11 +316,11 @@ if analyze_mini==1 || analyze_ramp==1 || morpho==1 || scracm==1
                     if RespRA_peak < 0; RespRA_peak = 0; end
                     if RespBA_peak < 0; RespBA_peak = 0; end
                     
-%                     figure(20); 
-%                     subplot(2,1,1); plot(RespR-BaseR,'r'); hold on; plot(RespB-BaseB,'b');
-%                     plot([steps_used steps_used], [RespB(steps_used)-BaseB(steps_used) RespR(steps_used)-BaseR(steps_used)],'k--')
+                    %                     figure(20);
+                    %                     subplot(2,1,1); plot(RespR-BaseR,'r'); hold on; plot(RespB-BaseB,'b');
+                    %                     plot([steps_used steps_used], [RespB(steps_used)-BaseB(steps_used) RespR(steps_used)-BaseR(steps_used)],'k--')
                     
-                    % ODI is based on response mean as this should be more stable 
+                    % ODI is based on response mean as this should be more stable
                     if testAMPAred && ~testAMPAblue % Contra
                         LGN(adder).ODI_AMPA_step=1;
                         RespBA = 0; % RespRA (stays the same)
@@ -354,13 +356,13 @@ if analyze_mini==1 || analyze_ramp==1 || morpho==1 || scracm==1
                 LGN(adder).step_red.red_resp_AMPA_peak = RespRA_peak;
                 LGN(adder).step_red.blue_resp_AMPA_peak = RespBA_peak;
                 LGN(adder).step_red.steps_use_AMPA = steps_used;
-
+                
                 % NMDA ODI
                 if any(isnan([testNMDAblue, testNMDAred])) || all([~testNMDAred, ~testNMDAblue]) % no red or blue
                     LGN(adder).ODI_NMDA_step=nan;
-                    RespBN = nan; 
+                    RespBN = nan;
                     RespRN = nan;
-                    RespBN_peak = nan; 
+                    RespBN_peak = nan;
                     RespRN_peak = nan;
                     steps_used = nan;
                     
@@ -376,7 +378,7 @@ if analyze_mini==1 || analyze_ramp==1 || morpho==1 || scracm==1
                     RespRN = RespR(steps_used)-BaseR(steps_used);
                     RespBN = RespB(steps_used)-BaseB(steps_used); % baseline subtract
                     RespRN_peak = RespR_peak(steps_used)-BaseR(steps_used); % baseline subtracted peak of response (nessesary for some calculations)
-                    RespBN_peak = RespB_peak(steps_used)-BaseB(steps_used); 
+                    RespBN_peak = RespB_peak(steps_used)-BaseB(steps_used);
                     
                     % if ehter of the responses a
                     if RespRN < 0; RespRN = 0; end
@@ -384,8 +386,8 @@ if analyze_mini==1 || analyze_ramp==1 || morpho==1 || scracm==1
                     if RespRN_peak < 0; RespRN_peak = 0; end
                     if RespBN_peak < 0; RespBN_peak = 0; end
                     
-%                     subplot(2,1,2); plot(RespR-BaseR,'r'); hold on; plot(RespB-BaseB,'b');
-%                     plot([steps_used steps_used], [RespB(steps_used)-BaseB(steps_used) RespR(steps_used)-BaseR(steps_used)],'k--')
+                    %                     subplot(2,1,2); plot(RespR-BaseR,'r'); hold on; plot(RespB-BaseB,'b');
+                    %                     plot([steps_used steps_used], [RespB(steps_used)-BaseB(steps_used) RespR(steps_used)-BaseR(steps_used)],'k--')
                     
                     if testNMDAred && ~testNMDAblue % Contra
                         LGN(adder).ODI_NMDA_step=1;
@@ -397,9 +399,9 @@ if analyze_mini==1 || analyze_ramp==1 || morpho==1 || scracm==1
                         RespRN = 0;
                         RespRN_peak = 0;
                         steps_used = 6:11; % Taking the average here because there is no rational way of chooseing a single step. instead we take the average from the trials used for the responseiveness test testNMDAred
-                        RespBN = nanmean(RespB(steps_used)-BaseB(steps_used)); 
-                        RespBN_peak = nanmean(RespB_peak(steps_used)-BaseB(steps_used)); 
-
+                        RespBN = nanmean(RespB(steps_used)-BaseB(steps_used));
+                        RespBN_peak = nanmean(RespB_peak(steps_used)-BaseB(steps_used));
+                        
                     elseif testNMDAred && testNMDAblue % Binocular
                         LGN(adder).ODI_NMDA_step = (nanmean(RespRN)-nanmean(RespBN))/(nanmean(RespRN)+nanmean(RespBN));
                         LGN(adder).ODI_NMDA_step_peak = (nanmean(RespRN_peak)-nanmean(RespBN_peak))/(nanmean(RespRN_peak)+nanmean(RespBN_peak));
@@ -417,7 +419,7 @@ if analyze_mini==1 || analyze_ramp==1 || morpho==1 || scracm==1
                 LGN(adder).step_red.red_resp_NMDA_peak = RespRN_peak;
                 LGN(adder).step_red.blue_resp_NMDA_peak = RespBN_peak;
                 LGN(adder).step_red.steps_use_NMDA = steps_used;
-
+                
                 % switch ODIs if contra~=red
                 if ~LGN(adder).brain_contra_ipsi
                     LGN(adder).ODI_AMPA_step = LGN(adder).ODI_AMPA_step*-1;
@@ -446,13 +448,13 @@ if analyze_mini==1 || analyze_ramp==1 || morpho==1 || scracm==1
             
             
             %failures
-%             if analyze_mini==1
-%                 LGN(adder).ipsi_fail=Ipsi;
-%                 LGN(adder).contra_fail=Contra;
-%             else
-%                 LGN(adder).ipsi_fail=[];
-%                 LGN(adder).contra_fail=[];
-%             end
+            %             if analyze_mini==1
+            %                 LGN(adder).ipsi_fail=Ipsi;
+            %                 LGN(adder).contra_fail=Contra;
+            %             else
+            %                 LGN(adder).ipsi_fail=[];
+            %                 LGN(adder).contra_fail=[];
+            %             end
             if analyze_mini==1
                 LGN(adder).red_failure_AMPA = red_failure_AMPA;
                 LGN(adder).blue_failure_AMPA = blue_failure_AMPA;
