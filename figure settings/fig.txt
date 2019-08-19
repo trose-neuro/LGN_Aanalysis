@@ -1,0 +1,19 @@
+%% figure DEFAULTS
+% Defaults for Cell press. 1 col: 85mm, 1.5 col: 114mm, 2col:174mm
+% Defaults for Nature press. 1 col: 89mm, 1.5 col: 136mm, 2col:183mm
+
+fig.width= 4;              % fig.widthin cm
+fig.height = fig.width;         % fig.height in cm (golden ratio default  (1 + n.sqrt(5)) / 2 1/GR)
+fig.alw = 1;                % AxesLineWidth
+fig.fsz = 18;               % Fontsize
+fig.ln = 2;                 % lineWidth for e.g. averages
+colorlevels = 3;
+fig.coc_c = cbrewer('seq', 'Blues', colorlevels);
+fig.coc_i = cbrewer('seq', 'Reds', colorlevels);
+coc_a = [0.25 0.25 0.25; 0.5 0.5 0.5; 0.75 0.75 0.75];
+fig.coc_a = flipud(coc_a);
+
+opengl software         % to get the axes on figures with transparency back!
+set(0,'DefaultAxesTickDir', 'out')
+set(0,'DefaultAxesFontSize', fig.fsz)
+set(0,'DefaultAxesTickLength', [0.02 0.025]);
