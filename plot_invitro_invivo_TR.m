@@ -9,6 +9,7 @@ if reload
 end
 
 clearvars -except ana_ODI BaseMD_ODI_array data
+close all
 
 %% figure settings
 
@@ -25,6 +26,8 @@ fig.coc_c = cbrewer('seq', 'Blues', colorlevels);
 fig.coc_i = cbrewer('seq', 'Reds', colorlevels);
 coc_a = [0.25 0.25 0.25; 0.5 0.5 0.5; 0.75 0.75 0.75];
 fig.coc_a = flipud(coc_a);
+fig.markercol = [0.85 0.85 0.85];
+fig.markersz = 15;
 
 % opengl software         % to get the axes on figures with transparency back!
 set(0,'DefaultAxesTickDir', 'out')
@@ -98,9 +101,9 @@ disc=[];
 
 % figure
 n = 1;figure(n);
-fig(n).ImageDescription = 'AMPA ODI baseline'
+fig(n).ImageDescription = 'AMPA ODI baseline';
 
-cl = bar(binsODcentres,ANMDA_ODI_MD_fract,'barwidth', 1); 
+cl = bar(binsODcentres,ANMDA_ODI_MD_fract,'barwidth', 1);
 set(cl, 'FaceColor', 'w', 'EdgeColor', 'k',  'LineWidth', fig.alw);
 xlim([-1 1]);
 set_fig_properties(n, fig);
@@ -132,7 +135,7 @@ n = 2;
 figure(n);
 fig.ImageDescription = 'In Vivo ODI baseline';
 
-cl = bar(binsODcentres,Invivo_base_fract,'barwidth', 1); 
+cl = bar(binsODcentres,Invivo_base_fract,'barwidth', 1);
 set(cl, 'FaceColor', 'w', 'EdgeColor', 'k', 'LineWidth', fig.alw);
 xlim([-1 1]);
 set_fig_properties(n, fig);
@@ -143,9 +146,28 @@ n = 3;
 figure(n);
 fig.ImageDescription = 'MI comparison';
 
-cl = bar([mean(abs(BaseMD_ODI_array(:,1))  abs(ODI_AMPA_r)],'barwidth', 1); 
+cl = bar([mean(abs(BaseMD_ODI_array(:,1)))  mean(abs(ODI_AMPA_r))],'barwidth', .8); hold on;
+clp = plotSpread({abs(BaseMD_ODI_array(:,1)), abs(ODI_AMPA_r)}, 'ShowMM', 4);
+
 set(cl, 'FaceColor', 'w', 'EdgeColor', 'k', 'LineWidth', fig.alw);
-xlim([-1 1]);
+set(clp{1}, 'MarkerFaceColor', fig.markercol, 'MarkerEdgeColor', fig.markercol, 'MarkerSize', fig.markersz);
+set(clp{2}, 'MarkerFaceColor', 'k', 'MarkerEdgeColor', 'k', 'Color', 'k', 'LineWidth', fig.alw);
+
+set_fig_properties(n, fig);
+
+% muscimol
+% figure
+n = 4;
+figure(n);
+fig.ImageDescription = 'MI comparison Muscimol';
+
+cl = bar([nanmean(abs(ana_ODI(:,1))) nanmean(abs(ana_ODI(:,2)))],'barwidth', .8); hold on;
+clp = plotSpread({abs(ana_ODI(:,1)), abs(ana_ODI(:,2))}, 'ShowMM', 4);
+
+set(cl, 'FaceColor', 'w', 'EdgeColor', 'k', 'LineWidth', fig.alw);
+set(clp{1}, 'MarkerFaceColor', fig.markercol, 'MarkerEdgeColor', fig.markercol, 'MarkerSize', fig.markersz);
+set(clp{2}, 'MarkerFaceColor', 'k', 'MarkerEdgeColor', 'k', 'Color', 'k', 'LineWidth', fig.alw);
+
 set_fig_properties(n, fig);
 
 %% BINO fractions - ALL
