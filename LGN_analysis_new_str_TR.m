@@ -29,6 +29,7 @@
 %         spreadsheetLGN(data,cellidx,2)
 %     end
 % end
+load('/Users/trose/Documents/GitHub/LGN_Analysis/Full_Data.mat')
 
 clearvars -except data
 
@@ -57,7 +58,7 @@ end
 
 %%
 bins = 7;
-binsOD  = -1+(2/bins/2):2/bins:1; % bin centers
+% binsOD  = -1+(2/bins/2):2/bins:1; % bin centers
 binsOD  = -1:2/bins:1; % bin edges
 
 %% CONTROL
@@ -81,6 +82,7 @@ disc=[];
 figure;
 test=[fract;fract2]
 bar(test);
+AMPA_ODI_baseline_fract = test(1,:);
 ylabel('Fraction');
 set(gca,'XTickLabel',{'AMPA ODI bins','NMDA ODI bins'});
 set(gca,'box','off');
@@ -109,6 +111,8 @@ disc=[];
 %Plot fractions
 figure;
 test=[fract;fract2]
+AMPA_ODI_MD_fract = test(2,1);
+
 bar(test);
 ylabel('Fraction');
 set(gca,'XTickLabel',{'AMPA ODI bins','NMDA ODI bins'});
@@ -128,6 +132,46 @@ n2 = size(find(abs(ODI_AMPA_r_md)<1),2);
 N2 = size(ODI_AMPA_r_md(~isnan(ODI_AMPA_r_md)),2);
 
 [pval chi2stat tbl] = propstat(n1, N1, n2, N2);
+
+%% compare to in vivop ODIs
+load('/Users/trose/Documents/GitHub/LGN_Analysis/in vivo/base_MD_ODI_array.mat')
+bins = 7
+binsOD  = -1:2/bins:1; % bin edges
+%AMPA fraction discretize
+% baseline
+temp=BaseMD_ODI_array(:,1);
+temp(find(isnan(temp)))=[];
+disc=discretize(temp,[binsOD]);
+for i=1:bins
+    fract(i)=(length(find(disc==i)))/length(temp)
+end
+disc=[];
+
+% MD
+temp=BaseMD_ODI_array(:,2);
+temp(find(isnan(temp)))=[];
+disc=discretize(temp,[binsOD]);
+for i=1:bins
+    fract2(i)=(length(find(disc==i)))/length(temp)
+end
+disc=[];
+
+
+Invivo_base_fract = fract;
+Invivo_MD_fract = fract2;
+
+%Plot fractions
+figure;
+test=[Invivo_base_fract;AMPA_ODI_baseline_fract]
+
+bar(test);
+ylabel('Fraction');
+set(gca,'XTickLabel',{'AMPA ODI bins','NMDA ODI bins'});
+set(gca,'box','off');
+set(gcf,'color','w');
+axis square;
+ylim([0 1])
+
 
 
 %% Trace view

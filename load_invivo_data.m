@@ -1,5 +1,7 @@
-JData =  '/Volumes/archive_bonhoeffer_group$-1/Juliane Jaepel-Schael/Shared/master_Juliane.m'
 
-load(JData, '-mat');
+load('/Users/trose/Documents/GitHub/LGN_Analysis/Full_Data.mat')
+load('/Users/trose/Documents/GitHub/LGN_Analysis/in vivo/base_MD_ODI_array.mat')
+load('/Users/trose/Documents/GitHub/LGN_Analysis/in vivo/ana_ODI_Musc.mat')
 
-saver = analysis_MD_dLGN(1,master_selector, fig, batchopt, saver)
+bins = 7;
+binsOD  = -1:2/bins:1; % bin edges
