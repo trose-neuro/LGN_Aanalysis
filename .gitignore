@@ -2,3 +2,4 @@
 *.m~
 Full_Data.mat
 simon/
+.DS_Store
