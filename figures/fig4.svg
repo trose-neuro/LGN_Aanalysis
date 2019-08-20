@@ -1,0 +1,581 @@
+<?xml version = "1.0" encoding = "utf-8" standalone = "no"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg preserveAspectRatio = "xMinYMin meet" width = "100%" height = "100%" fill = "none" viewBox = "0 0 533.333 533.333"  version = "1.1" xmlns = "http://www.w3.org/2000/svg" xmlns:xlink = "http://www.w3.org/1999/xlink">
+  <desc>Matlab Figure Converted by FIG2SVG</desc>
+  <g id = "topgroup">
+  <rect x = "0" y = "0" width = "533.333" height = "533.333" fill = "#ffffff" stroke = "none" />
+  <g id  = "ID000000">
+      <polygon fill = "#ffffff" fill-opacity = "1.000" stroke = "none" points = "85.493,455.840 482.667,455.840 482.667,40.000 85.493,40.000 "/>
+      <polygon fill = "#ffffff" fill-opacity = "1.000" stroke = "none" points = "85.493,40.000 482.667,40.000 482.667,40.000 85.493,40.000 "/>
+      <polygon fill = "#ffffff" fill-opacity = "1.000" stroke = "none" points = "85.493,455.840 85.493,455.840 85.493,40.000 85.493,40.000 "/>
+    <g>
+<g id = "ID000002" >
+  <g transform = "translate(31.728,247.920)">
+    <g transform = "rotate(-90.000)">
+      <text x = "0.000" y = "-0.2em" font-family = "Helvetica" text-anchor = "middle" dominant-baseline = "auto" font-size = "19.800pt" fill = "#262626"><tspan>Monocularity (|ODI|)</tspan></text>
+    </g>
+  </g>
+</g>
+<g id = "ID000003" >
+  <g transform = "translate(284.080,501.609)">
+    <g transform = "rotate(-0.000)">
+      <text x = "0.000" y = "0.9em" font-family = "Helvetica" text-anchor = "middle" dominant-baseline = "auto" font-size = "19.800pt" fill = "#262626"><tspan>MI</tspan></text>
+    </g>
+  </g>
+</g>
+<g id = "ID000004" >
+</g>
+<g id = "ID000005" clip-path = "url(#ID000001)" >
+<rect x = "178.946" y = "160.943" width = "93.453" height = "294.897" rx = "0.000" ry = "0.000" fill = "#ffffff" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "#000000" stroke-opacity = "1.000" stroke-width = "1.000pt" stroke-dasharray = "none" />
+<rect x = "295.762" y = "69.095" width = "93.453" height = "386.745" rx = "0.000" ry = "0.000" fill = "#ffffff" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "#000000" stroke-opacity = "1.000" stroke-width = "1.000pt" stroke-dasharray = "none" />
+</g><g id = "ID000006" clip-path = "url(#ID000001)" >
+<g>
+<circle cx = "226.505" cy = "103.308" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "225.672" cy = "57.445" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "225.672" cy = "81.738" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "225.672" cy = "190.107" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "230.421" cy = "273.315" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "223.800" cy = "96.820" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "227.544" cy = "97.112" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "221.928" cy = "87.681" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "224.839" cy = "120.453" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "225.672" cy = "173.497" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "225.672" cy = "257.461" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "225.672" cy = "331.209" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "228.172" cy = "113.179" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "226.937" cy = "73.335" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "220.319" cy = "168.493" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "223.172" cy = "108.876" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "226.881" cy = "132.265" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "229.839" cy = "118.900" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "224.463" cy = "141.593" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "229.417" cy = "95.782" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "220.055" cy = "98.521" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "231.289" cy = "86.174" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "221.506" cy = "116.148" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "229.250" cy = "301.548" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "218.183" cy = "91.561" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "218.825" cy = "350.116" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "232.520" cy = "337.509" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "233.161" cy = "89.721" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "216.311" cy = "97.537" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "225.672" cy = "151.308" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "224.407" cy = "80.588" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "229.300" cy = "133.747" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "229.467" cy = "65.512" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "221.877" cy = "74.716" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "235.033" cy = "85.366" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "218.187" cy = "55.220" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "214.439" cy = "86.907" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "222.044" cy = "137.719" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "231.997" cy = "80.353" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "231.719" cy = "124.746" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "233.157" cy = "54.964" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "219.626" cy = "130.293" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "234.137" cy = "124.578" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "225.672" cy = "207.184" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "219.347" cy = "73.053" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "231.505" cy = "112.882" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "228.951" cy = "236.047" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "234.528" cy = "74.400" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "220.319" cy = "148.651" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "219.839" cy = "112.967" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "216.817" cy = "71.277" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "217.207" cy = "125.576" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "236.906" cy = "96.190" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "236.556" cy = "128.124" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "237.058" cy = "64.381" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "214.788" cy = "133.564" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "225.672" cy = "402.975" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "233.172" cy = "113.255" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "229.978" cy = "374.498" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "211.977" cy = "348.338" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "222.094" cy = "297.468" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "230.929" cy = "433.042" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "229.590" cy = "316.324" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "231.025" cy = "157.234" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "221.754" cy = "315.614" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "225.672" cy = "448.097" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "216.633" cy = "436.387" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "216.633" cy = "251.840" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "234.711" cy = "454.333" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "237.425" cy = "313.718" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "214.966" cy = "156.463" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "222.393" cy = "231.164" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "239.367" cy = "348.417" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "236.406" cy = "301.116" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "220.924" cy = "281.005" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "238.975" cy = "136.945" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "218.172" cy = "107.488" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "220.415" cy = "420.928" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "214.938" cy = "293.728" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "218.187" cy = "196.026" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "231.025" cy = "178.019" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "243.562" cy = "302.058" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "239.918" cy = "280.580" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "213.919" cy = "323.896" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "217.462" cy = "403.985" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "207.782" cy = "302.801" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "212.370" cy = "134.235" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "212.566" cy = "84.245" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "221.367" cy = "374.229" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "241.393" cy = "127.902" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "218.825" cy = "218.329" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "238.778" cy = "91.871" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "214.966" cy = "183.444" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "214.287" cy = "68.866" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "210.694" cy = "96.238" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "236.379" cy = "165.575" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "245.261" cy = "318.916" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "235.510" cy = "227.016" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "234.711" cy = "263.426" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "234.839" cy = "102.478" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "209.612" cy = "178.870" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "239.588" cy = "75.447" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "240.650" cy = "84.337" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "238.588" cy = "386.939" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "210.703" cy = "48.980" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "206.083" cy = "323.221" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "232.520" cy = "215.083" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "233.157" cy = "192.476" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "211.977" cy = "207.783" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "208.822" cy = "88.496" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "211.756" cy = "65.489" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "216.506" cy = "105.197" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "241.732" cy = "165.971" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "242.522" cy = "82.126" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "236.505" cy = "119.701" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "209.951" cy = "133.754" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "215.835" cy = "242.055" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "243.812" cy = "142.271" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "214.839" cy = "113.774" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "206.950" cy = "88.795" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "240.641" cy = "56.964" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "238.172" cy = "119.700" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "242.118" cy = "70.562" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "236.379" cy = "152.980" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "207.532" cy = "132.603" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "213.173" cy = "117.100" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "239.367" cy = "215.995" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "233.882" cy = "410.262" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "246.231" cy = "124.499" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "244.395" cy = "85.414" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "205.077" cy = "82.301" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "210.703" cy = "204.684" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "209.612" cy = "159.999" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "246.267" cy = "98.237" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "205.114" cy = "128.413" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "207.594" cy = "455.551" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "250.718" cy = "294.621" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "209.226" cy = "81.223" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "248.649" cy = "139.869" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "203.205" cy = "87.557" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "204.259" cy = "175.145" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "248.139" cy = "95.107" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "244.648" cy = "61.465" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "239.838" cy = "103.314" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "211.506" cy = "111.265" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "241.505" cy = "107.536" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "205.129" cy = "220.789" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "201.333" cy = "86.875" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "250.011" cy = "85.227" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "209.839" cy = "115.652" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "246.215" cy = "220.468" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "206.696" cy = "73.446" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "247.178" cy = "76.922" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "204.166" cy = "61.764" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "243.172" cy = "121.453" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "202.695" cy = "136.728" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "249.708" cy = "75.481" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "199.461" cy = "96.307" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "251.884" cy = "96.721" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "211.426" cy = "273.228" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "247.085" cy = "182.739" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "197.588" cy = "91.376" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "251.068" cy = "128.118" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "240.641" cy = "203.881" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "208.173" cy = "107.042" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "242.068" cy = "228.438" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "244.838" cy = "116.238" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "200.276" cy = "131.982" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "206.506" cy = "102.395" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "246.505" cy = "106.444" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "253.486" cy = "129.418" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "253.756" cy = "99.320" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "195.716" cy = "92.771" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "201.636" cy = "72.691" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "204.840" cy = "118.993" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "225.672" cy = "356.060" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "197.858" cy = "130.361" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "203.218" cy = "60.465" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "198.906" cy = "171.069" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "255.905" cy = "128.609" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "252.439" cy = "181.608" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "207.594" cy = "256.747" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "203.218" cy = "201.311" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "248.171" cy = "119.713" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "203.173" cy = "112.990" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "249.838" cy = "115.998" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "241.732" cy = "162.904" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "255.628" cy = "101.913" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "193.552" cy = "173.495" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "204.259" cy = "144.941" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "201.506" cy = "120.998" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "251.505" cy = "107.613" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "193.844" cy = "95.260" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "199.840" cy = "115.747" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "195.439" cy = "124.370" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "253.171" cy = "121.612" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "252.239" cy = "79.548" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "257.792" cy = "179.000" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "199.106" cy = "78.501" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "257.500" cy = "99.331" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "198.173" cy = "121.187" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "254.838" cy = "116.277" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "188.199" cy = "165.147" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "196.506" cy = "118.787" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "198.282" cy = "219.337" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "191.972" cy = "86.196" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "256.504" cy = "110.215" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "194.840" cy = "108.410" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "258.171" cy = "119.423" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "205.129" cy = "335.093" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "209.276" cy = "228.552" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "193.173" cy = "111.516" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "248.126" cy = "199.345" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "259.373" cy = "83.360" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "258.324" cy = "141.265" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "254.769" cy = "65.366" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "196.576" cy = "71.892" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "257.299" cy = "65.575" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "194.045" cy = "76.011" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "259.829" cy = "63.102" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "191.515" cy = "73.044" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "262.359" cy = "71.045" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "188.985" cy = "75.522" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "190.099" cy = "97.297" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "253.063" cy = "216.890" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "259.838" cy = "111.046" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "246.215" cy = "342.819" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "200.627" cy = "294.944" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "264.889" cy = "66.009" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "186.455" cy = "78.221" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "191.507" cy = "115.648" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "263.145" cy = "182.760" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "261.504" cy = "112.942" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "248.626" cy = "228.996" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "261.245" cy = "90.715" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "193.021" cy = "123.594" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "267.419" cy = "70.217" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "188.227" cy = "85.889" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "260.742" cy = "135.769" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "189.840" cy = "110.450" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "263.171" cy = "103.980" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "263.117" cy = "97.398" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "188.173" cy = "108.171" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "247.085" cy = "147.661" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "202.718" cy = "235.137" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "190.602" cy = "130.594" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "198.906" cy = "153.036" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "198.282" cy = "331.040" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "263.161" cy = "125.817" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "212.756" cy = "386.700" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "186.355" cy = "86.661" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "264.837" cy = "118.706" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "255.185" cy = "238.333" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "186.507" cy = "120.258" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "266.504" cy = "122.573" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "264.989" cy = "101.707" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "243.750" cy = "255.928" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "253.063" cy = "334.862" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "183.925" cy = "71.824" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "191.434" cy = "339.844" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "184.840" cy = "117.947" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "184.483" cy = "82.228" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "252.439" cy = "151.016" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "257.874" cy = "303.057" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "182.846" cy = "182.493" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "268.171" cy = "110.021" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "183.174" cy = "110.820" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "253.097" cy = "316.392" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "269.837" cy = "113.287" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "181.507" cy = "104.562" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "269.950" cy = "62.710" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "266.862" cy = "94.957" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "188.183" cy = "124.729" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "265.580" cy = "138.826" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "248.126" cy = "51.502" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "243.750" cy = "444.068" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "271.504" cy = "117.857" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "182.610" cy = "101.874" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "181.395" cy = "64.662" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "272.480" cy = "71.200" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "193.552" cy = "162.173" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "179.840" cy = "113.509" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "195.733" cy = "188.097" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "259.910" cy = "347.040" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "273.171" cy = "111.892" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "268.734" cy = "83.164" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "247.199" cy = "376.836" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "195.733" cy = "58.891" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "209.252" cy = "398.186" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "185.765" cy = "133.634" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "180.738" cy = "90.928" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "178.174" cy = "105.154" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "178.865" cy = "63.480" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "193.471" cy = "295.266" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "270.606" cy = "84.328" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "242.093" cy = "400.023" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "275.010" cy = "75.744" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "274.837" cy = "112.185" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "178.866" cy = "86.930" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "272.478" cy = "92.350" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "176.994" cy = "99.994" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "176.507" cy = "121.920" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "196.160" cy = "245.919" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "276.504" cy = "120.744" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "267.998" cy = "136.495" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "255.611" cy = "196.509" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "261.743" cy = "236.512" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "191.434" cy = "212.069" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "257.792" cy = "159.916" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "174.841" cy = "104.426" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "176.335" cy = "80.872" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "259.910" cy = "219.190" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "204.145" cy = "373.802" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "188.199" cy = "146.951" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "278.170" cy = "115.418" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "274.351" cy = "84.476" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "183.346" cy = "129.963" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "263.145" cy = "144.115" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "270.417" cy = "130.254" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "268.498" cy = "166.325" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "215.684" cy = "356.443" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "173.174" cy = "112.330" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "198.248" cy = "325.940" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "277.540" cy = "72.908" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "175.121" cy = "82.872" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "276.223" cy = "86.579" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "235.660" cy = "354.769" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "180.927" cy = "123.674" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "272.836" cy = "125.824" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "178.509" cy = "129.143" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "173.249" cy = "91.504" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "201.041" cy = "395.343" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "275.254" cy = "133.816" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "278.095" cy = "97.710" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "182.846" cy = "155.282" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "176.090" cy = "138.929" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "255.611" cy = "58.318" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "189.601" cy = "228.978" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "250.303" cy = "397.615" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "173.804" cy = "74.373" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "277.673" cy = "137.260" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "268.498" cy = "156.756" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "173.672" cy = "124.825" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+</g>
+</g>
+<g id = "ID000007" clip-path = "url(#ID000001)" >
+<g>
+<circle cx = "342.488" cy = "43.506" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "341.206" cy = "40.000" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "343.770" cy = "40.000" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "339.924" cy = "40.000" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "342.488" cy = "128.641" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "347.236" cy = "216.192" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "345.052" cy = "40.000" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "338.642" cy = "40.000" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "346.334" cy = "46.287" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "342.488" cy = "249.378" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "346.406" cy = "79.097" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "337.360" cy = "40.000" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "347.615" cy = "45.492" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "336.078" cy = "40.000" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "347.745" cy = "99.726" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "348.897" cy = "40.000" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "334.796" cy = "40.000" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "347.745" cy = "143.024" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "337.739" cy = "218.790" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "350.179" cy = "40.000" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "342.488" cy = "72.255" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "338.570" cy = "79.858" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "333.515" cy = "40.000" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "351.461" cy = "46.323" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "332.233" cy = "48.482" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "352.743" cy = "40.000" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "342.488" cy = "297.183" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "336.696" cy = "54.843" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "356.734" cy = "218.189" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "330.951" cy = "40.000" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "354.025" cy = "40.000" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "329.669" cy = "40.000" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "355.307" cy = "40.000" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "328.387" cy = "40.000" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "356.589" cy = "40.000" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "327.105" cy = "42.015" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "342.488" cy = "343.678" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "357.871" cy = "40.000" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "325.823" cy = "40.000" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "359.152" cy = "40.000" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "348.279" cy = "66.350" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "324.541" cy = "44.543" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "360.434" cy = "49.360" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "342.488" cy = "180.827" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "330.905" cy = "56.699" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "323.259" cy = "40.000" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "361.716" cy = "40.000" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "321.977" cy = "42.974" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "362.998" cy = "49.234" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "354.241" cy = "81.498" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "320.696" cy = "40.000" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "364.280" cy = "40.000" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "319.414" cy = "40.000" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "333.449" cy = "135.323" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "365.562" cy = "51.379" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "318.132" cy = "40.000" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "330.735" cy = "73.722" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "354.071" cy = "66.475" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "366.844" cy = "40.000" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "337.231" cy = "143.896" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "316.850" cy = "40.000" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "325.113" cy = "59.078" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "368.126" cy = "40.000" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "315.568" cy = "40.000" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "369.408" cy = "40.000" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "314.286" cy = "40.000" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "370.690" cy = "40.000" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "313.004" cy = "46.664" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "371.971" cy = "40.000" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "359.863" cy = "59.827" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "311.722" cy = "40.000" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "337.231" cy = "104.655" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "373.253" cy = "40.000" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "319.321" cy = "52.637" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "310.440" cy = "40.000" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "374.535" cy = "45.933" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "362.077" cy = "81.929" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "322.899" cy = "75.441" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "365.654" cy = "66.241" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "369.912" cy = "93.702" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "309.159" cy = "40.000" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "313.530" cy = "67.555" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "375.817" cy = "40.000" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "342.488" cy = "280.547" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "371.446" cy = "66.823" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "307.877" cy = "40.000" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "351.527" cy = "118.519" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "377.099" cy = "40.000" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "306.595" cy = "46.791" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "378.381" cy = "40.000" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "305.313" cy = "40.000" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "379.663" cy = "40.000" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "304.031" cy = "40.000" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "307.738" cy = "54.350" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "380.945" cy = "40.000" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "377.238" cy = "53.260" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "302.749" cy = "40.000" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "382.227" cy = "40.000" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "324.410" cy = "133.960" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "301.946" cy = "60.917" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "315.063" cy = "83.526" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "301.467" cy = "40.000" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "383.509" cy = "40.000" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "300.185" cy = "40.000" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "384.790" cy = "40.000" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "328.242" cy = "198.442" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "298.903" cy = "40.000" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "386.072" cy = "40.000" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "297.621" cy = "40.000" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "387.354" cy = "40.000" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "383.029" cy = "70.417" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "296.340" cy = "40.000" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "388.636" cy = "49.040" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "295.058" cy = "40.000" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "389.918" cy = "40.000" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "293.776" cy = "40.000" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "391.200" cy = "40.000" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "292.494" cy = "40.000" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "342.488" cy = "313.897" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "392.482" cy = "40.000" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "360.566" cy = "117.510" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "291.212" cy = "40.000" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "393.764" cy = "40.000" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "289.930" cy = "40.000" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+<circle cx = "395.046" cy = "40.000" r = "3.333" fill = "#d8d8d8" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-opacity = "1.000" stroke-width = "0.500pt" />
+</g>
+</g>
+<g id = "ID000008" clip-path = "url(#ID000001)" >
+<g>
+      <polyline fill = "#000000" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "round" stroke = "#000000" stroke-width = "1.000pt" stroke-opacity = "1.000" stroke-dasharray = "none" points = "218.872,160.943 232.472,160.943 "/>
+      <polyline fill = "#000000" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "round" stroke = "#000000" stroke-width = "1.000pt" stroke-opacity = "1.000" stroke-dasharray = "none" points = "225.672,154.143 225.672,167.743 "/>
+      <polyline fill = "#000000" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "round" stroke = "#000000" stroke-width = "1.000pt" stroke-opacity = "1.000" stroke-dasharray = "none" points = "335.688,69.095 349.288,69.095 "/>
+      <polyline fill = "#000000" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "round" stroke = "#000000" stroke-width = "1.000pt" stroke-opacity = "1.000" stroke-dasharray = "none" points = "342.488,62.295 342.488,75.895 "/>
+</g>
+</g>
+<g id = "ID000009" clip-path = "url(#ID000001)" >
+      <polyline fill = "none" stroke-linecap = "square" stroke-linejoin = "round" stroke = "#000000" stroke-width = "1.000pt" stroke-dasharray = "none" stroke-opacity = "1.000" points = "225.672,155.705 225.672,166.182 "/>
+      <polyline fill = "none" stroke-linecap = "square" stroke-linejoin = "round" stroke = "#000000" stroke-width = "1.000pt" stroke-dasharray = "none" stroke-opacity = "1.000" points = "224.504,155.705 226.840,155.705 "/>
+      <polyline fill = "none" stroke-linecap = "square" stroke-linejoin = "round" stroke = "#000000" stroke-width = "1.000pt" stroke-dasharray = "none" stroke-opacity = "1.000" points = "224.504,166.182 226.840,166.182 "/>
+      <polyline fill = "none" stroke-linecap = "square" stroke-linejoin = "round" stroke = "#000000" stroke-width = "1.000pt" stroke-dasharray = "none" stroke-opacity = "1.000" points = "342.488,63.657 342.488,74.533 "/>
+      <polyline fill = "none" stroke-linecap = "square" stroke-linejoin = "round" stroke = "#000000" stroke-width = "1.000pt" stroke-dasharray = "none" stroke-opacity = "1.000" points = "341.320,63.657 343.656,63.657 "/>
+      <polyline fill = "none" stroke-linecap = "square" stroke-linejoin = "round" stroke = "#000000" stroke-width = "1.000pt" stroke-dasharray = "none" stroke-opacity = "1.000" points = "341.320,74.533 343.656,74.533 "/>
+</g>
+  <clipPath id = "ID000001">
+    <rect x = "85.493" y = "30.000" width = "482.509" height = "425.840"/>
+  </clipPath>
+    </g>
+    <g>
+      <polyline fill = "none" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "#262626" stroke-width = "1.000pt" stroke-dasharray = "none" stroke-opacity = "1.000" points = "225.672,455.840 225.672,464.157 "/>
+      <polyline fill = "none" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "#262626" stroke-width = "1.000pt" stroke-dasharray = "none" stroke-opacity = "1.000" points = "342.488,455.840 342.488,464.157 "/>
+      <polyline fill = "none" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "#262626" stroke-width = "1.000pt" stroke-dasharray = "none" stroke-opacity = "1.000" points = "85.493,455.840 482.667,455.840 "/>
+  <g transform = "translate(225.672,472.474)">
+    <g transform = "rotate(-0.000)">
+      <text x = "0.000" y = "0.9em" font-family = "Helvetica" text-anchor = "middle" dominant-baseline = "auto" font-size = "18.000pt" fill = "#262626"><tspan>in vivo</tspan></text>
+    </g>
+  </g>
+  <g transform = "translate(342.488,472.474)">
+    <g transform = "rotate(-0.000)">
+      <text x = "0.000" y = "0.9em" font-family = "Helvetica" text-anchor = "middle" dominant-baseline = "auto" font-size = "18.000pt" fill = "#262626"><tspan>in vitro</tspan></text>
+    </g>
+  </g>
+      <polyline fill = "none" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "#262626" stroke-width = "1.000pt" stroke-dasharray = "none" stroke-opacity = "1.000" points = "85.493,455.840 77.177,455.840 "/>
+      <polyline fill = "none" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "#262626" stroke-width = "1.000pt" stroke-dasharray = "none" stroke-opacity = "1.000" points = "85.493,372.672 77.177,372.672 "/>
+      <polyline fill = "none" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "#262626" stroke-width = "1.000pt" stroke-dasharray = "none" stroke-opacity = "1.000" points = "85.493,289.504 77.177,289.504 "/>
+      <polyline fill = "none" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "#262626" stroke-width = "1.000pt" stroke-dasharray = "none" stroke-opacity = "1.000" points = "85.493,206.336 77.177,206.336 "/>
+      <polyline fill = "none" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "#262626" stroke-width = "1.000pt" stroke-dasharray = "none" stroke-opacity = "1.000" points = "85.493,123.168 77.177,123.168 "/>
+      <polyline fill = "none" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "#262626" stroke-width = "1.000pt" stroke-dasharray = "none" stroke-opacity = "1.000" points = "85.493,40.000 77.177,40.000 "/>
+      <polyline fill = "none" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "#262626" stroke-width = "1.000pt" stroke-dasharray = "none" stroke-opacity = "1.000" points = "85.493,455.840 85.493,40.000 "/>
+  <g transform = "translate(69.606,455.840)">
+    <g transform = "rotate(-0.000)">
+      <text x = "0.000" y = "0.3em" font-family = "Helvetica" text-anchor = "end" dominant-baseline = "auto" font-size = "18.000pt" fill = "#262626"><tspan>0</tspan></text>
+    </g>
+  </g>
+  <g transform = "translate(69.606,372.672)">
+    <g transform = "rotate(-0.000)">
+      <text x = "0.000" y = "0.3em" font-family = "Helvetica" text-anchor = "end" dominant-baseline = "auto" font-size = "18.000pt" fill = "#262626"><tspan>0.2</tspan></text>
+    </g>
+  </g>
+  <g transform = "translate(69.606,289.504)">
+    <g transform = "rotate(-0.000)">
+      <text x = "0.000" y = "0.3em" font-family = "Helvetica" text-anchor = "end" dominant-baseline = "auto" font-size = "18.000pt" fill = "#262626"><tspan>0.4</tspan></text>
+    </g>
+  </g>
+  <g transform = "translate(69.606,206.336)">
+    <g transform = "rotate(-0.000)">
+      <text x = "0.000" y = "0.3em" font-family = "Helvetica" text-anchor = "end" dominant-baseline = "auto" font-size = "18.000pt" fill = "#262626"><tspan>0.6</tspan></text>
+    </g>
+  </g>
+  <g transform = "translate(69.606,123.168)">
+    <g transform = "rotate(-0.000)">
+      <text x = "0.000" y = "0.3em" font-family = "Helvetica" text-anchor = "end" dominant-baseline = "auto" font-size = "18.000pt" fill = "#262626"><tspan>0.8</tspan></text>
+    </g>
+  </g>
+  <g transform = "translate(69.606,40.000)">
+    <g transform = "rotate(-0.000)">
+      <text x = "0.000" y = "0.3em" font-family = "Helvetica" text-anchor = "end" dominant-baseline = "auto" font-size = "18.000pt" fill = "#262626"><tspan>1</tspan></text>
+    </g>
+  </g>
+      <polyline fill = "none" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "#262626" stroke-width = "1.000pt" stroke-dasharray = "none" stroke-opacity = "1.000" points = "85.493,455.840 85.493,455.840 "/>
+    </g>
+  </g>
+  </g>
+</svg>

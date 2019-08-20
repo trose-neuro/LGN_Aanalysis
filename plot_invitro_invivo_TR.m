@@ -11,6 +11,9 @@ end
 clearvars -except ana_ODI ana_contra ana_ipsi BaseMD_ODI_array data
 close all
 
+savedir = '/Users/trose/Documents/GitHub/LGN_Analysis/figures';
+savefig = 1;
+
 %% figure settings
 
 % Defaults for Cell press. 1 col: 85mm, 1.5 col: 114mm, 2col:174mm
@@ -95,20 +98,37 @@ temp2=ODI_NMDA_r_md;
 temp2(find(isnan(temp2)))=[];
 disc=discretize(temp2,[binsOD]);
 for i=1:bins
-    ANMDA_ODI_MD_fract(i)=(length(find(disc==i)))/length(temp2);
+    NMDA_ODI_MD_fract(i)=(length(find(disc==i)))/length(temp2);
 end
 disc=[];
 
 % figure
 n = 1;
 figure(n);
-fig(n).ImageDescription = 'AMPA ODI baseline';
+fig.ImageDescription = 'AMPA ODI baseline';
 
-cl = bar(binsODcentres,ANMDA_ODI_MD_fract,'barwidth', 1);
+cl = bar(binsODcentres,AMPA_ODI_MD_fract,'barwidth', 1, 'FaceColor', 'w','EdgeColor', 'k', 'LineWidth', fig.alw);
 set(cl, 'FaceColor', 'w', 'EdgeColor', 'k',  'LineWidth', fig.alw);
 xlim([-1 1]);
 set_fig_properties(n, fig);
-xlabel('ODI'); ylabel('fraction');
+xlabel('ODI AMPA'); ylabel('fraction');
+
+if savefig; fig2svg([savedir filesep 'fig' num2str(n) '.svg']); end
+
+% figure
+
+n = n + 1;
+figure(n);
+fig.ImageDescription = 'NMDA ODI baseline';
+
+cl = bar(binsODcentres,NMDA_ODI_MD_fract,'barwidth', 1, 'FaceColor', 'w','EdgeColor', 'k', 'LineWidth', fig.alw);
+set(cl, 'FaceColor', 'w', 'EdgeColor', 'k',  'LineWidth', fig.alw);
+xlim([-1 1]);
+set_fig_properties(n, fig);
+xlabel('ODI NMDA'); ylabel('fraction');
+
+if savefig; fig2svg([savedir filesep 'fig' num2str(n) '.svg']); end
+
 
 %% compare to in vivo ODIs
 
@@ -137,22 +157,24 @@ n = n + 1;
 figure(n);
 fig.ImageDescription = 'In Vivo ODI baseline';
 
-cl = bar(binsODcentres,Invivo_base_fract,'barwidth', 1);
-set(cl, 'FaceColor', 'w', 'EdgeColor', 'k', 'LineWidth', fig.alw);
+cl = bar(binsODcentres,Invivo_base_fract,'barwidth', 1, 'FaceColor', 'w','EdgeColor', 'k', 'LineWidth', fig.alw);
+
 xlim([-1 1]);
 xlabel('ODI'); ylabel('fraction');
 set_fig_properties(n, fig);
 
-%% MIs
+if savefig; fig2svg([savedir filesep 'fig' num2str(n) '.svg']); end
+
+
+%% MIs in vivo in vitro
 % figure
 n = n + 1;
 figure(n);
 fig.ImageDescription = 'MI comparison';
 
-cl = bar([mean(abs(BaseMD_ODI_array(:,1)))  mean(abs(ODI_AMPA_r))],'barwidth', .8); hold on;
+cl = bar([nanmean(abs(BaseMD_ODI_array(:,1)))  nanmean(abs(ODI_AMPA_r))],'barwidth', .8, 'FaceColor', 'w','EdgeColor', 'k', 'LineWidth', fig.alw); hold on;
 clp = plotSpread({abs(BaseMD_ODI_array(:,1)), abs(ODI_AMPA_r)}, 'ShowMM', 4);
 
-set(cl, 'FaceColor', 'w', 'EdgeColor', 'k', 'LineWidth', fig.alw);
 set(clp{1}, 'MarkerFaceColor', fig.markercol, 'MarkerEdgeColor', fig.markercol, 'MarkerSize', fig.markersz);
 set(clp{2}, 'MarkerFaceColor', 'k', 'MarkerEdgeColor', 'k', 'Color', 'k', 'LineWidth', fig.alw);
 
@@ -162,7 +184,35 @@ xlabel('MI'); ylabel('Monocularity (|ODI|)');
 
 set_fig_properties(n, fig);
 
+if savefig; fig2svg([savedir filesep 'fig' num2str(n) '.svg']); end
 
+
+
+%% muscimol ODI
+% figure
+n = n + 1;
+figure(n);
+fig.ImageDescription = 'MI comparison AMPA / NMDA';
+
+cl = plot([ones(size(ODI_AMPA_r))' ones(size(ODI_AMPA_r))'*2]', [abs(ODI_AMPA_r)' abs(ODI_NMDA_r)']','-o');
+clp = plotSpread({abs(ODI_AMPA_r), abs(ODI_NMDA_r)}, 'ShowMM', 4);
+
+delete(clp{1});
+
+set(cl, 'MarkerFaceColor', 'k', 'MarkerEdgeColor', 'k', 'MarkerSize', fig.markersz / 2, 'LineWidth', fig.alw, 'Color', fig.markercol);
+set(clp{2}, 'MarkerFaceColor', 'r', 'MarkerEdgeColor', 'r', 'Color', 'r', 'LineWidth', fig.alw * 2);
+
+set(gca,'xticklabel',{'AMPA', 'NMDA'});
+
+xlabel('in vitro'); ylabel('Monocularity (|ODI|)');
+
+set_fig_properties(n, fig);
+
+if savefig; fig2svg([savedir filesep 'fig' num2str(n) '.svg']); end
+
+Figure(n).p = signrank(ODI_AMPA_r, ODI_NMDA_r);
+Figure(n).test = 'Wilcoxon signed rank';
+Figure(n).ImageDescription = fig.ImageDescription;
 
 %% muscimol ODI
 % figure
@@ -170,10 +220,15 @@ n = n + 1;
 figure(n);
 fig.ImageDescription = 'MI comparison Muscimol';
 
+% cl = plot([ones(size(ana_ODI(:,1))) ones(size(ana_ODI(:,1)))*2]', [abs(ana_ODI(:,1)) abs(ana_ODI(:,2))]','-');
+
 cl = bar([nanmean(abs(ana_ODI(:,1))) nanmean(abs(ana_ODI(:,2)))],'barwidth', .8); hold on;
 clp = plotSpread({abs(ana_ODI(:,1)), abs(ana_ODI(:,2))}, 'ShowMM', 4);
 
+% delete(clp{1});
+% set(cl, 'MarkerFaceColor', 'k', 'MarkerEdgeColor', 'k', 'MarkerSize', fig.markersz / 2, 'LineWidth', fig.alw, 'Color', fig.markercol);
 set(cl, 'FaceColor', 'w', 'EdgeColor', 'k', 'LineWidth', fig.alw);
+
 set(clp{1}, 'MarkerFaceColor', fig.markercol, 'MarkerEdgeColor', fig.markercol, 'MarkerSize', fig.markersz);
 set(clp{2}, 'MarkerFaceColor', 'k', 'MarkerEdgeColor', 'k', 'Color', 'k', 'LineWidth', fig.alw);
 
@@ -183,6 +238,9 @@ xlabel('in vivo'); ylabel('Monocularity (|ODI|)');
 
 set_fig_properties(n, fig);
 
+Figure(n).p = ranksum(abs(ana_ODI(:,1)), abs(ana_ODI(:,2)));
+Figure(n).test = 'Mann-Whitney U-test';
+Figure(n).ImageDescription = fig.ImageDescription;
 
 %% muscimol AMP
 % figure
@@ -190,7 +248,7 @@ n = n + 1;
 figure(n);
 fig.ImageDescription = 'MI comparison Muscimol';
 
-cl = bar([nanmean(ana_contra) nanmean(ana_ipsi)],'barwidth', .8); hold on;
+cl = bar([nanmean(ana_contra) nanmean(ana_ipsi)],'barwidth', .8, 'FaceColor', 'w','EdgeColor', 'k', 'LineWidth', fig.alw); hold on;
 clp = plotSpread({ana_contra(:,1), ana_contra(:,2), ana_ipsi(:,1), ana_ipsi(:,2)}, 'ShowMM', 4);
 
 set(cl, 'FaceColor', 'w', 'EdgeColor', 'k', 'LineWidth', fig.alw);
@@ -202,6 +260,9 @@ delete(clp{1});
 set(gca,'xticklabel',{'contra', 'contra musc', 'ipsi', 'ipsi musc'});
 
 set_fig_properties(n, fig);
+
+if savefig; fig2svg([savedir filesep 'fig' num2str(n) '.svg']); end
+
 
 %% BINO fractions - ALL
 
@@ -229,4 +290,6 @@ N2 = size(ODI_AMPA_r_md(~isnan(ODI_AMPA_r_md)),2);
 
 %% in vivo Muscimol
 
+%% rearrange figures
+tilefigs([],0,[],[],[],[],[],2)
 
