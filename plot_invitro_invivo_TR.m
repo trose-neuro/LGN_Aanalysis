@@ -8,7 +8,7 @@ if reload
     load('/Users/trose/Documents/GitHub/LGN_Analysis/in vivo/ana_ODI_Musc.mat')
 end
 
-clearvars -except ana_ODI BaseMD_ODI_array data
+clearvars -except ana_ODI ana_contra ana_ipsi BaseMD_ODI_array data
 close all
 
 %% figure settings
@@ -100,13 +100,15 @@ end
 disc=[];
 
 % figure
-n = 1;figure(n);
+n = 1;
+figure(n);
 fig(n).ImageDescription = 'AMPA ODI baseline';
 
 cl = bar(binsODcentres,ANMDA_ODI_MD_fract,'barwidth', 1);
 set(cl, 'FaceColor', 'w', 'EdgeColor', 'k',  'LineWidth', fig.alw);
 xlim([-1 1]);
 set_fig_properties(n, fig);
+xlabel('ODI'); ylabel('fraction');
 
 %% compare to in vivo ODIs
 
@@ -131,18 +133,19 @@ end
 disc=[];
 
 % figure
-n = 2;
+n = n + 1;
 figure(n);
 fig.ImageDescription = 'In Vivo ODI baseline';
 
 cl = bar(binsODcentres,Invivo_base_fract,'barwidth', 1);
 set(cl, 'FaceColor', 'w', 'EdgeColor', 'k', 'LineWidth', fig.alw);
 xlim([-1 1]);
+xlabel('ODI'); ylabel('fraction');
 set_fig_properties(n, fig);
 
 %% MIs
 % figure
-n = 3;
+n = n + 1;
 figure(n);
 fig.ImageDescription = 'MI comparison';
 
@@ -153,11 +156,17 @@ set(cl, 'FaceColor', 'w', 'EdgeColor', 'k', 'LineWidth', fig.alw);
 set(clp{1}, 'MarkerFaceColor', fig.markercol, 'MarkerEdgeColor', fig.markercol, 'MarkerSize', fig.markersz);
 set(clp{2}, 'MarkerFaceColor', 'k', 'MarkerEdgeColor', 'k', 'Color', 'k', 'LineWidth', fig.alw);
 
+set(gca,'xticklabel',{'in vivo', 'in vitro'});
+
+xlabel('MI'); ylabel('Monocularity (|ODI|)');
+
 set_fig_properties(n, fig);
 
-% muscimol
+
+
+%% muscimol ODI
 % figure
-n = 4;
+n = n + 1;
 figure(n);
 fig.ImageDescription = 'MI comparison Muscimol';
 
@@ -167,6 +176,30 @@ clp = plotSpread({abs(ana_ODI(:,1)), abs(ana_ODI(:,2))}, 'ShowMM', 4);
 set(cl, 'FaceColor', 'w', 'EdgeColor', 'k', 'LineWidth', fig.alw);
 set(clp{1}, 'MarkerFaceColor', fig.markercol, 'MarkerEdgeColor', fig.markercol, 'MarkerSize', fig.markersz);
 set(clp{2}, 'MarkerFaceColor', 'k', 'MarkerEdgeColor', 'k', 'Color', 'k', 'LineWidth', fig.alw);
+
+set(gca,'xticklabel',{'control', 'muscimol'});
+
+xlabel('in vivo'); ylabel('Monocularity (|ODI|)');
+
+set_fig_properties(n, fig);
+
+
+%% muscimol AMP
+% figure
+n = n + 1;
+figure(n);
+fig.ImageDescription = 'MI comparison Muscimol';
+
+cl = bar([nanmean(ana_contra) nanmean(ana_ipsi)],'barwidth', .8); hold on;
+clp = plotSpread({ana_contra(:,1), ana_contra(:,2), ana_ipsi(:,1), ana_ipsi(:,2)}, 'ShowMM', 4);
+
+set(cl, 'FaceColor', 'w', 'EdgeColor', 'k', 'LineWidth', fig.alw);
+set(clp{1}, 'MarkerFaceColor', fig.markercol, 'MarkerEdgeColor', fig.markercol, 'MarkerSize', fig.markersz);
+set(clp{2}, 'MarkerFaceColor', 'k', 'MarkerEdgeColor', 'k', 'Color', 'k', 'LineWidth', fig.alw);
+
+delete(clp{1});
+
+set(gca,'xticklabel',{'contra', 'contra musc', 'ipsi', 'ipsi musc'});
 
 set_fig_properties(n, fig);
 
