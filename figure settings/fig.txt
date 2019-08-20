@@ -17,3 +17,13 @@ opengl software         % to get the axes on figures with transparency back!
 set(0,'DefaultAxesTickDir', 'out')
 set(0,'DefaultAxesFontSize', fig.fsz)
 set(0,'DefaultAxesTickLength', [0.02 0.025]);
+
+
+Fig3c.ImageDescription = 'Fraction responsive before and after muscimol';
+Fig3c.RespCriteria = 'Morphological there before & after muscimol';
+Fig3c.num_boutons = length(ovlpidx_groups);
+Fig3c.test = 'Chi2 test';
+Fig3c.p_Value = pval;
+Fig3c.stats = stats;
+saver.Fig3c = Fig3c;
+saveas(gcf,[saver.save_dir 'Fig3c'],'epsc')
