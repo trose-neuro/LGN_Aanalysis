@@ -1,6 +1,6 @@
 
 %% load data
-reload = 0;
+reload = 1;
 
 if reload
     load('/Users/trose/Documents/GitHub/LGN_Analysis/Full_Data.mat')
@@ -418,7 +418,7 @@ if savefig; fig2svg([savedir filesep 'fig' num2str(n) '.svg']); end
 %% Ipsi Contra Amplitudes
 
 %% rearrange figures
-tilefigs([],1,[],[],[],[],[],2)
+tilefigs([],0,[],[],[],[],[],2)
 
 
 view_tiff(control_peakramp_AMPA_traces(idxc,:))
