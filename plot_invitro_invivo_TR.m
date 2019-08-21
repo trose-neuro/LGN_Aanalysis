@@ -32,6 +32,9 @@ fig.coc_a = flipud(coc_a);
 fig.markercol = [0.85 0.85 0.85];
 fig.markersz = 15;
 
+fig.basecol = [0 0 0];
+fig.MDcol   = [.5 .5 .5];
+
 % opengl software         % to get the axes on figures with transparency back!
 set(0,'DefaultAxesTickDir', 'out')
 set(0,'DefaultAxesFontSize', fig.fsz)
@@ -49,13 +52,59 @@ cont=find([data(:).MD]==0);
 
 %% Data structure read out for Control and MD
 %Control
+control_peakramp_AMPA_traces = zeros(length(cont),1000);
+
 for i=1:length(cont)
     %Category read out
-    category(i)=data(cont(i)).ocular_category;
-    ODI_AMPA_r(i)=data(cont(i)).ODI_AMPA_step_peak;
-    ODI_NMDA_r(i)=data(cont(i)).ODI_NMDA_step_peak;
-    data_cont(i)=data(cont(i));
+    category(i)     = data(cont(i)).ocular_category;
+    ODI_AMPA_r(i)   = data(cont(i)).ODI_AMPA_step_peak;
+    ODI_NMDA_r(i)   = data(cont(i)).ODI_NMDA_step_peak;
+    data_cont(i)    = data(cont(i));
+    if strcmp(data(cont(i)).experimentator,'SW')
+        srF = 1;
+    else
+        srF = 2;
+    end
+    if data(cont(i)).brain_contra_ipsi %normal case. Contra Chrimson/Red
+        if length(data(cont(i)).step_red.steps_use_AMPA) == 1
+            Contra_AMPA_Amp(i)                  = abs(data(cont(i)).step_red.neg_peak1(2,data(cont(i)).step_red.steps_use_AMPA) ...
+                - data(cont(i)).step_red.neg_base_mean1(2,data(cont(i)).step_red.steps_use_AMPA) );
+            Ipsi_AMPA_Amp(i)                    = abs(data(cont(i)).step_blue.neg_peak2(2,data(cont(i)).step_red.steps_use_AMPA) ...
+                - data(cont(i)).step_blue.neg_base_mean2(2,data(cont(i)).step_red.steps_use_AMPA) );
+            
+            control_peakramp_AMPA_traces(i,:)   = data(cont(i)).step_red.ephys_traces_70(1:srF:end,data(cont(i)).step_red.steps_use_AMPA,2)';
+        else
+            Contra_AMPA_Amp(i)                  = 0;
+            Ipsi_AMPA_Amp(i)                    = nanmean(abs(data(cont(i)).step_blue.neg_peak2(2,data(cont(i)).step_red.steps_use_AMPA) ...
+                - data(cont(i)).step_blue.neg_base_mean2(2,data(cont(i)).step_red.steps_use_AMPA) ) );
+            control_peakramp_AMPA_traces(i,:)   = data(cont(i)).step_red.ephys_traces_70(1:srF:end,data(cont(i)).step_red.steps_use_AMPA(1),2)';
+        end
+    else                              %Contra Chronos / Blue
+        if length(data(cont(i)).step_red.steps_use_AMPA) == 1
+            Ipsi_AMPA_Amp(i)                  = abs(data(cont(i)).step_red.neg_peak1(2,data(cont(i)).step_red.steps_use_AMPA) ...
+                - data(cont(i)).step_red.neg_base_mean1(2,data(cont(i)).step_red.steps_use_AMPA) );
+            Contra_AMPA_Amp(i)                    = abs(data(cont(i)).step_blue.neg_peak2(2,data(cont(i)).step_red.steps_use_AMPA) ...
+                - data(cont(i)).step_blue.neg_base_mean2(2,data(cont(i)).step_red.steps_use_AMPA) );
+            
+            %             control_peakramp_AMPA_traces(i,:)   = data(cont(i)).step_red.ephys_traces_70(1:srF:end,data(cont(i)).step_red.steps_use_AMPA,2)';
+        else
+            Ipsi_AMPA_Amp(i)                  = 0;
+            Contra_AMPA_Amp(i)                    = nanmean(abs(data(cont(i)).step_blue.neg_peak2(2,data(cont(i)).step_red.steps_use_AMPA) ...
+                - data(cont(i)).step_blue.neg_base_mean2(2,data(cont(i)).step_red.steps_use_AMPA) ) );
+            %             control_peakramp_AMPA_traces(i,:)   = data(cont(i)).step_red.ephys_traces_70(1:srF:end,data(cont(i)).step_red.steps_use_AMPA(1),2)';
+            %             control_peakramp_AMPA_traces(i,:)   = data(cont(i)).step_red.ephys_traces_70(:,data(cont(i)).step_red.steps_use_AMPA(1),2)';
+        end
+    end
+    ODI_AMPA_cont_sanity(i)                  = ( Contra_AMPA_Amp(i) - Ipsi_AMPA_Amp(i) ) /  ( Contra_AMPA_Amp(i) + Ipsi_AMPA_Amp(i) );
 end
+
+ODI_AMPA_cont_sanity(ODI_AMPA_cont_sanity>1)  = 1;
+ODI_AMPA_cont_sanity(ODI_AMPA_cont_sanity<-1) = -1;
+
+[prsort idxc] = sort(ODI_AMPA_cont_sanity);
+
+% view_tiff(control_peakramp_AMPA_traces(idxc,:))
+
 %MD
 for i=1:length(md)
     %Category read out
@@ -63,7 +112,53 @@ for i=1:length(md)
     ODI_AMPA_r_md(i)=data(md(i)).ODI_AMPA_step_peak;
     ODI_NMDA_r_md(i)=data(md(i)).ODI_NMDA_step_peak;
     data_md(i)=data(md(i));
+    
+    if strcmp(data(md(i)).experimentator,'SW')
+        srF = 1;
+    else
+        srF = 2;
+    end
+    if data(md(i)).brain_contra_ipsi %normal case. Contra Chrimson/Red
+        if length(data(md(i)).step_red.steps_use_AMPA) == 1 & ~isnan((data(md(i)).step_red.steps_use_AMPA))
+            Contra_AMPA_Amp_MD(i)                  = abs(data(md(i)).step_red.neg_peak1(2,data(md(i)).step_red.steps_use_AMPA) ...
+                - data(md(i)).step_red.neg_base_mean1(2,data(md(i)).step_red.steps_use_AMPA) );
+            Ipsi_AMPA_Amp_MD(i)                    = abs(data(md(i)).step_blue.neg_peak2(2,data(md(i)).step_red.steps_use_AMPA) ...
+                - data(md(i)).step_blue.neg_base_mean2(2,data(md(i)).step_red.steps_use_AMPA) );
+            
+            MD_peakramp_AMPA_traces(i,:)   = data(md(i)).step_red.ephys_traces_70(1:srF:end,data(md(i)).step_red.steps_use_AMPA,2)';
+        elseif length(data(md(i)).step_red.steps_use_AMPA) > 1 & ~isnan((data(md(i)).step_red.steps_use_AMPA))
+            Contra_AMPA_Amp_MD(i)                  = 0;
+            Ipsi_AMPA_Amp_MD(i)                    = nanmean(abs(data(md(i)).step_blue.neg_peak2(2,data(md(i)).step_red.steps_use_AMPA) ...
+                - data(md(i)).step_blue.neg_base_mean2(2,data(md(i)).step_red.steps_use_AMPA) ) );
+            MD_peakramp_AMPA_traces(i,:)   = data(md(i)).step_red.ephys_traces_70(1:srF:end,data(md(i)).step_red.steps_use_AMPA(1),2)';
+        end
+    else                              %Contra Chronos / Blue
+        if length(data(md(i)).step_red.steps_use_AMPA) == 1 & ~isnan((data(md(i)).step_red.steps_use_AMPA))
+            Ipsi_AMPA_Amp_MD(i)                  = abs(data(md(i)).step_red.neg_peak1(2,data(md(i)).step_red.steps_use_AMPA) ...
+                - data(md(i)).step_red.neg_base_mean1(2,data(md(i)).step_red.steps_use_AMPA) );
+            Contra_AMPA_Amp_MD(i)                    = abs(data(md(i)).step_blue.neg_peak2(2,data(md(i)).step_red.steps_use_AMPA) ...
+                - data(md(i)).step_blue.neg_base_mean2(2,data(md(i)).step_red.steps_use_AMPA) );
+            
+            %             control_peakramp_AMPA_traces(i,:)   = data(md(i)).step_red.ephys_traces_70(1:srF:end,data(md(i)).step_red.steps_use_AMPA,2)';
+        elseif length(data(md(i)).step_red.steps_use_AMPA) > 1 & ~isnan((data(md(i)).step_red.steps_use_AMPA))
+            Ipsi_AMPA_Amp_MD(i)                  = 0;
+            Contra_AMPA_Amp_MD(i)                    = nanmean(abs(data(md(i)).step_blue.neg_peak2(2,data(md(i)).step_red.steps_use_AMPA) ...
+                - data(md(i)).step_blue.neg_base_mean2(2,data(md(i)).step_red.steps_use_AMPA) ) );
+            %             control_peakramp_AMPA_traces(i,:)   = data(md(i)).step_red.ephys_traces_70(1:srF:end,data(md(i)).step_red.steps_use_AMPA(1),2)';
+            %             control_peakramp_AMPA_traces(i,:)   = data(md(i)).step_red.ephys_traces_70(:,data(md(i)).step_red.steps_use_AMPA(1),2)';
+        end
+    end
+    if ~isnan((data(md(i)).step_red.steps_use_AMPA))
+        ODI_AMPA_MD_sanity(i)                  = ( Contra_AMPA_Amp_MD(i) - Ipsi_AMPA_Amp_MD(i) ) /  ( Contra_AMPA_Amp_MD(i) + Ipsi_AMPA_Amp_MD(i) );
+    end
 end
+
+
+ODI_AMPA_MD_sanity(ODI_AMPA_MD_sanity>1)  = 1;
+ODI_AMPA_MD_sanity(ODI_AMPA_MD_sanity<-1) = -1;
+
+[prsort idxm] = sort(ODI_AMPA_MD_sanity);
+
 
 %% CONTROL
 %AMPA fraction discretize
@@ -259,6 +354,8 @@ delete(clp{1});
 
 set(gca,'xticklabel',{'contra', 'contra musc', 'ipsi', 'ipsi musc'});
 
+xlabel('in vivo'); ylabel('\DeltaF/F_0');
+
 set_fig_properties(n, fig);
 
 if savefig; fig2svg([savedir filesep 'fig' num2str(n) '.svg']); end
@@ -288,8 +385,41 @@ N2 = size(ODI_AMPA_r_md(~isnan(ODI_AMPA_r_md)),2);
 
 [pval chi2stat tbl] = propstat(n1, N1, n2, N2);
 
-%% in vivo Muscimol
+%% bar graph for categories
+mincat = 1;
+maxcat = 5;
+
+ctidx = find([data(:).ocular_category] > mincat - 1 & [data(:).ocular_category] < maxcat + 1);
+[tbl,chi2,p,labels] = crosstab([data(ctidx).ocular_category]', [data(ctidx).MD]');
+
+%figure
+n = n + 1;
+figure(n);
+fig.ImageDescription = 'Category Comparison MD';
+
+cl = bar(tbl ./ sum(tbl) .* 100,'barwidth', 1.5 ,'EdgeColor', 'k', 'LineWidth', fig.alw); hold on;
+% set(gca,'xticklabel',{'contra', 'contra musc', 'ipsi', 'ipsi musc'});
+% cl(1).CData = repmat([0 0 0], size(cl(1).CData,1), 1);
+% cl(2).CData = repmat([1 1 1], size(cl(2).CData,1), 1);
+
+cl(1).FaceColor = fig.basecol;
+cl(2).FaceColor = fig.MDcol;
+
+set_fig_properties(n, fig);
+xlabel('Binocularity Categories'); ylabel('Fraction (%)');
+
+Figure(n).p = p;
+Figure(n).test = 'Crosstabulated Chi2';
+Figure(n).ImageDescription = fig.ImageDescription;
+
+
+if savefig; fig2svg([savedir filesep 'fig' num2str(n) '.svg']); end
+
+%% Ipsi Contra Amplitudes
 
 %% rearrange figures
-tilefigs([],0,[],[],[],[],[],2)
+tilefigs([],1,[],[],[],[],[],2)
 
+
+view_tiff(control_peakramp_AMPA_traces(idxc,:))
+view_tiff(MD_peakramp_AMPA_traces(idxm,:))
