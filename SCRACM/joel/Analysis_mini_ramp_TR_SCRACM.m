@@ -50,7 +50,7 @@ if analyze_mini==1 || analyze_ramp==1 || morpho==1 || scracm==1
     %     %%%%%%DIRECTORIES%%%%%%%
     rdata_dir         = 'I:\Martin Fernholz\LGN _Project_Common\RawData';%data directory of raw data;change accordingly
     %     adata_dir         = 'I:\Martin Fernholz\LGN _Project_Common\AnalyzedData';%data directory of extracted date;change accordingly
-    adata_dir         = 'D:\LGN project';%data directory of extracted date;change accordingly
+    adata_dir         = 'C:\temp\LGN project';%data directory of extracted date;change accordingly
     %     ExpXls            = 'I:\Martin Fernholz\LGN _Project_Common\dLGN_ephys_analysis_excel_spread_sheet\Experiments_dLGN_2019_testingSW.xlsx';%directory where excel batch file is located;change accordingly
     ExpXls            = 'I:\Martin Fernholz\LGN _Project_Common\dLGN_ephys_analysis_excel_spread_sheet\Experiments_dLGN_2019_tr_scracm_testing.xlsx';%directory where excel batch file is located;change accordingly
     
@@ -249,7 +249,7 @@ if analyze_mini==1 || analyze_ramp==1 || morpho==1 || scracm==1
 %                 figure;
 %                 subplot(1,2,1); h = imagesc(resp_maps.red_scracm_AMPA_mean); title('red'); set(h,'AlphaData',~isnan(resp_maps.red_scracm_AMPA_mean));
 %                 subplot(1,2,2); h = imagesc(resp_maps.blue_scracm_AMPA_mean); title('blue'); set(h,'AlphaData',~isnan(resp_maps.blue_scracm_AMPA_mean));
-                fileloc = 'D:\LGN project\scracm cell plots';
+                fileloc = 'C:\temp\LGN project\scracm cell plots';
                 saveas(gcf,[ fileloc '\' LGN(adder).patching_date(1:6) LGN(adder).experimentator num2str(n_str) '.png'])
                 
             end
