@@ -71,7 +71,7 @@ if analyze_mini==1 || analyze_ramp==1 || morpho==1 || scracm==1
     nummice           = length(batchopt.mouse);%length of experiments to be analyzed
     %%
     
-    
+    totfiles = 1
     adder=1;%counting variable
     for i=1:nummice%for loop over experiments across days
         datapath=fullfile(rdata_dir, batchopt.mouse{i}, filesep);%directory and name of experiments (from excel sheet)
@@ -100,10 +100,11 @@ if analyze_mini==1 || analyze_ramp==1 || morpho==1 || scracm==1
             %             end
             len=length(list);%number of xsg files per cell
             for j=1:len
+                allfiles{totfiles} = [char(exp_folder) filesep list(j).name];
                 load([char(exp_folder) filesep list(j).name],'-mat');%load each xsg file
                 iterations(:,j)=header.loopGui.loopGui.iterations;%find out whether mini or ramp recording
                 clamp(:,j)=mean(data.ephys.trace_1(1:100,:))<100;
-                
+                totfiles = totfiles +1;
             end
             
             ramp=find(iterations==11);%ramp recordings
