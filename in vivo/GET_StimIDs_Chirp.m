@@ -29,18 +29,6 @@ chirp_offsets_temp = find(diff(StimOn==1)<0);
 bino_onsets_temp  = [1 find(diff(bino==1)<0)];
 bino_offsets_temp  = find(diff(bino==1)>0);
  
-% Eye1On_only_onsets_temp  = find(diff(Eye1On_only==1)>0);
-% Eye1On_only_offsets_temp = find(diff(Eye1On_only==1)<0);
-% 
-% Eye2On_only_onsets_temp  = find(diff(Eye2On_only==1)>0);
-% Eye2On_only_offsets_temp = find(diff(Eye2On_only==1)<0);
-% 
-% Eye1On_only_onsets  = Eye1On_only_onsets_temp(find(Eye1On_only_offsets_temp - Eye1On_only_onsets_temp > minsample_delta));
-% Eye1On_only_offsets = Eye1On_only_offsets_temp(find(Eye1On_only_offsets_temp - Eye1On_only_onsets_temp > minsample_delta));
-% 
-% Eye2On_only_onsets  = Eye2On_only_onsets_temp(find(Eye2On_only_offsets_temp - Eye2On_only_onsets_temp > minsample_delta));
-% Eye2On_only_offsets = Eye2On_only_offsets_temp(find(Eye2On_only_offsets_temp - Eye2On_only_onsets_temp > minsample_delta));
-
 bino_onsets  = bino_onsets_temp(find(bino_offsets_temp - bino_onsets_temp > minsample_delta));
 bino_offsets = bino_offsets_temp(find(bino_offsets_temp - bino_onsets_temp > minsample_delta));
 
