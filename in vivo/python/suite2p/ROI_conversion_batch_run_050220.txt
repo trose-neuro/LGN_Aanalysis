@@ -1,0 +1,761 @@
+adata_s2ppath: I:\David Laubender\Data\imaging data\DL_191024_6\ImagingData\2019-12-01\suite2p_exp62282\suite2p\combined
+adata_roipath: I:\David Laubender\Data\imaging data\DL_191024_6\ImagingData\2019-12-01
+exp_work: 62282
+- - - - - - - -
+Processing exp62282
+- - - - - - - -
+100%|████████████████████████████████████████████████████████████████████████████████| 980/980 [02:06<00:00,  7.75it/s]
+Made directory (froot) I:\David Laubender\Data\imaging data\DL_191024_6\ImagingData\2019-12-01\Pixelmaps\exp62282\templates\ROIs
+Saved ML ROI file I:\David Laubender\Data\imaging data\DL_191024_6\ImagingData\2019-12-01\Pixelmaps\exp62282\templates\ROIs\ROIs2p.mat
+Saved ML adata file I:/David Laubender/Data/adata\DL_191024_6\2019-12-01\DL_191024_6-s2p_Adata-62282.mat
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191024_6\ImagingData\2019-12-01\Pixelmaps\exp62282\templates\DL_191024_6_2019-12-01_exp62282_s2p_avg_green.tif
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191024_6\ImagingData\2019-12-01\Pixelmaps\exp62282\templates\DL_191024_6_2019-12-01_exp62282_s2p_corr_green.tif
+- - - - - - - -
+Processing exp62283
+- - - - - - - -
+100%|██████████████████████████████████████████████████████████████████████████████| 1065/1065 [02:18<00:00,  7.71it/s]
+Made directory (froot) I:\David Laubender\Data\imaging data\DL_191024_6\ImagingData\2019-12-01\Pixelmaps\exp62283\templates\ROIs
+Saved ML ROI file I:\David Laubender\Data\imaging data\DL_191024_6\ImagingData\2019-12-01\Pixelmaps\exp62283\templates\ROIs\ROIs2p.mat
+Saved ML adata file I:/David Laubender/Data/adata\DL_191024_6\2019-12-01\DL_191024_6-s2p_Adata-62283.mat
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191024_6\ImagingData\2019-12-01\Pixelmaps\exp62283\templates\DL_191024_6_2019-12-01_exp62283_s2p_avg_green.tif
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191024_6\ImagingData\2019-12-01\Pixelmaps\exp62283\templates\DL_191024_6_2019-12-01_exp62283_s2p_corr_green.tif
+- - - - - - - -
+Processing exp62284
+- - - - - - - -
+100%|████████████████████████████████████████████████████████████████████████████████| 926/926 [01:59<00:00,  7.75it/s]
+Made directory (froot) I:\David Laubender\Data\imaging data\DL_191024_6\ImagingData\2019-12-01\Pixelmaps\exp62284\templates\ROIs
+Saved ML ROI file I:\David Laubender\Data\imaging data\DL_191024_6\ImagingData\2019-12-01\Pixelmaps\exp62284\templates\ROIs\ROIs2p.mat
+Saved ML adata file I:/David Laubender/Data/adata\DL_191024_6\2019-12-01\DL_191024_6-s2p_Adata-62284.mat
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191024_6\ImagingData\2019-12-01\Pixelmaps\exp62284\templates\DL_191024_6_2019-12-01_exp62284_s2p_avg_green.tif
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191024_6\ImagingData\2019-12-01\Pixelmaps\exp62284\templates\DL_191024_6_2019-12-01_exp62284_s2p_corr_green.tif
+- - - - - - - -
+Processing exp62285
+- - - - - - - -
+100%|████████████████████████████████████████████████████████████████████████████████| 668/668 [01:25<00:00,  7.80it/s]
+Made directory (froot) I:\David Laubender\Data\imaging data\DL_191024_6\ImagingData\2019-12-01\Pixelmaps\exp62285\templates\ROIs
+Saved ML ROI file I:\David Laubender\Data\imaging data\DL_191024_6\ImagingData\2019-12-01\Pixelmaps\exp62285\templates\ROIs\ROIs2p.mat
+Saved ML adata file I:/David Laubender/Data/adata\DL_191024_6\2019-12-01\DL_191024_6-s2p_Adata-62285.mat
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191024_6\ImagingData\2019-12-01\Pixelmaps\exp62285\templates\DL_191024_6_2019-12-01_exp62285_s2p_avg_green.tif
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191024_6\ImagingData\2019-12-01\Pixelmaps\exp62285\templates\DL_191024_6_2019-12-01_exp62285_s2p_corr_green.tif
+- - - - - - - -
+Processing exp62286
+- - - - - - - -
+100%|████████████████████████████████████████████████████████████████████████████████| 963/963 [02:02<00:00,  7.85it/s]
+Made directory (froot) I:\David Laubender\Data\imaging data\DL_191024_6\ImagingData\2019-12-01\Pixelmaps\exp62286\templates\ROIs
+Saved ML ROI file I:\David Laubender\Data\imaging data\DL_191024_6\ImagingData\2019-12-01\Pixelmaps\exp62286\templates\ROIs\ROIs2p.mat
+Saved ML adata file I:/David Laubender/Data/adata\DL_191024_6\2019-12-01\DL_191024_6-s2p_Adata-62286.mat
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191024_6\ImagingData\2019-12-01\Pixelmaps\exp62286\templates\DL_191024_6_2019-12-01_exp62286_s2p_avg_green.tif
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191024_6\ImagingData\2019-12-01\Pixelmaps\exp62286\templates\DL_191024_6_2019-12-01_exp62286_s2p_corr_green.tif
+- - - - - - - -
+Processing exp62287
+- - - - - - - -
+100%|████████████████████████████████████████████████████████████████████████████████| 703/703 [01:30<00:00,  7.78it/s]
+Made directory (froot) I:\David Laubender\Data\imaging data\DL_191024_6\ImagingData\2019-12-01\Pixelmaps\exp62287\templates\ROIs
+Saved ML ROI file I:\David Laubender\Data\imaging data\DL_191024_6\ImagingData\2019-12-01\Pixelmaps\exp62287\templates\ROIs\ROIs2p.mat
+Saved ML adata file I:/David Laubender/Data/adata\DL_191024_6\2019-12-01\DL_191024_6-s2p_Adata-62287.mat
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191024_6\ImagingData\2019-12-01\Pixelmaps\exp62287\templates\DL_191024_6_2019-12-01_exp62287_s2p_avg_green.tif
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191024_6\ImagingData\2019-12-01\Pixelmaps\exp62287\templates\DL_191024_6_2019-12-01_exp62287_s2p_corr_green.tif
+- - - - - - - -
+Processing exp62288
+- - - - - - - -
+100%|████████████████████████████████████████████████████████████████████████████████| 978/978 [02:05<00:00,  7.78it/s]
+Made directory (froot) I:\David Laubender\Data\imaging data\DL_191024_6\ImagingData\2019-12-04\Pixelmaps\exp62288\templates\ROIs
+Saved ML ROI file I:\David Laubender\Data\imaging data\DL_191024_6\ImagingData\2019-12-04\Pixelmaps\exp62288\templates\ROIs\ROIs2p.mat
+Saved ML adata file I:/David Laubender/Data/adata\DL_191024_6\2019-12-04\DL_191024_6-s2p_Adata-62288.mat
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191024_6\ImagingData\2019-12-04\Pixelmaps\exp62288\templates\DL_191024_6_2019-12-04_exp62288_s2p_avg_green.tif
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191024_6\ImagingData\2019-12-04\Pixelmaps\exp62288\templates\DL_191024_6_2019-12-04_exp62288_s2p_corr_green.tif
+- - - - - - - -
+Processing exp62289
+- - - - - - - -
+100%|██████████████████████████████████████████████████████████████████████████████| 1058/1058 [02:14<00:00,  7.84it/s]
+Made directory (froot) I:\David Laubender\Data\imaging data\DL_191024_6\ImagingData\2019-12-04\Pixelmaps\exp62289\templates\ROIs
+Saved ML ROI file I:\David Laubender\Data\imaging data\DL_191024_6\ImagingData\2019-12-04\Pixelmaps\exp62289\templates\ROIs\ROIs2p.mat
+Saved ML adata file I:/David Laubender/Data/adata\DL_191024_6\2019-12-04\DL_191024_6-s2p_Adata-62289.mat
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191024_6\ImagingData\2019-12-04\Pixelmaps\exp62289\templates\DL_191024_6_2019-12-04_exp62289_s2p_avg_green.tif
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191024_6\ImagingData\2019-12-04\Pixelmaps\exp62289\templates\DL_191024_6_2019-12-04_exp62289_s2p_corr_green.tif
+- - - - - - - -
+Processing exp62290
+- - - - - - - -
+100%|████████████████████████████████████████████████████████████████████████████████| 958/958 [02:05<00:00,  7.63it/s]
+Made directory (froot) I:\David Laubender\Data\imaging data\DL_191024_6\ImagingData\2019-12-04\Pixelmaps\exp62290\templates\ROIs
+Saved ML ROI file I:\David Laubender\Data\imaging data\DL_191024_6\ImagingData\2019-12-04\Pixelmaps\exp62290\templates\ROIs\ROIs2p.mat
+Saved ML adata file I:/David Laubender/Data/adata\DL_191024_6\2019-12-04\DL_191024_6-s2p_Adata-62290.mat
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191024_6\ImagingData\2019-12-04\Pixelmaps\exp62290\templates\DL_191024_6_2019-12-04_exp62290_s2p_avg_green.tif
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191024_6\ImagingData\2019-12-04\Pixelmaps\exp62290\templates\DL_191024_6_2019-12-04_exp62290_s2p_corr_green.tif
+- - - - - - - -
+Processing exp62291
+- - - - - - - -
+100%|████████████████████████████████████████████████████████████████████████████████| 614/614 [01:22<00:00,  7.44it/s]
+Made directory (froot) I:\David Laubender\Data\imaging data\DL_191024_6\ImagingData\2019-12-04\Pixelmaps\exp62291\templates\ROIs
+Saved ML ROI file I:\David Laubender\Data\imaging data\DL_191024_6\ImagingData\2019-12-04\Pixelmaps\exp62291\templates\ROIs\ROIs2p.mat
+Saved ML adata file I:/David Laubender/Data/adata\DL_191024_6\2019-12-04\DL_191024_6-s2p_Adata-62291.mat
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191024_6\ImagingData\2019-12-04\Pixelmaps\exp62291\templates\DL_191024_6_2019-12-04_exp62291_s2p_avg_green.tif
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191024_6\ImagingData\2019-12-04\Pixelmaps\exp62291\templates\DL_191024_6_2019-12-04_exp62291_s2p_corr_green.tif
+- - - - - - - -
+Processing exp62292
+- - - - - - - -
+100%|████████████████████████████████████████████████████████████████████████████████| 725/725 [01:34<00:00,  7.66it/s]
+Made directory (froot) I:\David Laubender\Data\imaging data\DL_191024_6\ImagingData\2019-12-04\Pixelmaps\exp62292\templates\ROIs
+Saved ML ROI file I:\David Laubender\Data\imaging data\DL_191024_6\ImagingData\2019-12-04\Pixelmaps\exp62292\templates\ROIs\ROIs2p.mat
+Saved ML adata file I:/David Laubender/Data/adata\DL_191024_6\2019-12-04\DL_191024_6-s2p_Adata-62292.mat
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191024_6\ImagingData\2019-12-04\Pixelmaps\exp62292\templates\DL_191024_6_2019-12-04_exp62292_s2p_avg_green.tif
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191024_6\ImagingData\2019-12-04\Pixelmaps\exp62292\templates\DL_191024_6_2019-12-04_exp62292_s2p_corr_green.tif
+- - - - - - - -
+Processing exp62293
+- - - - - - - -
+100%|████████████████████████████████████████████████████████████████████████████████| 635/635 [01:22<00:00,  7.71it/s]
+Made directory (froot) I:\David Laubender\Data\imaging data\DL_191024_6\ImagingData\2019-12-04\Pixelmaps\exp62293\templates\ROIs
+Saved ML ROI file I:\David Laubender\Data\imaging data\DL_191024_6\ImagingData\2019-12-04\Pixelmaps\exp62293\templates\ROIs\ROIs2p.mat
+Saved ML adata file I:/David Laubender/Data/adata\DL_191024_6\2019-12-04\DL_191024_6-s2p_Adata-62293.mat
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191024_6\ImagingData\2019-12-04\Pixelmaps\exp62293\templates\DL_191024_6_2019-12-04_exp62293_s2p_avg_green.tif
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191024_6\ImagingData\2019-12-04\Pixelmaps\exp62293\templates\DL_191024_6_2019-12-04_exp62293_s2p_corr_green.tif
+- - - - - - - -
+Processing exp62304
+- - - - - - - -
+100%|████████████████████████████████████████████████████████████████████████████████| 799/799 [01:42<00:00,  7.77it/s]
+Made directory (froot) I:\David Laubender\Data\imaging data\DL_191024_6\ImagingData\2019-12-08\Pixelmaps\exp62304\templates\ROIs
+Saved ML ROI file I:\David Laubender\Data\imaging data\DL_191024_6\ImagingData\2019-12-08\Pixelmaps\exp62304\templates\ROIs\ROIs2p.mat
+Saved ML adata file I:/David Laubender/Data/adata\DL_191024_6\2019-12-08\DL_191024_6-s2p_Adata-62304.mat
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191024_6\ImagingData\2019-12-08\Pixelmaps\exp62304\templates\DL_191024_6_2019-12-08_exp62304_s2p_avg_green.tif
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191024_6\ImagingData\2019-12-08\Pixelmaps\exp62304\templates\DL_191024_6_2019-12-08_exp62304_s2p_corr_green.tif
+- - - - - - - -
+Processing exp62305
+- - - - - - - -
+100%|████████████████████████████████████████████████████████████████████████████████| 738/738 [01:34<00:00,  7.77it/s]
+Made directory (froot) I:\David Laubender\Data\imaging data\DL_191024_6\ImagingData\2019-12-08\Pixelmaps\exp62305\templates\ROIs
+Saved ML ROI file I:\David Laubender\Data\imaging data\DL_191024_6\ImagingData\2019-12-08\Pixelmaps\exp62305\templates\ROIs\ROIs2p.mat
+Saved ML adata file I:/David Laubender/Data/adata\DL_191024_6\2019-12-08\DL_191024_6-s2p_Adata-62305.mat
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191024_6\ImagingData\2019-12-08\Pixelmaps\exp62305\templates\DL_191024_6_2019-12-08_exp62305_s2p_avg_green.tif
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191024_6\ImagingData\2019-12-08\Pixelmaps\exp62305\templates\DL_191024_6_2019-12-08_exp62305_s2p_corr_green.tif
+- - - - - - - -
+Processing exp62306
+- - - - - - - -
+100%|████████████████████████████████████████████████████████████████████████████████| 785/785 [01:42<00:00,  7.67it/s]
+Made directory (froot) I:\David Laubender\Data\imaging data\DL_191024_6\ImagingData\2019-12-08\Pixelmaps\exp62306\templates\ROIs
+Saved ML ROI file I:\David Laubender\Data\imaging data\DL_191024_6\ImagingData\2019-12-08\Pixelmaps\exp62306\templates\ROIs\ROIs2p.mat
+Saved ML adata file I:/David Laubender/Data/adata\DL_191024_6\2019-12-08\DL_191024_6-s2p_Adata-62306.mat
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191024_6\ImagingData\2019-12-08\Pixelmaps\exp62306\templates\DL_191024_6_2019-12-08_exp62306_s2p_avg_green.tif
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191024_6\ImagingData\2019-12-08\Pixelmaps\exp62306\templates\DL_191024_6_2019-12-08_exp62306_s2p_corr_green.tif
+- - - - - - - -
+Processing exp62307
+- - - - - - - -
+100%|██████████████████████████████████████████████████████████████████████████████| 1016/1016 [02:13<00:00,  7.59it/s]
+Made directory (froot) I:\David Laubender\Data\imaging data\DL_191024_6\ImagingData\2019-12-08\Pixelmaps\exp62307\templates\ROIs
+Saved ML ROI file I:\David Laubender\Data\imaging data\DL_191024_6\ImagingData\2019-12-08\Pixelmaps\exp62307\templates\ROIs\ROIs2p.mat
+Saved ML adata file I:/David Laubender/Data/adata\DL_191024_6\2019-12-08\DL_191024_6-s2p_Adata-62307.mat
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191024_6\ImagingData\2019-12-08\Pixelmaps\exp62307\templates\DL_191024_6_2019-12-08_exp62307_s2p_avg_green.tif
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191024_6\ImagingData\2019-12-08\Pixelmaps\exp62307\templates\DL_191024_6_2019-12-08_exp62307_s2p_corr_green.tif
+- - - - - - - -
+Processing exp62308
+- - - - - - - -
+100%|████████████████████████████████████████████████████████████████████████████████| 757/757 [01:44<00:00,  7.23it/s]
+Made directory (froot) I:\David Laubender\Data\imaging data\DL_191024_6\ImagingData\2019-12-08\Pixelmaps\exp62308\templates\ROIs
+Saved ML ROI file I:\David Laubender\Data\imaging data\DL_191024_6\ImagingData\2019-12-08\Pixelmaps\exp62308\templates\ROIs\ROIs2p.mat
+Saved ML adata file I:/David Laubender/Data/adata\DL_191024_6\2019-12-08\DL_191024_6-s2p_Adata-62308.mat
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191024_6\ImagingData\2019-12-08\Pixelmaps\exp62308\templates\DL_191024_6_2019-12-08_exp62308_s2p_avg_green.tif
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191024_6\ImagingData\2019-12-08\Pixelmaps\exp62308\templates\DL_191024_6_2019-12-08_exp62308_s2p_corr_green.tif
+- - - - - - - -
+Processing exp62309
+- - - - - - - -
+100%|████████████████████████████████████████████████████████████████████████████████| 617/617 [01:22<00:00,  7.50it/s]
+Made directory (froot) I:\David Laubender\Data\imaging data\DL_191024_6\ImagingData\2019-12-08\Pixelmaps\exp62309\templates\ROIs
+Saved ML ROI file I:\David Laubender\Data\imaging data\DL_191024_6\ImagingData\2019-12-08\Pixelmaps\exp62309\templates\ROIs\ROIs2p.mat
+Saved ML adata file I:/David Laubender/Data/adata\DL_191024_6\2019-12-08\DL_191024_6-s2p_Adata-62309.mat
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191024_6\ImagingData\2019-12-08\Pixelmaps\exp62309\templates\DL_191024_6_2019-12-08_exp62309_s2p_avg_green.tif
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191024_6\ImagingData\2019-12-08\Pixelmaps\exp62309\templates\DL_191024_6_2019-12-08_exp62309_s2p_corr_green.tif
+- - - - - - - -
+Processing exp62359
+- - - - - - - -
+100%|████████████████████████████████████████████████████████████████████████████████| 725/725 [01:35<00:00,  7.59it/s]
+Made directory (froot) I:\David Laubender\Data\imaging data\DL_191024_6\ImagingData\2019-12-18\Pixelmaps\exp62359\templates\ROIs
+Saved ML ROI file I:\David Laubender\Data\imaging data\DL_191024_6\ImagingData\2019-12-18\Pixelmaps\exp62359\templates\ROIs\ROIs2p.mat
+Saved ML adata file I:/David Laubender/Data/adata\DL_191024_6\2019-12-18\DL_191024_6-s2p_Adata-62359.mat
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191024_6\ImagingData\2019-12-18\Pixelmaps\exp62359\templates\DL_191024_6_2019-12-18_exp62359_s2p_avg_green.tif
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191024_6\ImagingData\2019-12-18\Pixelmaps\exp62359\templates\DL_191024_6_2019-12-18_exp62359_s2p_corr_green.tif
+- - - - - - - -
+Processing exp62360
+- - - - - - - -
+100%|████████████████████████████████████████████████████████████████████████████████| 720/720 [01:35<00:00,  7.54it/s]
+Made directory (froot) I:\David Laubender\Data\imaging data\DL_191024_6\ImagingData\2019-12-18\Pixelmaps\exp62360\templates\ROIs
+Saved ML ROI file I:\David Laubender\Data\imaging data\DL_191024_6\ImagingData\2019-12-18\Pixelmaps\exp62360\templates\ROIs\ROIs2p.mat
+Saved ML adata file I:/David Laubender/Data/adata\DL_191024_6\2019-12-18\DL_191024_6-s2p_Adata-62360.mat
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191024_6\ImagingData\2019-12-18\Pixelmaps\exp62360\templates\DL_191024_6_2019-12-18_exp62360_s2p_avg_green.tif
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191024_6\ImagingData\2019-12-18\Pixelmaps\exp62360\templates\DL_191024_6_2019-12-18_exp62360_s2p_corr_green.tif
+- - - - - - - -
+Processing exp62361
+- - - - - - - -
+100%|████████████████████████████████████████████████████████████████████████████████| 543/543 [01:11<00:00,  7.59it/s]
+Made directory (froot) I:\David Laubender\Data\imaging data\DL_191024_6\ImagingData\2019-12-18\Pixelmaps\exp62361\templates\ROIs
+Saved ML ROI file I:\David Laubender\Data\imaging data\DL_191024_6\ImagingData\2019-12-18\Pixelmaps\exp62361\templates\ROIs\ROIs2p.mat
+Saved ML adata file I:/David Laubender/Data/adata\DL_191024_6\2019-12-18\DL_191024_6-s2p_Adata-62361.mat
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191024_6\ImagingData\2019-12-18\Pixelmaps\exp62361\templates\DL_191024_6_2019-12-18_exp62361_s2p_avg_green.tif
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191024_6\ImagingData\2019-12-18\Pixelmaps\exp62361\templates\DL_191024_6_2019-12-18_exp62361_s2p_corr_green.tif
+- - - - - - - -
+Processing exp62362
+- - - - - - - -
+100%|████████████████████████████████████████████████████████████████████████████████| 542/542 [01:11<00:00,  7.57it/s]
+Made directory (froot) I:\David Laubender\Data\imaging data\DL_191024_6\ImagingData\2019-12-18\Pixelmaps\exp62362\templates\ROIs
+Saved ML ROI file I:\David Laubender\Data\imaging data\DL_191024_6\ImagingData\2019-12-18\Pixelmaps\exp62362\templates\ROIs\ROIs2p.mat
+Saved ML adata file I:/David Laubender/Data/adata\DL_191024_6\2019-12-18\DL_191024_6-s2p_Adata-62362.mat
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191024_6\ImagingData\2019-12-18\Pixelmaps\exp62362\templates\DL_191024_6_2019-12-18_exp62362_s2p_avg_green.tif
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191024_6\ImagingData\2019-12-18\Pixelmaps\exp62362\templates\DL_191024_6_2019-12-18_exp62362_s2p_corr_green.tif
+- - - - - - - -
+Processing exp62363
+- - - - - - - -
+100%|████████████████████████████████████████████████████████████████████████████████| 679/679 [01:27<00:00,  7.73it/s]
+Made directory (froot) I:\David Laubender\Data\imaging data\DL_191024_6\ImagingData\2019-12-18\Pixelmaps\exp62363\templates\ROIs
+Saved ML ROI file I:\David Laubender\Data\imaging data\DL_191024_6\ImagingData\2019-12-18\Pixelmaps\exp62363\templates\ROIs\ROIs2p.mat
+Saved ML adata file I:/David Laubender/Data/adata\DL_191024_6\2019-12-18\DL_191024_6-s2p_Adata-62363.mat
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191024_6\ImagingData\2019-12-18\Pixelmaps\exp62363\templates\DL_191024_6_2019-12-18_exp62363_s2p_avg_green.tif
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191024_6\ImagingData\2019-12-18\Pixelmaps\exp62363\templates\DL_191024_6_2019-12-18_exp62363_s2p_corr_green.tif
+- - - - - - - -
+Processing exp62364
+- - - - - - - -
+100%|████████████████████████████████████████████████████████████████████████████████| 463/463 [01:00<00:00,  7.62it/s]
+Made directory (froot) I:\David Laubender\Data\imaging data\DL_191024_6\ImagingData\2019-12-18\Pixelmaps\exp62364\templates\ROIs
+Saved ML ROI file I:\David Laubender\Data\imaging data\DL_191024_6\ImagingData\2019-12-18\Pixelmaps\exp62364\templates\ROIs\ROIs2p.mat
+Saved ML adata file I:/David Laubender/Data/adata\DL_191024_6\2019-12-18\DL_191024_6-s2p_Adata-62364.mat
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191024_6\ImagingData\2019-12-18\Pixelmaps\exp62364\templates\DL_191024_6_2019-12-18_exp62364_s2p_avg_green.tif
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191024_6\ImagingData\2019-12-18\Pixelmaps\exp62364\templates\DL_191024_6_2019-12-18_exp62364_s2p_corr_green.tif
+- - - - - - - -
+Processing exp62255
+- - - - - - - -
+100%|██████████████████████████████████████████████████████████████████████████████| 1037/1037 [02:16<00:00,  7.61it/s]
+Made directory (froot) I:\David Laubender\Data\imaging data\DL_191024_4\ImagingData\2019-11-26\Pixelmaps\exp62255\templates\ROIs
+Saved ML ROI file I:\David Laubender\Data\imaging data\DL_191024_4\ImagingData\2019-11-26\Pixelmaps\exp62255\templates\ROIs\ROIs2p.mat
+Saved ML adata file I:/David Laubender/Data/adata\DL_191024_4\2019-11-26\DL_191024_4-s2p_Adata-62255.mat
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191024_4\ImagingData\2019-11-26\Pixelmaps\exp62255\templates\DL_191024_4_2019-11-26_exp62255_s2p_avg_green.tif
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191024_4\ImagingData\2019-11-26\Pixelmaps\exp62255\templates\DL_191024_4_2019-11-26_exp62255_s2p_corr_green.tif
+- - - - - - - -
+Processing exp62256
+- - - - - - - -
+100%|██████████████████████████████████████████████████████████████████████████████| 1199/1199 [02:37<00:00,  7.61it/s]
+Made directory (froot) I:\David Laubender\Data\imaging data\DL_191024_4\ImagingData\2019-11-26\Pixelmaps\exp62256\templates\ROIs
+Saved ML ROI file I:\David Laubender\Data\imaging data\DL_191024_4\ImagingData\2019-11-26\Pixelmaps\exp62256\templates\ROIs\ROIs2p.mat
+Saved ML adata file I:/David Laubender/Data/adata\DL_191024_4\2019-11-26\DL_191024_4-s2p_Adata-62256.mat
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191024_4\ImagingData\2019-11-26\Pixelmaps\exp62256\templates\DL_191024_4_2019-11-26_exp62256_s2p_avg_green.tif
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191024_4\ImagingData\2019-11-26\Pixelmaps\exp62256\templates\DL_191024_4_2019-11-26_exp62256_s2p_corr_green.tif
+- - - - - - - -
+Processing exp62258
+- - - - - - - -
+100%|██████████████████████████████████████████████████████████████████████████████| 1207/1207 [02:40<00:00,  7.53it/s]
+Made directory (froot) I:\David Laubender\Data\imaging data\DL_191024_4\ImagingData\2019-11-26\Pixelmaps\exp62258\templates\ROIs
+Saved ML ROI file I:\David Laubender\Data\imaging data\DL_191024_4\ImagingData\2019-11-26\Pixelmaps\exp62258\templates\ROIs\ROIs2p.mat
+Saved ML adata file I:/David Laubender/Data/adata\DL_191024_4\2019-11-26\DL_191024_4-s2p_Adata-62258.mat
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191024_4\ImagingData\2019-11-26\Pixelmaps\exp62258\templates\DL_191024_4_2019-11-26_exp62258_s2p_avg_green.tif
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191024_4\ImagingData\2019-11-26\Pixelmaps\exp62258\templates\DL_191024_4_2019-11-26_exp62258_s2p_corr_green.tif
+- - - - - - - -
+Processing exp62259
+- - - - - - - -
+100%|██████████████████████████████████████████████████████████████████████████████| 1085/1085 [02:21<00:00,  7.69it/s]
+Made directory (froot) I:\David Laubender\Data\imaging data\DL_191024_4\ImagingData\2019-11-26\Pixelmaps\exp62259\templates\ROIs
+Saved ML ROI file I:\David Laubender\Data\imaging data\DL_191024_4\ImagingData\2019-11-26\Pixelmaps\exp62259\templates\ROIs\ROIs2p.mat
+Saved ML adata file I:/David Laubender/Data/adata\DL_191024_4\2019-11-26\DL_191024_4-s2p_Adata-62259.mat
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191024_4\ImagingData\2019-11-26\Pixelmaps\exp62259\templates\DL_191024_4_2019-11-26_exp62259_s2p_avg_green.tif
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191024_4\ImagingData\2019-11-26\Pixelmaps\exp62259\templates\DL_191024_4_2019-11-26_exp62259_s2p_corr_green.tif
+- - - - - - - -
+Processing exp62260
+- - - - - - - -
+100%|██████████████████████████████████████████████████████████████████████████████| 1070/1070 [02:20<00:00,  7.62it/s]
+Made directory (froot) I:\David Laubender\Data\imaging data\DL_191024_4\ImagingData\2019-11-26\Pixelmaps\exp62260\templates\ROIs
+Saved ML ROI file I:\David Laubender\Data\imaging data\DL_191024_4\ImagingData\2019-11-26\Pixelmaps\exp62260\templates\ROIs\ROIs2p.mat
+Saved ML adata file I:/David Laubender/Data/adata\DL_191024_4\2019-11-26\DL_191024_4-s2p_Adata-62260.mat
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191024_4\ImagingData\2019-11-26\Pixelmaps\exp62260\templates\DL_191024_4_2019-11-26_exp62260_s2p_avg_green.tif
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191024_4\ImagingData\2019-11-26\Pixelmaps\exp62260\templates\DL_191024_4_2019-11-26_exp62260_s2p_corr_green.tif
+- - - - - - - -
+Processing exp62261
+- - - - - - - -
+100%|██████████████████████████████████████████████████████████████████████████████| 1235/1235 [02:40<00:00,  7.68it/s]
+Made directory (froot) I:\David Laubender\Data\imaging data\DL_191024_4\ImagingData\2019-11-26\Pixelmaps\exp62261\templates\ROIs
+Saved ML ROI file I:\David Laubender\Data\imaging data\DL_191024_4\ImagingData\2019-11-26\Pixelmaps\exp62261\templates\ROIs\ROIs2p.mat
+Saved ML adata file I:/David Laubender/Data/adata\DL_191024_4\2019-11-26\DL_191024_4-s2p_Adata-62261.mat
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191024_4\ImagingData\2019-11-26\Pixelmaps\exp62261\templates\DL_191024_4_2019-11-26_exp62261_s2p_avg_green.tif
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191024_4\ImagingData\2019-11-26\Pixelmaps\exp62261\templates\DL_191024_4_2019-11-26_exp62261_s2p_corr_green.tif
+- - - - - - - -
+Processing exp62264
+- - - - - - - -
+100%|██████████████████████████████████████████████████████████████████████████████| 1093/1093 [02:22<00:00,  7.69it/s]
+Made directory (froot) I:\David Laubender\Data\imaging data\DL_191024_4\ImagingData\2019-11-29\Pixelmaps\exp62264\templates\ROIs
+Saved ML ROI file I:\David Laubender\Data\imaging data\DL_191024_4\ImagingData\2019-11-29\Pixelmaps\exp62264\templates\ROIs\ROIs2p.mat
+Saved ML adata file I:/David Laubender/Data/adata\DL_191024_4\2019-11-29\DL_191024_4-s2p_Adata-62264.mat
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191024_4\ImagingData\2019-11-29\Pixelmaps\exp62264\templates\DL_191024_4_2019-11-29_exp62264_s2p_avg_green.tif
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191024_4\ImagingData\2019-11-29\Pixelmaps\exp62264\templates\DL_191024_4_2019-11-29_exp62264_s2p_corr_green.tif
+- - - - - - - -
+Processing exp62265
+- - - - - - - -
+100%|██████████████████████████████████████████████████████████████████████████████| 1067/1067 [02:20<00:00,  7.62it/s]
+Made directory (froot) I:\David Laubender\Data\imaging data\DL_191024_4\ImagingData\2019-11-29\Pixelmaps\exp62265\templates\ROIs
+Saved ML ROI file I:\David Laubender\Data\imaging data\DL_191024_4\ImagingData\2019-11-29\Pixelmaps\exp62265\templates\ROIs\ROIs2p.mat
+Saved ML adata file I:/David Laubender/Data/adata\DL_191024_4\2019-11-29\DL_191024_4-s2p_Adata-62265.mat
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191024_4\ImagingData\2019-11-29\Pixelmaps\exp62265\templates\DL_191024_4_2019-11-29_exp62265_s2p_avg_green.tif
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191024_4\ImagingData\2019-11-29\Pixelmaps\exp62265\templates\DL_191024_4_2019-11-29_exp62265_s2p_corr_green.tif
+- - - - - - - -
+Processing exp62266
+- - - - - - - -
+100%|██████████████████████████████████████████████████████████████████████████████| 1180/1180 [02:33<00:00,  7.67it/s]
+Made directory (froot) I:\David Laubender\Data\imaging data\DL_191024_4\ImagingData\2019-11-29\Pixelmaps\exp62266\templates\ROIs
+Saved ML ROI file I:\David Laubender\Data\imaging data\DL_191024_4\ImagingData\2019-11-29\Pixelmaps\exp62266\templates\ROIs\ROIs2p.mat
+Saved ML adata file I:/David Laubender/Data/adata\DL_191024_4\2019-11-29\DL_191024_4-s2p_Adata-62266.mat
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191024_4\ImagingData\2019-11-29\Pixelmaps\exp62266\templates\DL_191024_4_2019-11-29_exp62266_s2p_avg_green.tif
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191024_4\ImagingData\2019-11-29\Pixelmaps\exp62266\templates\DL_191024_4_2019-11-29_exp62266_s2p_corr_green.tif
+- - - - - - - -
+Processing exp62267
+- - - - - - - -
+100%|████████████████████████████████████████████████████████████████████████████████| 491/491 [01:06<00:00,  7.42it/s]
+Made directory (froot) I:\David Laubender\Data\imaging data\DL_191024_4\ImagingData\2019-11-29\Pixelmaps\exp62267\templates\ROIs
+Saved ML ROI file I:\David Laubender\Data\imaging data\DL_191024_4\ImagingData\2019-11-29\Pixelmaps\exp62267\templates\ROIs\ROIs2p.mat
+Saved ML adata file I:/David Laubender/Data/adata\DL_191024_4\2019-11-29\DL_191024_4-s2p_Adata-62267.mat
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191024_4\ImagingData\2019-11-29\Pixelmaps\exp62267\templates\DL_191024_4_2019-11-29_exp62267_s2p_avg_green.tif
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191024_4\ImagingData\2019-11-29\Pixelmaps\exp62267\templates\DL_191024_4_2019-11-29_exp62267_s2p_corr_green.tif
+- - - - - - - -
+Processing exp62268
+- - - - - - - -
+100%|████████████████████████████████████████████████████████████████████████████████| 421/421 [00:55<00:00,  7.64it/s]
+Made directory (froot) I:\David Laubender\Data\imaging data\DL_191024_4\ImagingData\2019-11-29\Pixelmaps\exp62268\templates\ROIs
+Saved ML ROI file I:\David Laubender\Data\imaging data\DL_191024_4\ImagingData\2019-11-29\Pixelmaps\exp62268\templates\ROIs\ROIs2p.mat
+Saved ML adata file I:/David Laubender/Data/adata\DL_191024_4\2019-11-29\DL_191024_4-s2p_Adata-62268.mat
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191024_4\ImagingData\2019-11-29\Pixelmaps\exp62268\templates\DL_191024_4_2019-11-29_exp62268_s2p_avg_green.tif
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191024_4\ImagingData\2019-11-29\Pixelmaps\exp62268\templates\DL_191024_4_2019-11-29_exp62268_s2p_corr_green.tif
+- - - - - - - -
+Processing exp62269
+- - - - - - - -
+100%|████████████████████████████████████████████████████████████████████████████████| 503/503 [01:05<00:00,  7.64it/s]
+Made directory (froot) I:\David Laubender\Data\imaging data\DL_191024_4\ImagingData\2019-11-29\Pixelmaps\exp62269\templates\ROIs
+Saved ML ROI file I:\David Laubender\Data\imaging data\DL_191024_4\ImagingData\2019-11-29\Pixelmaps\exp62269\templates\ROIs\ROIs2p.mat
+Saved ML adata file I:/David Laubender/Data/adata\DL_191024_4\2019-11-29\DL_191024_4-s2p_Adata-62269.mat
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191024_4\ImagingData\2019-11-29\Pixelmaps\exp62269\templates\DL_191024_4_2019-11-29_exp62269_s2p_avg_green.tif
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191024_4\ImagingData\2019-11-29\Pixelmaps\exp62269\templates\DL_191024_4_2019-11-29_exp62269_s2p_corr_green.tif
+- - - - - - - -
+Processing exp62347
+- - - - - - - -
+100%|████████████████████████████████████████████████████████████████████████████████| 748/748 [01:38<00:00,  7.58it/s]
+Made directory (froot) I:\David Laubender\Data\imaging data\DL_191106_1\ImagingData\2019-12-16\Pixelmaps\exp62347\templates\ROIs
+Saved ML ROI file I:\David Laubender\Data\imaging data\DL_191106_1\ImagingData\2019-12-16\Pixelmaps\exp62347\templates\ROIs\ROIs2p.mat
+Saved ML adata file I:/David Laubender/Data/adata\DL_191106_1\2019-12-16\DL_191106_1-s2p_Adata-62347.mat
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191106_1\ImagingData\2019-12-16\Pixelmaps\exp62347\templates\DL_191106_1_2019-12-16_exp62347_s2p_avg_green.tif
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191106_1\ImagingData\2019-12-16\Pixelmaps\exp62347\templates\DL_191106_1_2019-12-16_exp62347_s2p_corr_green.tif
+- - - - - - - -
+Processing exp62348
+- - - - - - - -
+100%|████████████████████████████████████████████████████████████████████████████████| 944/944 [02:04<00:00,  7.58it/s]
+Made directory (froot) I:\David Laubender\Data\imaging data\DL_191106_1\ImagingData\2019-12-16\Pixelmaps\exp62348\templates\ROIs
+Saved ML ROI file I:\David Laubender\Data\imaging data\DL_191106_1\ImagingData\2019-12-16\Pixelmaps\exp62348\templates\ROIs\ROIs2p.mat
+Saved ML adata file I:/David Laubender/Data/adata\DL_191106_1\2019-12-16\DL_191106_1-s2p_Adata-62348.mat
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191106_1\ImagingData\2019-12-16\Pixelmaps\exp62348\templates\DL_191106_1_2019-12-16_exp62348_s2p_avg_green.tif
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191106_1\ImagingData\2019-12-16\Pixelmaps\exp62348\templates\DL_191106_1_2019-12-16_exp62348_s2p_corr_green.tif
+- - - - - - - -
+Processing exp62349
+- - - - - - - -
+100%|████████████████████████████████████████████████████████████████████████████████| 614/614 [01:20<00:00,  7.61it/s]
+Made directory (froot) I:\David Laubender\Data\imaging data\DL_191106_1\ImagingData\2019-12-16\Pixelmaps\exp62349\templates\ROIs
+Saved ML ROI file I:\David Laubender\Data\imaging data\DL_191106_1\ImagingData\2019-12-16\Pixelmaps\exp62349\templates\ROIs\ROIs2p.mat
+Saved ML adata file I:/David Laubender/Data/adata\DL_191106_1\2019-12-16\DL_191106_1-s2p_Adata-62349.mat
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191106_1\ImagingData\2019-12-16\Pixelmaps\exp62349\templates\DL_191106_1_2019-12-16_exp62349_s2p_avg_green.tif
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191106_1\ImagingData\2019-12-16\Pixelmaps\exp62349\templates\DL_191106_1_2019-12-16_exp62349_s2p_corr_green.tif
+- - - - - - - -
+Processing exp62350
+- - - - - - - -
+100%|████████████████████████████████████████████████████████████████████████████████| 254/254 [00:33<00:00,  7.63it/s]
+Made directory (froot) I:\David Laubender\Data\imaging data\DL_191106_1\ImagingData\2019-12-16\Pixelmaps\exp62350\templates\ROIs
+Saved ML ROI file I:\David Laubender\Data\imaging data\DL_191106_1\ImagingData\2019-12-16\Pixelmaps\exp62350\templates\ROIs\ROIs2p.mat
+Saved ML adata file I:/David Laubender/Data/adata\DL_191106_1\2019-12-16\DL_191106_1-s2p_Adata-62350.mat
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191106_1\ImagingData\2019-12-16\Pixelmaps\exp62350\templates\DL_191106_1_2019-12-16_exp62350_s2p_avg_green.tif
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191106_1\ImagingData\2019-12-16\Pixelmaps\exp62350\templates\DL_191106_1_2019-12-16_exp62350_s2p_corr_green.tif
+- - - - - - - -
+Processing exp62351
+- - - - - - - -
+100%|████████████████████████████████████████████████████████████████████████████████| 398/398 [00:52<00:00,  7.53it/s]
+Made directory (froot) I:\David Laubender\Data\imaging data\DL_191106_1\ImagingData\2019-12-16\Pixelmaps\exp62351\templates\ROIs
+Saved ML ROI file I:\David Laubender\Data\imaging data\DL_191106_1\ImagingData\2019-12-16\Pixelmaps\exp62351\templates\ROIs\ROIs2p.mat
+Saved ML adata file I:/David Laubender/Data/adata\DL_191106_1\2019-12-16\DL_191106_1-s2p_Adata-62351.mat
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191106_1\ImagingData\2019-12-16\Pixelmaps\exp62351\templates\DL_191106_1_2019-12-16_exp62351_s2p_avg_green.tif
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191106_1\ImagingData\2019-12-16\Pixelmaps\exp62351\templates\DL_191106_1_2019-12-16_exp62351_s2p_corr_green.tif
+- - - - - - - -
+Processing exp62352
+- - - - - - - -
+100%|████████████████████████████████████████████████████████████████████████████████| 239/239 [00:31<00:00,  7.63it/s]
+Made directory (froot) I:\David Laubender\Data\imaging data\DL_191106_1\ImagingData\2019-12-16\Pixelmaps\exp62352\templates\ROIs
+Saved ML ROI file I:\David Laubender\Data\imaging data\DL_191106_1\ImagingData\2019-12-16\Pixelmaps\exp62352\templates\ROIs\ROIs2p.mat
+Saved ML adata file I:/David Laubender/Data/adata\DL_191106_1\2019-12-16\DL_191106_1-s2p_Adata-62352.mat
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191106_1\ImagingData\2019-12-16\Pixelmaps\exp62352\templates\DL_191106_1_2019-12-16_exp62352_s2p_avg_green.tif
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191106_1\ImagingData\2019-12-16\Pixelmaps\exp62352\templates\DL_191106_1_2019-12-16_exp62352_s2p_corr_green.tif
+- - - - - - - -
+Processing exp62334
+- - - - - - - -
+100%|████████████████████████████████████████████████████████████████████████████████| 958/958 [02:05<00:00,  7.63it/s]
+Made directory (froot) I:\David Laubender\Data\imaging data\DL_191106_2\ImagingData\2019-12-14\Pixelmaps\exp62334\templates\ROIs
+Saved ML ROI file I:\David Laubender\Data\imaging data\DL_191106_2\ImagingData\2019-12-14\Pixelmaps\exp62334\templates\ROIs\ROIs2p.mat
+Saved ML adata file I:/David Laubender/Data/adata\DL_191106_2\2019-12-14\DL_191106_2-s2p_Adata-62334.mat
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191106_2\ImagingData\2019-12-14\Pixelmaps\exp62334\templates\DL_191106_2_2019-12-14_exp62334_s2p_avg_green.tif
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191106_2\ImagingData\2019-12-14\Pixelmaps\exp62334\templates\DL_191106_2_2019-12-14_exp62334_s2p_corr_green.tif
+- - - - - - - -
+Processing exp62335
+- - - - - - - -
+100%|██████████████████████████████████████████████████████████████████████████████| 1012/1012 [02:15<00:00,  7.44it/s]
+Made directory (froot) I:\David Laubender\Data\imaging data\DL_191106_2\ImagingData\2019-12-14\Pixelmaps\exp62335\templates\ROIs
+Saved ML ROI file I:\David Laubender\Data\imaging data\DL_191106_2\ImagingData\2019-12-14\Pixelmaps\exp62335\templates\ROIs\ROIs2p.mat
+Saved ML adata file I:/David Laubender/Data/adata\DL_191106_2\2019-12-14\DL_191106_2-s2p_Adata-62335.mat
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191106_2\ImagingData\2019-12-14\Pixelmaps\exp62335\templates\DL_191106_2_2019-12-14_exp62335_s2p_avg_green.tif
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191106_2\ImagingData\2019-12-14\Pixelmaps\exp62335\templates\DL_191106_2_2019-12-14_exp62335_s2p_corr_green.tif
+- - - - - - - -
+Processing exp62336
+- - - - - - - -
+100%|████████████████████████████████████████████████████████████████████████████████| 744/744 [01:38<00:00,  7.57it/s]
+Made directory (froot) I:\David Laubender\Data\imaging data\DL_191106_2\ImagingData\2019-12-14\Pixelmaps\exp62336\templates\ROIs
+Saved ML ROI file I:\David Laubender\Data\imaging data\DL_191106_2\ImagingData\2019-12-14\Pixelmaps\exp62336\templates\ROIs\ROIs2p.mat
+Saved ML adata file I:/David Laubender/Data/adata\DL_191106_2\2019-12-14\DL_191106_2-s2p_Adata-62336.mat
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191106_2\ImagingData\2019-12-14\Pixelmaps\exp62336\templates\DL_191106_2_2019-12-14_exp62336_s2p_avg_green.tif
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191106_2\ImagingData\2019-12-14\Pixelmaps\exp62336\templates\DL_191106_2_2019-12-14_exp62336_s2p_corr_green.tif
+- - - - - - - -
+Processing exp62337
+- - - - - - - -
+100%|████████████████████████████████████████████████████████████████████████████████| 454/454 [00:59<00:00,  7.61it/s]
+Made directory (froot) I:\David Laubender\Data\imaging data\DL_191106_2\ImagingData\2019-12-14\Pixelmaps\exp62337\templates\ROIs
+Saved ML ROI file I:\David Laubender\Data\imaging data\DL_191106_2\ImagingData\2019-12-14\Pixelmaps\exp62337\templates\ROIs\ROIs2p.mat
+Saved ML adata file I:/David Laubender/Data/adata\DL_191106_2\2019-12-14\DL_191106_2-s2p_Adata-62337.mat
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191106_2\ImagingData\2019-12-14\Pixelmaps\exp62337\templates\DL_191106_2_2019-12-14_exp62337_s2p_avg_green.tif
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191106_2\ImagingData\2019-12-14\Pixelmaps\exp62337\templates\DL_191106_2_2019-12-14_exp62337_s2p_corr_green.tif
+- - - - - - - -
+Processing exp62338
+- - - - - - - -
+100%|████████████████████████████████████████████████████████████████████████████████| 473/473 [01:02<00:00,  7.59it/s]
+Made directory (froot) I:\David Laubender\Data\imaging data\DL_191106_2\ImagingData\2019-12-14\Pixelmaps\exp62338\templates\ROIs
+Saved ML ROI file I:\David Laubender\Data\imaging data\DL_191106_2\ImagingData\2019-12-14\Pixelmaps\exp62338\templates\ROIs\ROIs2p.mat
+Saved ML adata file I:/David Laubender/Data/adata\DL_191106_2\2019-12-14\DL_191106_2-s2p_Adata-62338.mat
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191106_2\ImagingData\2019-12-14\Pixelmaps\exp62338\templates\DL_191106_2_2019-12-14_exp62338_s2p_avg_green.tif
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191106_2\ImagingData\2019-12-14\Pixelmaps\exp62338\templates\DL_191106_2_2019-12-14_exp62338_s2p_corr_green.tif
+- - - - - - - -
+Processing exp62339
+- - - - - - - -
+100%|████████████████████████████████████████████████████████████████████████████████| 414/414 [00:55<00:00,  7.41it/s]
+Made directory (froot) I:\David Laubender\Data\imaging data\DL_191106_2\ImagingData\2019-12-14\Pixelmaps\exp62339\templates\ROIs
+Saved ML ROI file I:\David Laubender\Data\imaging data\DL_191106_2\ImagingData\2019-12-14\Pixelmaps\exp62339\templates\ROIs\ROIs2p.mat
+Saved ML adata file I:/David Laubender/Data/adata\DL_191106_2\2019-12-14\DL_191106_2-s2p_Adata-62339.mat
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191106_2\ImagingData\2019-12-14\Pixelmaps\exp62339\templates\DL_191106_2_2019-12-14_exp62339_s2p_avg_green.tif
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191106_2\ImagingData\2019-12-14\Pixelmaps\exp62339\templates\DL_191106_2_2019-12-14_exp62339_s2p_corr_green.tif
+- - - - - - - -
+Processing exp62353
+- - - - - - - -
+100%|████████████████████████████████████████████████████████████████████████████████| 485/485 [01:05<00:00,  7.40it/s]
+Made directory (froot) I:\David Laubender\Data\imaging data\DL_191106_2\ImagingData\2019-12-17\Pixelmaps\exp62353\templates\ROIs
+Saved ML ROI file I:\David Laubender\Data\imaging data\DL_191106_2\ImagingData\2019-12-17\Pixelmaps\exp62353\templates\ROIs\ROIs2p.mat
+Saved ML adata file I:/David Laubender/Data/adata\DL_191106_2\2019-12-17\DL_191106_2-s2p_Adata-62353.mat
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191106_2\ImagingData\2019-12-17\Pixelmaps\exp62353\templates\DL_191106_2_2019-12-17_exp62353_s2p_avg_green.tif
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191106_2\ImagingData\2019-12-17\Pixelmaps\exp62353\templates\DL_191106_2_2019-12-17_exp62353_s2p_corr_green.tif
+- - - - - - - -
+Processing exp62354
+- - - - - - - -
+100%|████████████████████████████████████████████████████████████████████████████████| 578/578 [01:19<00:00,  7.28it/s]
+Made directory (froot) I:\David Laubender\Data\imaging data\DL_191106_2\ImagingData\2019-12-17\Pixelmaps\exp62354\templates\ROIs
+Saved ML ROI file I:\David Laubender\Data\imaging data\DL_191106_2\ImagingData\2019-12-17\Pixelmaps\exp62354\templates\ROIs\ROIs2p.mat
+Saved ML adata file I:/David Laubender/Data/adata\DL_191106_2\2019-12-17\DL_191106_2-s2p_Adata-62354.mat
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191106_2\ImagingData\2019-12-17\Pixelmaps\exp62354\templates\DL_191106_2_2019-12-17_exp62354_s2p_avg_green.tif
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191106_2\ImagingData\2019-12-17\Pixelmaps\exp62354\templates\DL_191106_2_2019-12-17_exp62354_s2p_corr_green.tif
+- - - - - - - -
+Processing exp62355
+- - - - - - - -
+100%|████████████████████████████████████████████████████████████████████████████████| 776/776 [01:43<00:00,  7.51it/s]
+Made directory (froot) I:\David Laubender\Data\imaging data\DL_191106_2\ImagingData\2019-12-17\Pixelmaps\exp62355\templates\ROIs
+Saved ML ROI file I:\David Laubender\Data\imaging data\DL_191106_2\ImagingData\2019-12-17\Pixelmaps\exp62355\templates\ROIs\ROIs2p.mat
+Saved ML adata file I:/David Laubender/Data/adata\DL_191106_2\2019-12-17\DL_191106_2-s2p_Adata-62355.mat
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191106_2\ImagingData\2019-12-17\Pixelmaps\exp62355\templates\DL_191106_2_2019-12-17_exp62355_s2p_avg_green.tif
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191106_2\ImagingData\2019-12-17\Pixelmaps\exp62355\templates\DL_191106_2_2019-12-17_exp62355_s2p_corr_green.tif
+- - - - - - - -
+Processing exp62356
+- - - - - - - -
+100%|████████████████████████████████████████████████████████████████████████████████| 910/910 [02:01<00:00,  7.52it/s]
+Made directory (froot) I:\David Laubender\Data\imaging data\DL_191106_2\ImagingData\2019-12-17\Pixelmaps\exp62356\templates\ROIs
+Saved ML ROI file I:\David Laubender\Data\imaging data\DL_191106_2\ImagingData\2019-12-17\Pixelmaps\exp62356\templates\ROIs\ROIs2p.mat
+Saved ML adata file I:/David Laubender/Data/adata\DL_191106_2\2019-12-17\DL_191106_2-s2p_Adata-62356.mat
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191106_2\ImagingData\2019-12-17\Pixelmaps\exp62356\templates\DL_191106_2_2019-12-17_exp62356_s2p_avg_green.tif
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191106_2\ImagingData\2019-12-17\Pixelmaps\exp62356\templates\DL_191106_2_2019-12-17_exp62356_s2p_corr_green.tif
+- - - - - - - -
+Processing exp62357
+- - - - - - - -
+100%|████████████████████████████████████████████████████████████████████████████████| 831/831 [01:49<00:00,  7.57it/s]
+Made directory (froot) I:\David Laubender\Data\imaging data\DL_191106_2\ImagingData\2019-12-17\Pixelmaps\exp62357\templates\ROIs
+Saved ML ROI file I:\David Laubender\Data\imaging data\DL_191106_2\ImagingData\2019-12-17\Pixelmaps\exp62357\templates\ROIs\ROIs2p.mat
+Saved ML adata file I:/David Laubender/Data/adata\DL_191106_2\2019-12-17\DL_191106_2-s2p_Adata-62357.mat
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191106_2\ImagingData\2019-12-17\Pixelmaps\exp62357\templates\DL_191106_2_2019-12-17_exp62357_s2p_avg_green.tif
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191106_2\ImagingData\2019-12-17\Pixelmaps\exp62357\templates\DL_191106_2_2019-12-17_exp62357_s2p_corr_green.tif
+- - - - - - - -
+Processing exp62358
+- - - - - - - -
+100%|████████████████████████████████████████████████████████████████████████████████| 527/527 [01:09<00:00,  7.53it/s]
+Made directory (froot) I:\David Laubender\Data\imaging data\DL_191106_2\ImagingData\2019-12-17\Pixelmaps\exp62358\templates\ROIs
+Saved ML ROI file I:\David Laubender\Data\imaging data\DL_191106_2\ImagingData\2019-12-17\Pixelmaps\exp62358\templates\ROIs\ROIs2p.mat
+Saved ML adata file I:/David Laubender/Data/adata\DL_191106_2\2019-12-17\DL_191106_2-s2p_Adata-62358.mat
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191106_2\ImagingData\2019-12-17\Pixelmaps\exp62358\templates\DL_191106_2_2019-12-17_exp62358_s2p_avg_green.tif
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191106_2\ImagingData\2019-12-17\Pixelmaps\exp62358\templates\DL_191106_2_2019-12-17_exp62358_s2p_corr_green.tif
+- - - - - - - -
+Processing exp62398
+- - - - - - - -
+100%|████████████████████████████████████████████████████████████████████████████████| 860/860 [01:53<00:00,  7.55it/s]
+Made directory (froot) I:\David Laubender\Data\imaging data\DL_191106_2\ImagingData\2020-01-22\Pixelmaps\exp62398\templates\ROIs
+Saved ML ROI file I:\David Laubender\Data\imaging data\DL_191106_2\ImagingData\2020-01-22\Pixelmaps\exp62398\templates\ROIs\ROIs2p.mat
+Saved ML adata file I:/David Laubender/Data/adata\DL_191106_2\2020-01-22\DL_191106_2-s2p_Adata-62398.mat
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191106_2\ImagingData\2020-01-22\Pixelmaps\exp62398\templates\DL_191106_2_2020-01-22_exp62398_s2p_avg_green.tif
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191106_2\ImagingData\2020-01-22\Pixelmaps\exp62398\templates\DL_191106_2_2020-01-22_exp62398_s2p_corr_green.tif
+- - - - - - - -
+Processing exp62399
+- - - - - - - -
+100%|████████████████████████████████████████████████████████████████████████████████| 793/793 [01:44<00:00,  7.57it/s]
+Made directory (froot) I:\David Laubender\Data\imaging data\DL_191106_2\ImagingData\2020-01-22\Pixelmaps\exp62399\templates\ROIs
+Saved ML ROI file I:\David Laubender\Data\imaging data\DL_191106_2\ImagingData\2020-01-22\Pixelmaps\exp62399\templates\ROIs\ROIs2p.mat
+Saved ML adata file I:/David Laubender/Data/adata\DL_191106_2\2020-01-22\DL_191106_2-s2p_Adata-62399.mat
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191106_2\ImagingData\2020-01-22\Pixelmaps\exp62399\templates\DL_191106_2_2020-01-22_exp62399_s2p_avg_green.tif
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191106_2\ImagingData\2020-01-22\Pixelmaps\exp62399\templates\DL_191106_2_2020-01-22_exp62399_s2p_corr_green.tif
+- - - - - - - -
+Processing exp62400
+- - - - - - - -
+100%|████████████████████████████████████████████████████████████████████████████████| 548/548 [01:12<00:00,  7.53it/s]
+Made directory (froot) I:\David Laubender\Data\imaging data\DL_191106_2\ImagingData\2020-01-22\Pixelmaps\exp62400\templates\ROIs
+Saved ML ROI file I:\David Laubender\Data\imaging data\DL_191106_2\ImagingData\2020-01-22\Pixelmaps\exp62400\templates\ROIs\ROIs2p.mat
+Saved ML adata file I:/David Laubender/Data/adata\DL_191106_2\2020-01-22\DL_191106_2-s2p_Adata-62400.mat
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191106_2\ImagingData\2020-01-22\Pixelmaps\exp62400\templates\DL_191106_2_2020-01-22_exp62400_s2p_avg_green.tif
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191106_2\ImagingData\2020-01-22\Pixelmaps\exp62400\templates\DL_191106_2_2020-01-22_exp62400_s2p_corr_green.tif
+- - - - - - - -
+Processing exp62401
+- - - - - - - -
+100%|████████████████████████████████████████████████████████████████████████████████| 547/547 [01:13<00:00,  7.49it/s]
+Made directory (froot) I:\David Laubender\Data\imaging data\DL_191106_2\ImagingData\2020-01-22\Pixelmaps\exp62401\templates\ROIs
+Saved ML ROI file I:\David Laubender\Data\imaging data\DL_191106_2\ImagingData\2020-01-22\Pixelmaps\exp62401\templates\ROIs\ROIs2p.mat
+Saved ML adata file I:/David Laubender/Data/adata\DL_191106_2\2020-01-22\DL_191106_2-s2p_Adata-62401.mat
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191106_2\ImagingData\2020-01-22\Pixelmaps\exp62401\templates\DL_191106_2_2020-01-22_exp62401_s2p_avg_green.tif
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191106_2\ImagingData\2020-01-22\Pixelmaps\exp62401\templates\DL_191106_2_2020-01-22_exp62401_s2p_corr_green.tif
+- - - - - - - -
+Processing exp62402
+- - - - - - - -
+100%|████████████████████████████████████████████████████████████████████████████████| 532/532 [01:10<00:00,  7.53it/s]
+Made directory (froot) I:\David Laubender\Data\imaging data\DL_191106_2\ImagingData\2020-01-22\Pixelmaps\exp62402\templates\ROIs
+Saved ML ROI file I:\David Laubender\Data\imaging data\DL_191106_2\ImagingData\2020-01-22\Pixelmaps\exp62402\templates\ROIs\ROIs2p.mat
+Saved ML adata file I:/David Laubender/Data/adata\DL_191106_2\2020-01-22\DL_191106_2-s2p_Adata-62402.mat
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191106_2\ImagingData\2020-01-22\Pixelmaps\exp62402\templates\DL_191106_2_2020-01-22_exp62402_s2p_avg_green.tif
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191106_2\ImagingData\2020-01-22\Pixelmaps\exp62402\templates\DL_191106_2_2020-01-22_exp62402_s2p_corr_green.tif
+- - - - - - - -
+Processing exp62403
+- - - - - - - -
+100%|████████████████████████████████████████████████████████████████████████████████| 291/291 [00:38<00:00,  7.51it/s]
+Made directory (froot) I:\David Laubender\Data\imaging data\DL_191106_2\ImagingData\2020-01-22\Pixelmaps\exp62403\templates\ROIs
+Saved ML ROI file I:\David Laubender\Data\imaging data\DL_191106_2\ImagingData\2020-01-22\Pixelmaps\exp62403\templates\ROIs\ROIs2p.mat
+Saved ML adata file I:/David Laubender/Data/adata\DL_191106_2\2020-01-22\DL_191106_2-s2p_Adata-62403.mat
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191106_2\ImagingData\2020-01-22\Pixelmaps\exp62403\templates\DL_191106_2_2020-01-22_exp62403_s2p_avg_green.tif
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191106_2\ImagingData\2020-01-22\Pixelmaps\exp62403\templates\DL_191106_2_2020-01-22_exp62403_s2p_corr_green.tif
+- - - - - - - -
+Processing exp62377
+- - - - - - - -
+100%|████████████████████████████████████████████████████████████████████████████████| 825/825 [01:51<00:00,  7.43it/s]
+Made directory (froot) I:\David Laubender\Data\imaging data\DL_191106_2\ImagingData\2019-12-21\Pixelmaps\exp62377\templates\ROIs
+Saved ML ROI file I:\David Laubender\Data\imaging data\DL_191106_2\ImagingData\2019-12-21\Pixelmaps\exp62377\templates\ROIs\ROIs2p.mat
+Saved ML adata file I:/David Laubender/Data/adata\DL_191106_2\2019-12-21\DL_191106_2-s2p_Adata-62377.mat
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191106_2\ImagingData\2019-12-21\Pixelmaps\exp62377\templates\DL_191106_2_2019-12-21_exp62377_s2p_avg_green.tif
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191106_2\ImagingData\2019-12-21\Pixelmaps\exp62377\templates\DL_191106_2_2019-12-21_exp62377_s2p_corr_green.tif
+- - - - - - - -
+Processing exp62378
+- - - - - - - -
+100%|████████████████████████████████████████████████████████████████████████████████| 684/684 [01:30<00:00,  7.53it/s]
+Made directory (froot) I:\David Laubender\Data\imaging data\DL_191106_2\ImagingData\2019-12-21\Pixelmaps\exp62378\templates\ROIs
+Saved ML ROI file I:\David Laubender\Data\imaging data\DL_191106_2\ImagingData\2019-12-21\Pixelmaps\exp62378\templates\ROIs\ROIs2p.mat
+Saved ML adata file I:/David Laubender/Data/adata\DL_191106_2\2019-12-21\DL_191106_2-s2p_Adata-62378.mat
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191106_2\ImagingData\2019-12-21\Pixelmaps\exp62378\templates\DL_191106_2_2019-12-21_exp62378_s2p_avg_green.tif
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191106_2\ImagingData\2019-12-21\Pixelmaps\exp62378\templates\DL_191106_2_2019-12-21_exp62378_s2p_corr_green.tif
+- - - - - - - -
+Processing exp62379
+- - - - - - - -
+100%|████████████████████████████████████████████████████████████████████████████████| 938/938 [02:07<00:00,  7.34it/s]
+Made directory (froot) I:\David Laubender\Data\imaging data\DL_191106_2\ImagingData\2019-12-21\Pixelmaps\exp62379\templates\ROIs
+Saved ML ROI file I:\David Laubender\Data\imaging data\DL_191106_2\ImagingData\2019-12-21\Pixelmaps\exp62379\templates\ROIs\ROIs2p.mat
+Saved ML adata file I:/David Laubender/Data/adata\DL_191106_2\2019-12-21\DL_191106_2-s2p_Adata-62379.mat
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191106_2\ImagingData\2019-12-21\Pixelmaps\exp62379\templates\DL_191106_2_2019-12-21_exp62379_s2p_avg_green.tif
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191106_2\ImagingData\2019-12-21\Pixelmaps\exp62379\templates\DL_191106_2_2019-12-21_exp62379_s2p_corr_green.tif
+- - - - - - - -
+Processing exp62380
+- - - - - - - -
+100%|████████████████████████████████████████████████████████████████████████████████| 384/384 [00:51<00:00,  7.52it/s]
+Made directory (froot) I:\David Laubender\Data\imaging data\DL_191106_2\ImagingData\2019-12-21\Pixelmaps\exp62380\templates\ROIs
+Saved ML ROI file I:\David Laubender\Data\imaging data\DL_191106_2\ImagingData\2019-12-21\Pixelmaps\exp62380\templates\ROIs\ROIs2p.mat
+Saved ML adata file I:/David Laubender/Data/adata\DL_191106_2\2019-12-21\DL_191106_2-s2p_Adata-62380.mat
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191106_2\ImagingData\2019-12-21\Pixelmaps\exp62380\templates\DL_191106_2_2019-12-21_exp62380_s2p_avg_green.tif
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191106_2\ImagingData\2019-12-21\Pixelmaps\exp62380\templates\DL_191106_2_2019-12-21_exp62380_s2p_corr_green.tif
+- - - - - - - -
+Processing exp62381
+- - - - - - - -
+100%|████████████████████████████████████████████████████████████████████████████████| 430/430 [00:56<00:00,  7.56it/s]
+Made directory (froot) I:\David Laubender\Data\imaging data\DL_191106_2\ImagingData\2019-12-21\Pixelmaps\exp62381\templates\ROIs
+Saved ML ROI file I:\David Laubender\Data\imaging data\DL_191106_2\ImagingData\2019-12-21\Pixelmaps\exp62381\templates\ROIs\ROIs2p.mat
+Saved ML adata file I:/David Laubender/Data/adata\DL_191106_2\2019-12-21\DL_191106_2-s2p_Adata-62381.mat
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191106_2\ImagingData\2019-12-21\Pixelmaps\exp62381\templates\DL_191106_2_2019-12-21_exp62381_s2p_avg_green.tif
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191106_2\ImagingData\2019-12-21\Pixelmaps\exp62381\templates\DL_191106_2_2019-12-21_exp62381_s2p_corr_green.tif
+- - - - - - - -
+Processing exp62382
+- - - - - - - -
+100%|████████████████████████████████████████████████████████████████████████████████| 278/278 [00:36<00:00,  7.56it/s]
+Made directory (froot) I:\David Laubender\Data\imaging data\DL_191106_2\ImagingData\2019-12-21\Pixelmaps\exp62382\templates\ROIs
+Saved ML ROI file I:\David Laubender\Data\imaging data\DL_191106_2\ImagingData\2019-12-21\Pixelmaps\exp62382\templates\ROIs\ROIs2p.mat
+Saved ML adata file I:/David Laubender/Data/adata\DL_191106_2\2019-12-21\DL_191106_2-s2p_Adata-62382.mat
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191106_2\ImagingData\2019-12-21\Pixelmaps\exp62382\templates\DL_191106_2_2019-12-21_exp62382_s2p_avg_green.tif
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191106_2\ImagingData\2019-12-21\Pixelmaps\exp62382\templates\DL_191106_2_2019-12-21_exp62382_s2p_corr_green.tif
+- - - - - - - -
+Processing exp62298
+- - - - - - - -
+100%|████████████████████████████████████████████████████████████████████████████████| 989/989 [02:10<00:00,  7.57it/s]
+Made directory (froot) I:\David Laubender\Data\imaging data\DL_191106_4\ImagingData\2019-12-07\Pixelmaps\exp62298\templates\ROIs
+Saved ML ROI file I:\David Laubender\Data\imaging data\DL_191106_4\ImagingData\2019-12-07\Pixelmaps\exp62298\templates\ROIs\ROIs2p.mat
+Saved ML adata file I:/David Laubender/Data/adata\DL_191106_4\2019-12-07\DL_191106_4-s2p_Adata-62298.mat
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191106_4\ImagingData\2019-12-07\Pixelmaps\exp62298\templates\DL_191106_4_2019-12-07_exp62298_s2p_avg_green.tif
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191106_4\ImagingData\2019-12-07\Pixelmaps\exp62298\templates\DL_191106_4_2019-12-07_exp62298_s2p_corr_green.tif
+- - - - - - - -
+Processing exp62299
+- - - - - - - -
+100%|██████████████████████████████████████████████████████████████████████████████| 1039/1039 [02:17<00:00,  7.54it/s]
+Made directory (froot) I:\David Laubender\Data\imaging data\DL_191106_4\ImagingData\2019-12-07\Pixelmaps\exp62299\templates\ROIs
+Saved ML ROI file I:\David Laubender\Data\imaging data\DL_191106_4\ImagingData\2019-12-07\Pixelmaps\exp62299\templates\ROIs\ROIs2p.mat
+Saved ML adata file I:/David Laubender/Data/adata\DL_191106_4\2019-12-07\DL_191106_4-s2p_Adata-62299.mat
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191106_4\ImagingData\2019-12-07\Pixelmaps\exp62299\templates\DL_191106_4_2019-12-07_exp62299_s2p_avg_green.tif
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191106_4\ImagingData\2019-12-07\Pixelmaps\exp62299\templates\DL_191106_4_2019-12-07_exp62299_s2p_corr_green.tif
+- - - - - - - -
+Processing exp62300
+- - - - - - - -
+100%|████████████████████████████████████████████████████████████████████████████████| 752/752 [01:40<00:00,  7.50it/s]
+Made directory (froot) I:\David Laubender\Data\imaging data\DL_191106_4\ImagingData\2019-12-07\Pixelmaps\exp62300\templates\ROIs
+Saved ML ROI file I:\David Laubender\Data\imaging data\DL_191106_4\ImagingData\2019-12-07\Pixelmaps\exp62300\templates\ROIs\ROIs2p.mat
+Saved ML adata file I:/David Laubender/Data/adata\DL_191106_4\2019-12-07\DL_191106_4-s2p_Adata-62300.mat
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191106_4\ImagingData\2019-12-07\Pixelmaps\exp62300\templates\DL_191106_4_2019-12-07_exp62300_s2p_avg_green.tif
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191106_4\ImagingData\2019-12-07\Pixelmaps\exp62300\templates\DL_191106_4_2019-12-07_exp62300_s2p_corr_green.tif
+- - - - - - - -
+Processing exp62301
+- - - - - - - -
+100%|████████████████████████████████████████████████████████████████████████████████| 498/498 [01:06<00:00,  7.52it/s]
+Made directory (froot) I:\David Laubender\Data\imaging data\DL_191106_4\ImagingData\2019-12-07\Pixelmaps\exp62301\templates\ROIs
+Saved ML ROI file I:\David Laubender\Data\imaging data\DL_191106_4\ImagingData\2019-12-07\Pixelmaps\exp62301\templates\ROIs\ROIs2p.mat
+Saved ML adata file I:/David Laubender/Data/adata\DL_191106_4\2019-12-07\DL_191106_4-s2p_Adata-62301.mat
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191106_4\ImagingData\2019-12-07\Pixelmaps\exp62301\templates\DL_191106_4_2019-12-07_exp62301_s2p_avg_green.tif
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191106_4\ImagingData\2019-12-07\Pixelmaps\exp62301\templates\DL_191106_4_2019-12-07_exp62301_s2p_corr_green.tif
+- - - - - - - -
+Processing exp62302
+- - - - - - - -
+100%|████████████████████████████████████████████████████████████████████████████████| 571/571 [01:15<00:00,  7.58it/s]
+Made directory (froot) I:\David Laubender\Data\imaging data\DL_191106_4\ImagingData\2019-12-07\Pixelmaps\exp62302\templates\ROIs
+Saved ML ROI file I:\David Laubender\Data\imaging data\DL_191106_4\ImagingData\2019-12-07\Pixelmaps\exp62302\templates\ROIs\ROIs2p.mat
+Saved ML adata file I:/David Laubender/Data/adata\DL_191106_4\2019-12-07\DL_191106_4-s2p_Adata-62302.mat
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191106_4\ImagingData\2019-12-07\Pixelmaps\exp62302\templates\DL_191106_4_2019-12-07_exp62302_s2p_avg_green.tif
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191106_4\ImagingData\2019-12-07\Pixelmaps\exp62302\templates\DL_191106_4_2019-12-07_exp62302_s2p_corr_green.tif
+- - - - - - - -
+Processing exp62303
+- - - - - - - -
+100%|████████████████████████████████████████████████████████████████████████████████| 521/521 [01:09<00:00,  7.55it/s]
+Made directory (froot) I:\David Laubender\Data\imaging data\DL_191106_4\ImagingData\2019-12-07\Pixelmaps\exp62303\templates\ROIs
+Saved ML ROI file I:\David Laubender\Data\imaging data\DL_191106_4\ImagingData\2019-12-07\Pixelmaps\exp62303\templates\ROIs\ROIs2p.mat
+Saved ML adata file I:/David Laubender/Data/adata\DL_191106_4\2019-12-07\DL_191106_4-s2p_Adata-62303.mat
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191106_4\ImagingData\2019-12-07\Pixelmaps\exp62303\templates\DL_191106_4_2019-12-07_exp62303_s2p_avg_green.tif
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191106_4\ImagingData\2019-12-07\Pixelmaps\exp62303\templates\DL_191106_4_2019-12-07_exp62303_s2p_corr_green.tif
+- - - - - - - -
+Processing exp62316
+- - - - - - - -
+100%|████████████████████████████████████████████████████████████████████████████████| 974/974 [02:09<00:00,  7.54it/s]
+Made directory (froot) I:\David Laubender\Data\imaging data\DL_191106_4\ImagingData\2019-12-10\Pixelmaps\exp62316\templates\ROIs
+Saved ML ROI file I:\David Laubender\Data\imaging data\DL_191106_4\ImagingData\2019-12-10\Pixelmaps\exp62316\templates\ROIs\ROIs2p.mat
+Saved ML adata file I:/David Laubender/Data/adata\DL_191106_4\2019-12-10\DL_191106_4-s2p_Adata-62316.mat
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191106_4\ImagingData\2019-12-10\Pixelmaps\exp62316\templates\DL_191106_4_2019-12-10_exp62316_s2p_avg_green.tif
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191106_4\ImagingData\2019-12-10\Pixelmaps\exp62316\templates\DL_191106_4_2019-12-10_exp62316_s2p_corr_green.tif
+- - - - - - - -
+Processing exp62317
+- - - - - - - -
+100%|██████████████████████████████████████████████████████████████████████████████| 1064/1064 [02:22<00:00,  7.48it/s]
+Made directory (froot) I:\David Laubender\Data\imaging data\DL_191106_4\ImagingData\2019-12-10\Pixelmaps\exp62317\templates\ROIs
+Saved ML ROI file I:\David Laubender\Data\imaging data\DL_191106_4\ImagingData\2019-12-10\Pixelmaps\exp62317\templates\ROIs\ROIs2p.mat
+Saved ML adata file I:/David Laubender/Data/adata\DL_191106_4\2019-12-10\DL_191106_4-s2p_Adata-62317.mat
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191106_4\ImagingData\2019-12-10\Pixelmaps\exp62317\templates\DL_191106_4_2019-12-10_exp62317_s2p_avg_green.tif
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191106_4\ImagingData\2019-12-10\Pixelmaps\exp62317\templates\DL_191106_4_2019-12-10_exp62317_s2p_corr_green.tif
+- - - - - - - -
+Processing exp62318
+- - - - - - - -
+100%|████████████████████████████████████████████████████████████████████████████████| 842/842 [01:52<00:00,  7.49it/s]
+Made directory (froot) I:\David Laubender\Data\imaging data\DL_191106_4\ImagingData\2019-12-10\Pixelmaps\exp62318\templates\ROIs
+Saved ML ROI file I:\David Laubender\Data\imaging data\DL_191106_4\ImagingData\2019-12-10\Pixelmaps\exp62318\templates\ROIs\ROIs2p.mat
+Saved ML adata file I:/David Laubender/Data/adata\DL_191106_4\2019-12-10\DL_191106_4-s2p_Adata-62318.mat
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191106_4\ImagingData\2019-12-10\Pixelmaps\exp62318\templates\DL_191106_4_2019-12-10_exp62318_s2p_avg_green.tif
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191106_4\ImagingData\2019-12-10\Pixelmaps\exp62318\templates\DL_191106_4_2019-12-10_exp62318_s2p_corr_green.tif
+- - - - - - - -
+Processing exp62319
+- - - - - - - -
+100%|████████████████████████████████████████████████████████████████████████████████| 557/557 [01:14<00:00,  7.48it/s]
+Made directory (froot) I:\David Laubender\Data\imaging data\DL_191106_4\ImagingData\2019-12-10\Pixelmaps\exp62319\templates\ROIs
+Saved ML ROI file I:\David Laubender\Data\imaging data\DL_191106_4\ImagingData\2019-12-10\Pixelmaps\exp62319\templates\ROIs\ROIs2p.mat
+Saved ML adata file I:/David Laubender/Data/adata\DL_191106_4\2019-12-10\DL_191106_4-s2p_Adata-62319.mat
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191106_4\ImagingData\2019-12-10\Pixelmaps\exp62319\templates\DL_191106_4_2019-12-10_exp62319_s2p_avg_green.tif
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191106_4\ImagingData\2019-12-10\Pixelmaps\exp62319\templates\DL_191106_4_2019-12-10_exp62319_s2p_corr_green.tif
+- - - - - - - -
+Processing exp62320
+- - - - - - - -
+100%|████████████████████████████████████████████████████████████████████████████████| 484/484 [01:04<00:00,  7.49it/s]
+Made directory (froot) I:\David Laubender\Data\imaging data\DL_191106_4\ImagingData\2019-12-10\Pixelmaps\exp62320\templates\ROIs
+Saved ML ROI file I:\David Laubender\Data\imaging data\DL_191106_4\ImagingData\2019-12-10\Pixelmaps\exp62320\templates\ROIs\ROIs2p.mat
+Saved ML adata file I:/David Laubender/Data/adata\DL_191106_4\2019-12-10\DL_191106_4-s2p_Adata-62320.mat
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191106_4\ImagingData\2019-12-10\Pixelmaps\exp62320\templates\DL_191106_4_2019-12-10_exp62320_s2p_avg_green.tif
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191106_4\ImagingData\2019-12-10\Pixelmaps\exp62320\templates\DL_191106_4_2019-12-10_exp62320_s2p_corr_green.tif
+- - - - - - - -
+Processing exp62321
+- - - - - - - -
+100%|████████████████████████████████████████████████████████████████████████████████| 371/371 [00:49<00:00,  7.47it/s]
+Made directory (froot) I:\David Laubender\Data\imaging data\DL_191106_4\ImagingData\2019-12-10\Pixelmaps\exp62321\templates\ROIs
+Saved ML ROI file I:\David Laubender\Data\imaging data\DL_191106_4\ImagingData\2019-12-10\Pixelmaps\exp62321\templates\ROIs\ROIs2p.mat
+Saved ML adata file I:/David Laubender/Data/adata\DL_191106_4\2019-12-10\DL_191106_4-s2p_Adata-62321.mat
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191106_4\ImagingData\2019-12-10\Pixelmaps\exp62321\templates\DL_191106_4_2019-12-10_exp62321_s2p_avg_green.tif
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191106_4\ImagingData\2019-12-10\Pixelmaps\exp62321\templates\DL_191106_4_2019-12-10_exp62321_s2p_corr_green.tif
+- - - - - - - -
+Processing exp62365
+- - - - - - - -
+100%|████████████████████████████████████████████████████████████████████████████████| 465/465 [01:01<00:00,  7.53it/s]
+Made directory (froot) I:\David Laubender\Data\imaging data\DL_191106_4\ImagingData\2019-12-19\Pixelmaps\exp62365\templates\ROIs
+Saved ML ROI file I:\David Laubender\Data\imaging data\DL_191106_4\ImagingData\2019-12-19\Pixelmaps\exp62365\templates\ROIs\ROIs2p.mat
+Saved ML adata file I:/David Laubender/Data/adata\DL_191106_4\2019-12-19\DL_191106_4-s2p_Adata-62365.mat
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191106_4\ImagingData\2019-12-19\Pixelmaps\exp62365\templates\DL_191106_4_2019-12-19_exp62365_s2p_avg_green.tif
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191106_4\ImagingData\2019-12-19\Pixelmaps\exp62365\templates\DL_191106_4_2019-12-19_exp62365_s2p_corr_green.tif
+- - - - - - - -
+Processing exp62366
+- - - - - - - -
+100%|████████████████████████████████████████████████████████████████████████████████| 482/482 [01:04<00:00,  7.50it/s]
+Made directory (froot) I:\David Laubender\Data\imaging data\DL_191106_4\ImagingData\2019-12-19\Pixelmaps\exp62366\templates\ROIs
+Saved ML ROI file I:\David Laubender\Data\imaging data\DL_191106_4\ImagingData\2019-12-19\Pixelmaps\exp62366\templates\ROIs\ROIs2p.mat
+Saved ML adata file I:/David Laubender/Data/adata\DL_191106_4\2019-12-19\DL_191106_4-s2p_Adata-62366.mat
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191106_4\ImagingData\2019-12-19\Pixelmaps\exp62366\templates\DL_191106_4_2019-12-19_exp62366_s2p_avg_green.tif
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191106_4\ImagingData\2019-12-19\Pixelmaps\exp62366\templates\DL_191106_4_2019-12-19_exp62366_s2p_corr_green.tif
+- - - - - - - -
+Processing exp62367
+- - - - - - - -
+100%|████████████████████████████████████████████████████████████████████████████████| 361/361 [00:48<00:00,  7.46it/s]
+Made directory (froot) I:\David Laubender\Data\imaging data\DL_191106_4\ImagingData\2019-12-19\Pixelmaps\exp62367\templates\ROIs
+Saved ML ROI file I:\David Laubender\Data\imaging data\DL_191106_4\ImagingData\2019-12-19\Pixelmaps\exp62367\templates\ROIs\ROIs2p.mat
+Saved ML adata file I:/David Laubender/Data/adata\DL_191106_4\2019-12-19\DL_191106_4-s2p_Adata-62367.mat
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191106_4\ImagingData\2019-12-19\Pixelmaps\exp62367\templates\DL_191106_4_2019-12-19_exp62367_s2p_avg_green.tif
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191106_4\ImagingData\2019-12-19\Pixelmaps\exp62367\templates\DL_191106_4_2019-12-19_exp62367_s2p_corr_green.tif
+- - - - - - - -
+Processing exp62368
+- - - - - - - -
+100%|████████████████████████████████████████████████████████████████████████████████| 449/449 [01:00<00:00,  7.40it/s]
+Made directory (froot) I:\David Laubender\Data\imaging data\DL_191106_4\ImagingData\2019-12-19\Pixelmaps\exp62368\templates\ROIs
+Saved ML ROI file I:\David Laubender\Data\imaging data\DL_191106_4\ImagingData\2019-12-19\Pixelmaps\exp62368\templates\ROIs\ROIs2p.mat
+Saved ML adata file I:/David Laubender/Data/adata\DL_191106_4\2019-12-19\DL_191106_4-s2p_Adata-62368.mat
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191106_4\ImagingData\2019-12-19\Pixelmaps\exp62368\templates\DL_191106_4_2019-12-19_exp62368_s2p_avg_green.tif
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191106_4\ImagingData\2019-12-19\Pixelmaps\exp62368\templates\DL_191106_4_2019-12-19_exp62368_s2p_corr_green.tif
+- - - - - - - -
+Processing exp62369
+- - - - - - - -
+100%|████████████████████████████████████████████████████████████████████████████████| 611/611 [01:20<00:00,  7.55it/s]
+Made directory (froot) I:\David Laubender\Data\imaging data\DL_191106_4\ImagingData\2019-12-19\Pixelmaps\exp62369\templates\ROIs
+Saved ML ROI file I:\David Laubender\Data\imaging data\DL_191106_4\ImagingData\2019-12-19\Pixelmaps\exp62369\templates\ROIs\ROIs2p.mat
+Saved ML adata file I:/David Laubender/Data/adata\DL_191106_4\2019-12-19\DL_191106_4-s2p_Adata-62369.mat
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191106_4\ImagingData\2019-12-19\Pixelmaps\exp62369\templates\DL_191106_4_2019-12-19_exp62369_s2p_avg_green.tif
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191106_4\ImagingData\2019-12-19\Pixelmaps\exp62369\templates\DL_191106_4_2019-12-19_exp62369_s2p_corr_green.tif
+- - - - - - - -
+Processing exp62370
+- - - - - - - -
+100%|████████████████████████████████████████████████████████████████████████████████| 362/362 [00:48<00:00,  7.46it/s]
+Made directory (froot) I:\David Laubender\Data\imaging data\DL_191106_4\ImagingData\2019-12-19\Pixelmaps\exp62370\templates\ROIs
+Saved ML ROI file I:\David Laubender\Data\imaging data\DL_191106_4\ImagingData\2019-12-19\Pixelmaps\exp62370\templates\ROIs\ROIs2p.mat
+Saved ML adata file I:/David Laubender/Data/adata\DL_191106_4\2019-12-19\DL_191106_4-s2p_Adata-62370.mat
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191106_4\ImagingData\2019-12-19\Pixelmaps\exp62370\templates\DL_191106_4_2019-12-19_exp62370_s2p_avg_green.tif
+Saved template tiff I:\David Laubender\Data\imaging data\DL_191106_4\ImagingData\2019-12-19\Pixelmaps\exp62370\templates\DL_191106_4_2019-12-19_exp62370_s2p_corr_green.tif
+- - - - - - - -
+Done
