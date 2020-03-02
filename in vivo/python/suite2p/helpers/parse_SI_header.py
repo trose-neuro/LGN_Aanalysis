@@ -83,3 +83,15 @@ def parse_SI_header_FramesPerFile(header):
     # if there are no matches
     return None
 
+def parse_SI_header_StartTime(header):
+    rx_dict = {
+        'triggerClockTimeFirst': re.compile(r'triggerClockTimeFirst = (?P<triggerClockTimeFirst>\s+)'),
+    }
+    for key, rx in rx_dict.items():
+        match = rx.search(header)
+        if match:
+            loggingFramesPerFile = int(match.group('triggerClockTimeFirst'))
+            return loggingFramesPerFile
+    # if there are no matches
+    return None
+
